@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MEANWELL-MPM-90
+D 90W  AC-DC High Reliable PCB-Mount Green Medical Power Module
+K Power 90W AC-DC module power supply
+F https://www.meanwell.com/webapp/product/search.aspx?prod=MPM-90#1
+$ENDCMP
+#
+$CMP TMC2226
+D Step/Dir Drivers  for  Two-Phase  Bipolar  Stepper  Motors  up  to 2.8A  peak HTSSOP28
+K Standalone driver stepper motor
+F https://datasheet.lcsc.com/szlcsc/2007202037_TRINAMIC-Motion-Control-GmbH-TMC2226-SA-T_C705366.pdf
+$ENDCMP
+#
+#End Doc Library
