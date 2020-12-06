@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:Pick_n_Place-cache
+LIBS:StepperBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -32,10 +32,10 @@ F11 "OB1" O R 8800 5600 50
 F12 "OB2" O R 8800 5700 50 
 $EndSheet
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J105
 U 1 1 5FBFBC6F
 P 9450 5500
-F 0 "J?" H 9530 5537 50  0000 L CNN
+F 0 "J105" H 9530 5537 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9530 5446 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9450 5500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9450 5500 50  0001 C CNN
@@ -52,10 +52,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 5700 9250 5700
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J104
 U 1 1 5FBFC3D6
 P 9450 4200
-F 0 "J?" H 9530 4237 50  0000 L CNN
+F 0 "J104" H 9530 4237 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9530 4146 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9450 4200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9450 4200 50  0001 C CNN
@@ -72,10 +72,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 4400 9250 4400
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J103
 U 1 1 5FBFC7E1
 P 9450 2750
-F 0 "J?" H 9530 2787 50  0000 L CNN
+F 0 "J103" H 9530 2787 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9530 2696 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9450 2750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9450 2750 50  0001 C CNN
@@ -92,10 +92,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 2950 9250 2950
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J102
 U 1 1 5FBFCACB
 P 9450 1350
-F 0 "J?" H 9530 1387 50  0000 L CNN
+F 0 "J102" H 9530 1387 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9530 1296 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9450 1350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9450 1350 50  0001 C CNN
@@ -112,10 +112,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 1550 9250 1550
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J101
 U 1 1 5FBE8C83
 P 950 1250
-F 0 "J?" H 870 835 50  0000 C CNN
+F 0 "J101" H 870 835 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 870 926 50  0000 C CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 950 1250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 950 1250 50  0001 C CNN
@@ -124,10 +124,10 @@ F 4 "C8475" H 870 1017 50  0000 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Pick_n_Place:MEANWELL-MPM-90 PS?
+L StepperBoard-rescue:MEANWELL-MPM-90-Pick_n_Place PS101
 U 1 1 5FC0E18E
 P 1900 1200
-F 0 "PS?" H 1900 1567 50  0000 C CNN
+F 0 "PS101" H 1900 1567 50  0000 C CNN
 F 1 "MEANWELL-MPM-90" H 1900 1476 50  0000 C CNN
 F 2 "pick_n_place:MEANWELL-MPM-90" H 1900 850 50  0001 C CNN
 F 3 "https://www.meanwell.com/webapp/product/search.aspx?prod=MPM-90#1" H 1900 1200 50  0001 C CNN
@@ -143,10 +143,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 1300 1150 1250
 $Comp
-L power:+24V #PWR?
+L power:+24V #PWR0112
 U 1 1 5FC10E36
 P 2550 1100
-F 0 "#PWR?" H 2550 950 50  0001 C CNN
+F 0 "#PWR0112" H 2550 950 50  0001 C CNN
 F 1 "+24V" H 2565 1273 50  0000 C CNN
 F 2 "" H 2550 1100 50  0001 C CNN
 F 3 "" H 2550 1100 50  0001 C CNN
@@ -156,10 +156,10 @@ $EndComp
 Wire Wire Line
 	2550 1100 2300 1100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 5FC11289
 P 2550 1300
-F 0 "#PWR?" H 2550 1050 50  0001 C CNN
+F 0 "#PWR0113" H 2550 1050 50  0001 C CNN
 F 1 "GND" H 2555 1127 50  0000 C CNN
 F 2 "" H 2550 1300 50  0001 C CNN
 F 3 "" H 2550 1300 50  0001 C CNN
@@ -171,9 +171,54 @@ Wire Wire Line
 Text Notes 4450 6850 0    50   ~ 0
 Induktiver Sensor LJ12 A3-4-Z/BX\n
 $Sheet
-S 4850 2100 1850 3900
-U 5FC14385
-F0 "Controller" 50
-F1 "Controller.sch" 50
+S 7600 3850 1200 900 
+U 5FCAC453
+F0 "Stepper_y" 50
+F1 "Stepper_y.sch" 50
+F2 "CUR_CONTROL" I L 7600 3950 50 
+F3 "STEP" I L 7600 4050 50 
+F4 "DIR" I L 7600 4150 50 
+F5 "DIAG" O L 7600 4250 50 
+F6 "INDEX" O L 7600 4350 50 
+F7 "SINGLE_WIRE" B L 7600 4450 50 
+F8 "EN" I L 7600 4550 50 
+F9 "OA1" O R 8800 4100 50 
+F10 "OA2" O R 8800 4200 50 
+F11 "OB1" O R 8800 4300 50 
+F12 "OB2" O R 8800 4400 50 
+$EndSheet
+$Sheet
+S 7600 2400 1200 900 
+U 5FCAEEEC
+F0 "Stepper_z" 50
+F1 "Stepper_z.sch" 50
+F2 "CUR_CONTROL" I L 7600 2500 50 
+F3 "STEP" I L 7600 2600 50 
+F4 "DIR" I L 7600 2700 50 
+F5 "DIAG" O L 7600 2800 50 
+F6 "INDEX" O L 7600 2900 50 
+F7 "SINGLE_WIRE" B L 7600 3000 50 
+F8 "EN" I L 7600 3100 50 
+F9 "OA1" O R 8800 2650 50 
+F10 "OA2" O R 8800 2750 50 
+F11 "OB1" O R 8800 2850 50 
+F12 "OB2" O R 8800 2950 50 
+$EndSheet
+$Sheet
+S 7600 1000 1200 900 
+U 5FCB2242
+F0 "Stepper_rotation" 50
+F1 "Stepper_rotation.sch" 50
+F2 "CUR_CONTROL" I L 7600 1100 50 
+F3 "STEP" I L 7600 1200 50 
+F4 "DIR" I L 7600 1300 50 
+F5 "DIAG" O L 7600 1400 50 
+F6 "INDEX" O L 7600 1500 50 
+F7 "SINGLE_WIRE" B L 7600 1600 50 
+F8 "EN" I L 7600 1700 50 
+F9 "OA1" O R 8800 1250 50 
+F10 "OA2" O R 8800 1350 50 
+F11 "OB1" O R 8800 1450 50 
+F12 "OB2" O R 8800 1550 50 
 $EndSheet
 $EndSCHEMATC
