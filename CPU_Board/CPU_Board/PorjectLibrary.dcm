@@ -1,8 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP W9864G6KH
-D W9864G6KH is a high-speed synchronous dynamic random access memory (SDRAM)
-F https://www.mouser.de/datasheet/2/949/w9864g6kh_a03_20170326-1489678.pdf
-$ENDCMP
-#
 #End Doc Library

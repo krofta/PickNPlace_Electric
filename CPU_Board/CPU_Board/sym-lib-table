@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name PorjectLibrary)(type Legacy)(uri /home/niko/Dokumente/Pick_n_Place/Pick_n_Place/CPU_Board/CPU_Board/PorjectLibrary.lib)(options "")(descr ""))
   (lib (name CPU_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/CPU_Board-rescue.lib)(options "")(descr ""))
+  (lib (name PorjectLibrary)(type Legacy)(uri ${KIPRJMOD}/PorjectLibrary.lib)(options "")(descr ""))
 )
