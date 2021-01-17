@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name Pick_n_Place)(type Legacy)(uri /home/niko/Dokumente/Pick_n_Place/Pick_n_Place/Pick_n_Place.lib)(options "")(descr ""))
   (lib (name StepperBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/StepperBoard-rescue.lib)(options "")(descr ""))
+  (lib (name StepperBoard)(type Legacy)(uri ${KIPRJMOD}/StepperBoard.lib)(options "")(descr ""))
 )
