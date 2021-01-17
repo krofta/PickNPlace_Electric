@@ -1406,24 +1406,8 @@ Wire Wire Line
 Text Label 4750 1600 0    50   ~ 0
 VREF
 Connection ~ 4250 1600
-Text Label 1750 3000 2    50   ~ 0
+Text Label 2050 3000 2    50   ~ 0
 VREF
-Wire Wire Line
-	1750 3000 2100 3000
-$Comp
-L Device:C_Small C?
-U 1 1 60053E11
-P 1750 3100
-AR Path="/5FDD0F66/60053E11" Ref="C?"  Part="1" 
-AR Path="/60053E11" Ref="C107"  Part="1" 
-F 0 "C107" H 1842 3146 50  0000 L CNN
-F 1 "2.2u" H 1842 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 1750 3100 50  0001 C CNN
-F 3 "~" H 1750 3100 50  0001 C CNN
-F 4 " C696854 " H 1750 3100 50  0001 C CNN "LCSC"
-	1    1750 3100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 60053E19
@@ -1431,7 +1415,7 @@ P 4400 1700
 AR Path="/5FDD0F66/60053E19" Ref="C?"  Part="1" 
 AR Path="/60053E19" Ref="C117"  Part="1" 
 F 0 "C117" H 4492 1746 50  0000 L CNN
-F 1 "2.2u" H 4492 1655 50  0000 L CNN
+F 1 "10u" H 4492 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4400 1700 50  0001 C CNN
 F 3 "~" H 4400 1700 50  0001 C CNN
 F 4 " C696854 " H 4400 1700 50  0001 C CNN "LCSC"
@@ -1455,41 +1439,6 @@ F 4 "C83060" H 4750 1700 50  0001 C CNN "LCSC"
 	1    4750 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60053E2B
-P 2100 3100
-AR Path="/5FDD0F66/60053E2B" Ref="C?"  Part="1" 
-AR Path="/60053E2B" Ref="C109"  Part="1" 
-F 0 "C109" H 2192 3146 50  0000 L CNN
-F 1 "100n" H 2192 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 3100 50  0001 C CNN
-F 3 "~" H 2100 3100 50  0001 C CNN
-F 4 "C83060" H 2100 3100 50  0001 C CNN "LCSC"
-	1    2100 3100
-	1    0    0    -1  
-$EndComp
-Connection ~ 2100 3000
-Wire Wire Line
-	2100 3000 2250 3000
-Wire Wire Line
-	2100 3200 1750 3200
-$Comp
-L power:GND #PWR?
-U 1 1 60053E35
-P 1600 3200
-AR Path="/5FDD0F66/60053E35" Ref="#PWR?"  Part="1" 
-AR Path="/60053E35" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 1600 2950 50  0001 C CNN
-F 1 "GND" V 1700 3100 50  0000 R CNN
-F 2 "" H 1600 3200 50  0001 C CNN
-F 3 "" H 1600 3200 50  0001 C CNN
-	1    1600 3200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1750 3200 1600 3200
-Connection ~ 1750 3200
 $Comp
 L power:GND #PWR?
 U 1 1 60053E3D
@@ -1674,16 +1623,12 @@ Text Label 14450 5250 2    50   ~ 0
 T_JTMS
 Text Label 14450 5350 2    50   ~ 0
 T_NRST
-Text Label 14450 5450 2    50   ~ 0
-R_SWO
 Wire Wire Line
 	14550 5150 13700 5150
 Text Label 13800 5350 0    50   ~ 0
 NRST
 Wire Wire Line
 	13800 5350 14550 5350
-Wire Wire Line
-	14200 5450 14550 5450
 Text Label 13800 5250 0    50   ~ 0
 PA13
 Wire Wire Line
@@ -1692,8 +1637,6 @@ Text Label 13800 5050 0    50   ~ 0
 PA14
 Wire Wire Line
 	13800 5050 14550 5050
-Text Label 13800 5450 0    50   ~ 0
-PB3
 Text Notes 14150 5650 0    50   ~ 0
 ST-LINK
 $Comp
@@ -1778,7 +1721,7 @@ PA6
 Text Label 15400 6500 0    50   ~ 0
 PG9
 Text Label 13200 7000 0    50   ~ 0
-PC6
+PA9
 Text Label 15400 7000 0    50   ~ 0
 PA10
 Text Label 13200 6900 0    50   ~ 0
@@ -1936,8 +1879,6 @@ F 3 "" H 10600 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10600 6900 10350 6900
-Text Label 8800 6900 0    50   ~ 0
-PC6
 Text Label 8800 6700 0    50   ~ 0
 PC7
 Wire Wire Line
@@ -2004,7 +1945,7 @@ DISP_BL
 Text Label 10950 5250 0    50   ~ 0
 PG11
 Text Label 10950 5150 0    50   ~ 0
-PA7
+PD7
 Wire Wire Line
 	10950 5150 11900 5150
 Wire Wire Line
@@ -4176,20 +4117,9 @@ Text Notes 7350 7250 0    50   ~ 0
 Status
 Text Notes 7350 7600 0    50   ~ 0
 Error
-$Comp
-L Device:R_Small R?
-U 1 1 600784DB
-P 14100 5450
-AR Path="/5FDD0F66/600784DB" Ref="R?"  Part="1" 
-AR Path="/600784DB" Ref="R?"  Part="1" 
-F 0 "R?" H 14041 5404 50  0000 R CNN
-F 1 "DNP" H 14041 5495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 14100 5450 50  0001 C CNN
-F 3 "~" H 14100 5450 50  0001 C CNN
-F 4 "C14676" H 14100 5450 50  0001 C CNN "LCSC"
-	1    14100 5450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	14000 5450 13800 5450
+	2050 3000 2250 3000
+Text Label 8800 6900 0    50   ~ 0
+PC6
+NoConn ~ 14550 5450
 $EndSCHEMATC
