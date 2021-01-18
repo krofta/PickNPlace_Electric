@@ -1,0 +1,695 @@
+EESchema Schematic File Version 4
+LIBS:StepperBoard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7850 5250 1200 900 
+U 5FBD329F
+F0 "Stepper_y" 50
+F1 "Stepper_y.sch" 50
+F2 "CUR_CONTROL_Y" I L 7850 5350 50 
+F3 "STEP_Y" I L 7850 5450 50 
+F4 "DIR_Y" I L 7850 5550 50 
+F5 "DIAG_Y" O L 7850 5650 50 
+F6 "INDEX_Y" O L 7850 5750 50 
+F7 "SINGLE_WIRE" B L 7850 5850 50 
+F8 "EN_Y" I L 7850 5950 50 
+F9 "OA1_Y" O R 9050 5700 50 
+F10 "OA2_Y" O R 9050 5800 50 
+F11 "OB1_Y" O R 9050 5600 50 
+F12 "OB2_Y" O R 9050 5500 50 
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x04 J105
+U 1 1 5FBFBC6F
+P 9700 5600
+F 0 "J105" H 9780 5637 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 9780 5546 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9700 5600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9700 5600 50  0001 C CNN
+F 4 "C8475" H 9780 5455 50  0000 L CNN "LCSC"
+	1    9700 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5500 9050 5500
+Wire Wire Line
+	9050 5600 9500 5600
+Wire Wire Line
+	9500 5700 9050 5700
+Wire Wire Line
+	9050 5800 9500 5800
+$Comp
+L Connector:Screw_Terminal_01x04 J104
+U 1 1 5FBFC3D6
+P 9700 4300
+F 0 "J104" H 9780 4337 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 9780 4246 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9700 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9700 4300 50  0001 C CNN
+F 4 "C8475" H 9780 4155 50  0000 L CNN "LCSC"
+	1    9700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4200 9500 4200
+Wire Wire Line
+	9050 4300 9500 4300
+Wire Wire Line
+	9500 4400 9050 4400
+Wire Wire Line
+	9050 4500 9500 4500
+$Comp
+L Connector:Screw_Terminal_01x04 J103
+U 1 1 5FBFC7E1
+P 9700 2850
+F 0 "J103" H 9780 2887 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 9780 2796 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9700 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9700 2850 50  0001 C CNN
+F 4 "C8475" H 9780 2705 50  0000 L CNN "LCSC"
+	1    9700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2750 9500 2750
+Wire Wire Line
+	9050 2850 9500 2850
+Wire Wire Line
+	9500 2950 9050 2950
+Wire Wire Line
+	9050 3050 9500 3050
+$Comp
+L Connector:Screw_Terminal_01x04 J102
+U 1 1 5FBFCACB
+P 9700 1450
+F 0 "J102" H 9780 1487 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 9780 1396 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal" H 9700 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9700 1450 50  0001 C CNN
+F 4 "C8475" H 9780 1305 50  0000 L CNN "LCSC"
+	1    9700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1350 9500 1350
+Wire Wire Line
+	9050 1450 9500 1450
+Wire Wire Line
+	9500 1550 9050 1550
+Wire Wire Line
+	9050 1650 9500 1650
+$Comp
+L Connector:Screw_Terminal_01x02 J101
+U 1 1 5FBE8C83
+P 3200 1500
+F 0 "J101" H 3120 1085 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3120 1176 50  0000 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 3200 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 3200 1500 50  0001 C CNN
+F 4 "C8475" H 3120 1267 50  0000 C CNN "LCSC"
+	1    3200 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR0112
+U 1 1 5FC10E36
+P 4850 1400
+F 0 "#PWR0112" H 4850 1250 50  0001 C CNN
+F 1 "+24V" H 4865 1573 50  0000 C CNN
+F 2 "" H 4850 1400 50  0001 C CNN
+F 3 "" H 4850 1400 50  0001 C CNN
+	1    4850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FC11289
+P 4850 1500
+F 0 "#PWR0113" H 4850 1250 50  0001 C CNN
+F 1 "GND" H 4855 1327 50  0000 C CNN
+F 2 "" H 4850 1500 50  0001 C CNN
+F 3 "" H 4850 1500 50  0001 C CNN
+	1    4850 1500
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7850 2500 1200 900 
+U 5FCAEEEC
+F0 "Stepper_z" 50
+F1 "Stepper_z.sch" 50
+F2 "CUR_CONTROL_Z" I L 7850 2600 50 
+F3 "STEP_Z" I L 7850 2700 50 
+F4 "DIR_Z" I L 7850 2800 50 
+F5 "DIAG_Z" O L 7850 2900 50 
+F6 "INDEX_Z" O L 7850 3000 50 
+F7 "SINGLE_WIRE" B L 7850 3100 50 
+F8 "EN_Z" I L 7850 3200 50 
+F9 "OA1_Z" O R 9050 2950 50 
+F10 "OA2_Z" O R 9050 3050 50 
+F11 "OB1_Z" O R 9050 2850 50 
+F12 "OB2_Z" O R 9050 2750 50 
+$EndSheet
+$Sheet
+S 7850 1100 1200 900 
+U 5FCB2242
+F0 "Stepper_rotation" 50
+F1 "Stepper_rotation.sch" 50
+F2 "CUR_CONTROL_ROT" I L 7850 1200 50 
+F3 "STEP_ROT" I L 7850 1300 50 
+F4 "DIR_ROT" I L 7850 1400 50 
+F5 "DIAG_ROT" O L 7850 1500 50 
+F6 "INDEX_ROT" O L 7850 1600 50 
+F7 "SINGLE_WIRE" B L 7850 1700 50 
+F8 "EN_ROT" I L 7850 1800 50 
+F9 "OA1_ROT" O R 9050 1550 50 
+F10 "OA2_ROT" O R 9050 1650 50 
+F11 "OB1_ROT" O R 9050 1450 50 
+F12 "OB2_ROT" O R 9050 1350 50 
+$EndSheet
+Wire Wire Line
+	4250 1400 4450 1400
+Wire Wire Line
+	3400 1500 4450 1500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6007E370
+P 5400 4400
+AR Path="/5FDD0F66/6007E370" Ref="#PWR?"  Part="1" 
+AR Path="/6007E370" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 5400 4250 50  0001 C CNN
+F 1 "+3V3" H 5415 4573 50  0000 C CNN
+F 2 "" H 5400 4400 50  0001 C CNN
+F 3 "" H 5400 4400 50  0001 C CNN
+	1    5400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4400 5400 4450
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6007E441
+P 5550 4400
+F 0 "#FLG0103" H 5550 4475 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 4400 50  0000 C CNN
+F 2 "" H 5550 4400 50  0001 C CNN
+F 3 "~" H 5550 4400 50  0001 C CNN
+	1    5550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4400 5550 4450
+Wire Wire Line
+	5550 4450 5400 4450
+Connection ~ 5400 4450
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J106
+U 1 1 600A74FC
+P 3900 3550
+F 0 "J106" H 3950 4667 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 3950 4576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3900 3550 50  0001 C CNN
+F 3 "~" H 3900 3550 50  0001 C CNN
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+Text Label 7300 1200 0    50   ~ 0
+CUR_ROT
+Text Label 7300 1300 0    50   ~ 0
+STEP_ROT
+Text Label 7300 1400 0    50   ~ 0
+DIR_ROT
+Text Label 7300 1500 0    50   ~ 0
+DIAG_ROT
+Text Label 7300 1600 0    50   ~ 0
+INDEX_ROT
+Text Label 7300 1700 0    50   ~ 0
+SINGLE_WIRE
+Text Label 7300 1800 0    50   ~ 0
+EN_ROT
+Wire Wire Line
+	7300 1200 7850 1200
+Wire Wire Line
+	7300 1300 7850 1300
+Wire Wire Line
+	7300 1400 7850 1400
+Wire Wire Line
+	7300 1500 7850 1500
+Wire Wire Line
+	7300 1600 7850 1600
+Wire Wire Line
+	7850 1700 7300 1700
+Wire Wire Line
+	7300 1800 7850 1800
+Text Label 3150 2650 0    50   ~ 0
+CUR_ROT
+Text Label 3150 2750 0    50   ~ 0
+STEP_ROT
+Text Label 3150 2850 0    50   ~ 0
+DIR_ROT
+Text Label 3150 2950 0    50   ~ 0
+DIAG_ROT
+Text Label 3150 3050 0    50   ~ 0
+INDEX_ROT
+Text Label 3150 3150 0    50   ~ 0
+EN_ROT
+Wire Wire Line
+	3150 2650 3700 2650
+Wire Wire Line
+	3150 2750 3700 2750
+Wire Wire Line
+	3150 2850 3700 2850
+Wire Wire Line
+	3150 2950 3700 2950
+Wire Wire Line
+	3150 3050 3700 3050
+Wire Wire Line
+	3150 3150 3700 3150
+Text Label 7300 2600 0    50   ~ 0
+CUR_Z
+Text Label 7300 2700 0    50   ~ 0
+STEP_Z
+Text Label 7300 2800 0    50   ~ 0
+DIR_Z
+Text Label 7300 2900 0    50   ~ 0
+DIAG_Z
+Text Label 7300 3000 0    50   ~ 0
+INDEX_Z
+Text Label 7300 3100 0    50   ~ 0
+SINGLE_WIRE
+Text Label 7300 3200 0    50   ~ 0
+EN_Z
+Wire Wire Line
+	7300 2600 7850 2600
+Wire Wire Line
+	7300 2700 7850 2700
+Wire Wire Line
+	7300 2800 7850 2800
+Wire Wire Line
+	7300 2900 7850 2900
+Wire Wire Line
+	7300 3000 7850 3000
+Wire Wire Line
+	7850 3100 7300 3100
+Wire Wire Line
+	7300 3200 7850 3200
+Text Label 4750 2650 2    50   ~ 0
+CUR_Z
+Text Label 4750 2750 2    50   ~ 0
+STEP_Z
+Text Label 4750 2850 2    50   ~ 0
+DIR_Z
+Text Label 4750 2950 2    50   ~ 0
+DIAG_Z
+Text Label 4750 3050 2    50   ~ 0
+INDEX_Z
+Text Label 4750 3150 2    50   ~ 0
+EN_Z
+Wire Wire Line
+	4750 2650 4200 2650
+Wire Wire Line
+	4750 2750 4200 2750
+Wire Wire Line
+	4750 2850 4200 2850
+Wire Wire Line
+	4750 2950 4200 2950
+Wire Wire Line
+	4750 3050 4200 3050
+Wire Wire Line
+	4750 3150 4200 3150
+Text Label 7300 5350 0    50   ~ 0
+CUR_Y
+Text Label 7300 5450 0    50   ~ 0
+STEP_Y
+Text Label 7300 5550 0    50   ~ 0
+DIR_Y
+Text Label 7300 5650 0    50   ~ 0
+DIAG_Y
+Text Label 7300 5750 0    50   ~ 0
+INDEX_Y
+Text Label 7300 5850 0    50   ~ 0
+SINGLE_WIRE
+Text Label 7300 5950 0    50   ~ 0
+EN_Y
+Wire Wire Line
+	7300 5350 7850 5350
+Wire Wire Line
+	7300 5450 7850 5450
+Wire Wire Line
+	7300 5550 7850 5550
+Wire Wire Line
+	7300 5650 7850 5650
+Wire Wire Line
+	7300 5750 7850 5750
+Wire Wire Line
+	7850 5850 7300 5850
+Wire Wire Line
+	7300 5950 7850 5950
+Text Label 7300 4050 0    50   ~ 0
+CUR_X
+Text Label 7300 4150 0    50   ~ 0
+STEP_X
+Text Label 7300 4250 0    50   ~ 0
+DIR_X
+Text Label 7300 4350 0    50   ~ 0
+DIAG_X
+Text Label 7300 4450 0    50   ~ 0
+INDEX_X
+Text Label 7300 4550 0    50   ~ 0
+SINGLE_WIRE
+Text Label 7300 4650 0    50   ~ 0
+EN_X
+Wire Wire Line
+	7300 4050 7850 4050
+Wire Wire Line
+	7300 4150 7850 4150
+Wire Wire Line
+	7300 4250 7850 4250
+Wire Wire Line
+	7300 4350 7850 4350
+Wire Wire Line
+	7300 4450 7850 4450
+Wire Wire Line
+	7850 4550 7300 4550
+Wire Wire Line
+	7300 4650 7850 4650
+Text Label 3150 3450 0    50   ~ 0
+CUR_Y
+Text Label 3150 3550 0    50   ~ 0
+STEP_Y
+Text Label 3150 3650 0    50   ~ 0
+DIR_Y
+Text Label 3150 3750 0    50   ~ 0
+DIAG_Y
+Text Label 3150 3850 0    50   ~ 0
+INDEX_Y
+Text Label 3150 3950 0    50   ~ 0
+EN_Y
+Wire Wire Line
+	3150 3450 3700 3450
+Wire Wire Line
+	3150 3550 3700 3550
+Wire Wire Line
+	3150 3650 3700 3650
+Wire Wire Line
+	3150 3750 3700 3750
+Wire Wire Line
+	3150 3850 3700 3850
+Wire Wire Line
+	3150 3950 3700 3950
+Text Label 4750 3450 2    50   ~ 0
+CUR_X
+Text Label 4750 3550 2    50   ~ 0
+STEP_X
+Text Label 4750 3650 2    50   ~ 0
+DIR_X
+Text Label 4750 3750 2    50   ~ 0
+DIAG_X
+Text Label 4750 3850 2    50   ~ 0
+INDEX_X
+Text Label 4750 4150 2    50   ~ 0
+SINGLE_WIRE
+Text Label 4750 3950 2    50   ~ 0
+EN_X
+Wire Wire Line
+	4750 3450 4200 3450
+Wire Wire Line
+	4750 3550 4200 3550
+Wire Wire Line
+	4750 3650 4200 3650
+Wire Wire Line
+	4750 3750 4200 3750
+Wire Wire Line
+	4750 3850 4200 3850
+Wire Wire Line
+	4200 4150 4750 4150
+Wire Wire Line
+	4750 3950 4200 3950
+$Comp
+L power:GND #PWR0147
+U 1 1 600D95BC
+P 3700 4700
+F 0 "#PWR0147" H 3700 4450 50  0001 C CNN
+F 1 "GND" H 3705 4527 50  0000 C CNN
+F 2 "" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 600D95E6
+P 4200 4700
+F 0 "#PWR0148" H 4200 4450 50  0001 C CNN
+F 1 "GND" H 4205 4527 50  0000 C CNN
+F 2 "" H 4200 4700 50  0001 C CNN
+F 3 "" H 4200 4700 50  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4700 4200 4550
+Wire Wire Line
+	3700 4550 3700 4700
+Wire Wire Line
+	4200 4450 5400 4450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 600E62CE
+P 2550 4450
+AR Path="/5FDD0F66/600E62CE" Ref="#PWR?"  Part="1" 
+AR Path="/600E62CE" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 2550 4300 50  0001 C CNN
+F 1 "+3V3" H 2565 4623 50  0000 C CNN
+F 2 "" H 2550 4450 50  0001 C CNN
+F 3 "" H 2550 4450 50  0001 C CNN
+	1    2550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4450 2550 4450
+$Comp
+L Device:Fuse F101
+U 1 1 600F6E53
+P 4100 1400
+F 0 "F101" V 3903 1400 50  0000 C CNN
+F 1 "Fuse" V 3994 1400 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 4030 1400 50  0001 C CNN
+F 3 "~" H 4100 1400 50  0001 C CNN
+F 4 "C58066" V 4100 1400 50  0001 C CNN "LCSC"
+	1    4100 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 1400 3400 1400
+$Comp
+L power:GND #PWR0150
+U 1 1 601118AB
+P 4800 4350
+F 0 "#PWR0150" H 4800 4100 50  0001 C CNN
+F 1 "GND" V 4805 4222 50  0000 R CNN
+F 2 "" H 4800 4350 50  0001 C CNN
+F 3 "" H 4800 4350 50  0001 C CNN
+	1    4800 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4350 4200 4350
+Wire Wire Line
+	4200 4250 4200 4350
+Connection ~ 4200 4350
+$Comp
+L power:GND #PWR0151
+U 1 1 601186B0
+P 3100 4350
+F 0 "#PWR0151" H 3100 4100 50  0001 C CNN
+F 1 "GND" V 3105 4222 50  0000 R CNN
+F 2 "" H 3100 4350 50  0001 C CNN
+F 3 "" H 3100 4350 50  0001 C CNN
+	1    3100 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4350 3100 4350
+Wire Wire Line
+	3700 4050 3700 4150
+Connection ~ 3700 4350
+Connection ~ 3700 4150
+Wire Wire Line
+	3700 4150 3700 4250
+Connection ~ 3700 4250
+Wire Wire Line
+	3700 4250 3700 4350
+$Comp
+L power:GND #PWR0152
+U 1 1 6011F815
+P 4800 4050
+F 0 "#PWR0152" H 4800 3800 50  0001 C CNN
+F 1 "GND" V 4805 3922 50  0000 R CNN
+F 2 "" H 4800 4050 50  0001 C CNN
+F 3 "" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4050 4200 4050
+$Comp
+L power:GND #PWR0153
+U 1 1 60123295
+P 4800 3350
+F 0 "#PWR0153" H 4800 3100 50  0001 C CNN
+F 1 "GND" V 4805 3222 50  0000 R CNN
+F 2 "" H 4800 3350 50  0001 C CNN
+F 3 "" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3350 4200 3350
+Wire Wire Line
+	4200 3250 4200 3350
+Connection ~ 4200 3350
+$Comp
+L power:GND #PWR0154
+U 1 1 6012AAD4
+P 3100 3350
+F 0 "#PWR0154" H 3100 3100 50  0001 C CNN
+F 1 "GND" V 3105 3222 50  0000 R CNN
+F 2 "" H 3100 3350 50  0001 C CNN
+F 3 "" H 3100 3350 50  0001 C CNN
+	1    3100 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3350 3100 3350
+Wire Wire Line
+	3700 3250 3700 3350
+Connection ~ 3700 3350
+$Sheet
+S 7850 3950 1200 900 
+U 5FCAC453
+F0 "Stepper_x" 50
+F1 "Stepper_x.sch" 50
+F2 "CUR_CONTROL_X" I L 7850 4050 50 
+F3 "STEP_X" I L 7850 4150 50 
+F4 "DIR_X" I L 7850 4250 50 
+F5 "DIAG_X" O L 7850 4350 50 
+F6 "INDEX_X" O L 7850 4450 50 
+F7 "SINGLE_WIRE" B L 7850 4550 50 
+F8 "EN_X" I L 7850 4650 50 
+F9 "OA1_X" O R 9050 4400 50 
+F10 "OA2_X" O R 9050 4500 50 
+F11 "OB1_X" O R 9050 4300 50 
+F12 "OB2_X" O R 9050 4200 50 
+$EndSheet
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 601606ED
+P 4450 1150
+F 0 "#FLG0106" H 4450 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 4450 1324 50  0000 C CNN
+F 2 "" H 4450 1150 50  0001 C CNN
+F 3 "~" H 4450 1150 50  0001 C CNN
+	1    4450 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1150 4450 1400
+Connection ~ 4450 1400
+Wire Wire Line
+	4450 1400 4850 1400
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 60164631
+P 4450 1750
+F 0 "#FLG0107" H 4450 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 4450 1923 50  0000 C CNN
+F 2 "" H 4450 1750 50  0001 C CNN
+F 3 "~" H 4450 1750 50  0001 C CNN
+	1    4450 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 1750 4450 1500
+Connection ~ 4450 1500
+Wire Wire Line
+	4450 1500 4850 1500
+$Comp
+L Mechanical:MountingHole_Pad H101
+U 1 1 60176F0C
+P 3450 6200
+F 0 "H101" V 3404 6350 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3495 6350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3450 6200 50  0001 C CNN
+F 3 "~" H 3450 6200 50  0001 C CNN
+	1    3450 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H102
+U 1 1 6017B283
+P 3450 6400
+F 0 "H102" V 3404 6550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3495 6550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3450 6400 50  0001 C CNN
+F 3 "~" H 3450 6400 50  0001 C CNN
+	1    3450 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H103
+U 1 1 6017B2A9
+P 3450 6600
+F 0 "H103" V 3404 6750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3495 6750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3450 6600 50  0001 C CNN
+F 3 "~" H 3450 6600 50  0001 C CNN
+	1    3450 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H104
+U 1 1 6017B2D5
+P 3450 6800
+F 0 "H104" V 3404 6950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3495 6950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3450 6800 50  0001 C CNN
+F 3 "~" H 3450 6800 50  0001 C CNN
+	1    3450 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 6017B359
+P 3350 7050
+F 0 "#PWR0157" H 3350 6800 50  0001 C CNN
+F 1 "GND" H 3355 6877 50  0000 C CNN
+F 2 "" H 3350 7050 50  0001 C CNN
+F 3 "" H 3350 7050 50  0001 C CNN
+	1    3350 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7050 3350 6800
+Connection ~ 3350 6400
+Wire Wire Line
+	3350 6400 3350 6200
+Connection ~ 3350 6600
+Wire Wire Line
+	3350 6600 3350 6400
+Connection ~ 3350 6800
+Wire Wire Line
+	3350 6800 3350 6600
+$EndSCHEMATC

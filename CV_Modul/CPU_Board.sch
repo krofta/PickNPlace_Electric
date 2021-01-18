@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:CPU_Board-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -4157,7 +4158,7 @@ Wire Wire Line
 Wire Wire Line
 	14950 1550 15400 1550
 $Comp
-L Device:L_Coupled_1243 L1
+L CPU_Board-rescue:L_Coupled_1243-Device L1
 U 1 1 608E0B2D
 P 14100 1450
 F 0 "L1" H 14100 1731 50  0000 C CNN
