@@ -114,35 +114,35 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J101
 U 1 1 5FBE8C83
-P 3200 1500
-F 0 "J101" H 3120 1085 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 3120 1176 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 3200 1500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 3200 1500 50  0001 C CNN
-F 4 "C8475" H 3120 1267 50  0000 C CNN "LCSC"
-	1    3200 1500
-	-1   0    0    1   
+P 1500 1400
+F 0 "J101" H 1420 985 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1420 1076 50  0000 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1500 1400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 1500 1400 50  0001 C CNN
+F 4 "C8475" H 1420 1167 50  0000 C CNN "LCSC"
+	1    1500 1400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+24V #PWR0112
 U 1 1 5FC10E36
-P 4850 1400
-F 0 "#PWR0112" H 4850 1250 50  0001 C CNN
-F 1 "+24V" H 4865 1573 50  0000 C CNN
-F 2 "" H 4850 1400 50  0001 C CNN
-F 3 "" H 4850 1400 50  0001 C CNN
-	1    4850 1400
+P 3700 1400
+F 0 "#PWR0112" H 3700 1250 50  0001 C CNN
+F 1 "+24V" H 3715 1573 50  0000 C CNN
+F 2 "" H 3700 1400 50  0001 C CNN
+F 3 "" H 3700 1400 50  0001 C CNN
+	1    3700 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 5FC11289
-P 4850 1500
-F 0 "#PWR0113" H 4850 1250 50  0001 C CNN
-F 1 "GND" H 4855 1327 50  0000 C CNN
-F 2 "" H 4850 1500 50  0001 C CNN
-F 3 "" H 4850 1500 50  0001 C CNN
-	1    4850 1500
+P 2600 2200
+F 0 "#PWR0113" H 2600 1950 50  0001 C CNN
+F 1 "GND" H 2605 2027 50  0000 C CNN
+F 2 "" H 2600 2200 50  0001 C CNN
+F 3 "" H 2600 2200 50  0001 C CNN
+	1    2600 2200
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -179,10 +179,6 @@ F10 "OA2_ROT" O R 9050 1650 50
 F11 "OB1_ROT" O R 9050 1450 50 
 F12 "OB2_ROT" O R 9050 1350 50 
 $EndSheet
-Wire Wire Line
-	4250 1400 4450 1400
-Wire Wire Line
-	3400 1500 4450 1500
 $Comp
 L power:+3V3 #PWR?
 U 1 1 6007E370
@@ -253,30 +249,30 @@ Wire Wire Line
 	7850 1700 7300 1700
 Wire Wire Line
 	7300 1800 7850 1800
-Text Label 3150 2650 0    50   ~ 0
-CUR_ROT
-Text Label 3150 2750 0    50   ~ 0
-STEP_ROT
 Text Label 3150 2850 0    50   ~ 0
+CUR_ROT
+Text Label 4750 2750 2    50   ~ 0
+STEP_ROT
+Text Label 4750 2850 2    50   ~ 0
 DIR_ROT
-Text Label 3150 2950 0    50   ~ 0
+Text Label 4750 2650 2    50   ~ 0
 DIAG_ROT
-Text Label 3150 3050 0    50   ~ 0
+Text Label 3150 2750 0    50   ~ 0
 INDEX_ROT
-Text Label 3150 3150 0    50   ~ 0
+Text Label 3150 2650 0    50   ~ 0
 EN_ROT
 Wire Wire Line
 	3150 2650 3700 2650
 Wire Wire Line
+	4750 2650 4200 2650
+Wire Wire Line
 	3150 2750 3700 2750
+Wire Wire Line
+	4750 2750 4200 2750
 Wire Wire Line
 	3150 2850 3700 2850
 Wire Wire Line
-	3150 2950 3700 2950
-Wire Wire Line
-	3150 3050 3700 3050
-Wire Wire Line
-	3150 3150 3700 3150
+	4750 2850 4200 2850
 Text Label 7300 2600 0    50   ~ 0
 CUR_Z
 Text Label 7300 2700 0    50   ~ 0
@@ -305,28 +301,28 @@ Wire Wire Line
 	7850 3100 7300 3100
 Wire Wire Line
 	7300 3200 7850 3200
-Text Label 4750 2650 2    50   ~ 0
+Text Label 3150 3150 0    50   ~ 0
 CUR_Z
-Text Label 4750 2750 2    50   ~ 0
+Text Label 4750 3050 2    50   ~ 0
 STEP_Z
-Text Label 4750 2850 2    50   ~ 0
+Text Label 4750 3150 2    50   ~ 0
 DIR_Z
 Text Label 4750 2950 2    50   ~ 0
 DIAG_Z
-Text Label 4750 3050 2    50   ~ 0
+Text Label 3150 3050 0    50   ~ 0
 INDEX_Z
-Text Label 4750 3150 2    50   ~ 0
+Text Label 3150 2950 0    50   ~ 0
 EN_Z
 Wire Wire Line
-	4750 2650 4200 2650
-Wire Wire Line
-	4750 2750 4200 2750
-Wire Wire Line
-	4750 2850 4200 2850
+	3150 2950 3700 2950
 Wire Wire Line
 	4750 2950 4200 2950
 Wire Wire Line
+	3150 3050 3700 3050
+Wire Wire Line
 	4750 3050 4200 3050
+Wire Wire Line
+	3150 3150 3700 3150
 Wire Wire Line
 	4750 3150 4200 3150
 Text Label 7300 5350 0    50   ~ 0
@@ -385,58 +381,58 @@ Wire Wire Line
 	7850 4550 7300 4550
 Wire Wire Line
 	7300 4650 7850 4650
-Text Label 3150 3450 0    50   ~ 0
+Text Label 3150 3950 0    50   ~ 0
 CUR_Y
-Text Label 3150 3550 0    50   ~ 0
+Text Label 4750 3850 2    50   ~ 0
 STEP_Y
-Text Label 3150 3650 0    50   ~ 0
+Text Label 4750 3950 2    50   ~ 0
 DIR_Y
-Text Label 3150 3750 0    50   ~ 0
+Text Label 4750 3750 2    50   ~ 0
 DIAG_Y
 Text Label 3150 3850 0    50   ~ 0
 INDEX_Y
-Text Label 3150 3950 0    50   ~ 0
+Text Label 3150 3750 0    50   ~ 0
 EN_Y
-Wire Wire Line
-	3150 3450 3700 3450
-Wire Wire Line
-	3150 3550 3700 3550
-Wire Wire Line
-	3150 3650 3700 3650
 Wire Wire Line
 	3150 3750 3700 3750
 Wire Wire Line
+	4750 3750 4200 3750
+Wire Wire Line
 	3150 3850 3700 3850
 Wire Wire Line
+	4750 3850 4200 3850
+Wire Wire Line
 	3150 3950 3700 3950
-Text Label 4750 3450 2    50   ~ 0
+Wire Wire Line
+	4750 3950 4200 3950
+Text Label 3150 3650 0    50   ~ 0
 CUR_X
 Text Label 4750 3550 2    50   ~ 0
 STEP_X
 Text Label 4750 3650 2    50   ~ 0
 DIR_X
-Text Label 4750 3750 2    50   ~ 0
+Text Label 4750 3450 2    50   ~ 0
 DIAG_X
-Text Label 4750 3850 2    50   ~ 0
+Text Label 3150 3550 0    50   ~ 0
 INDEX_X
 Text Label 4750 4150 2    50   ~ 0
 SINGLE_WIRE
-Text Label 4750 3950 2    50   ~ 0
+Text Label 3150 3450 0    50   ~ 0
 EN_X
+Wire Wire Line
+	3150 3450 3700 3450
 Wire Wire Line
 	4750 3450 4200 3450
 Wire Wire Line
+	3150 3550 3700 3550
+Wire Wire Line
 	4750 3550 4200 3550
 Wire Wire Line
-	4750 3650 4200 3650
-Wire Wire Line
-	4750 3750 4200 3750
-Wire Wire Line
-	4750 3850 4200 3850
+	3150 3650 3700 3650
 Wire Wire Line
 	4200 4150 4750 4150
 Wire Wire Line
-	4750 3950 4200 3950
+	4750 3650 4200 3650
 $Comp
 L power:GND #PWR0147
 U 1 1 600D95BC
@@ -480,20 +476,6 @@ F 3 "" H 2550 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 4450 2550 4450
-$Comp
-L Device:Fuse F101
-U 1 1 600F6E53
-P 4100 1400
-F 0 "F101" V 3903 1400 50  0000 C CNN
-F 1 "Fuse" V 3994 1400 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 4030 1400 50  0001 C CNN
-F 3 "~" H 4100 1400 50  0001 C CNN
-F 4 "C58066" V 4100 1400 50  0001 C CNN "LCSC"
-	1    4100 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3950 1400 3400 1400
 $Comp
 L power:GND #PWR0150
 U 1 1 601118AB
@@ -597,35 +579,35 @@ $EndSheet
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 601606ED
-P 4450 1150
-F 0 "#FLG0106" H 4450 1225 50  0001 C CNN
-F 1 "PWR_FLAG" H 4450 1324 50  0000 C CNN
-F 2 "" H 4450 1150 50  0001 C CNN
-F 3 "~" H 4450 1150 50  0001 C CNN
-	1    4450 1150
+P 3300 1150
+F 0 "#FLG0106" H 3300 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3300 1324 50  0000 C CNN
+F 2 "" H 3300 1150 50  0001 C CNN
+F 3 "~" H 3300 1150 50  0001 C CNN
+	1    3300 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 1150 4450 1400
-Connection ~ 4450 1400
+	3300 1150 3300 1400
+Connection ~ 3300 1400
 Wire Wire Line
-	4450 1400 4850 1400
+	3300 1400 3700 1400
 $Comp
 L power:PWR_FLAG #FLG0107
 U 1 1 60164631
-P 4450 1750
-F 0 "#FLG0107" H 4450 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 4450 1923 50  0000 C CNN
-F 2 "" H 4450 1750 50  0001 C CNN
-F 3 "~" H 4450 1750 50  0001 C CNN
-	1    4450 1750
+P 2200 2450
+F 0 "#FLG0107" H 2200 2525 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 2623 50  0000 C CNN
+F 2 "" H 2200 2450 50  0001 C CNN
+F 3 "~" H 2200 2450 50  0001 C CNN
+	1    2200 2450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4450 1750 4450 1500
-Connection ~ 4450 1500
+	2200 2450 2200 2200
+Connection ~ 2200 2200
 Wire Wire Line
-	4450 1500 4850 1500
+	2200 2200 2600 2200
 $Comp
 L Mechanical:MountingHole_Pad H101
 U 1 1 60176F0C
@@ -692,4 +674,73 @@ Wire Wire Line
 Connection ~ 3350 6800
 Wire Wire Line
 	3350 6800 3350 6600
+Wire Wire Line
+	2600 1500 2600 1400
+Wire Wire Line
+	2600 1400 2550 1400
+Connection ~ 2600 1400
+Wire Wire Line
+	2350 1800 2350 1700
+Wire Wire Line
+	2600 1700 2600 1800
+Connection ~ 2600 1800
+Wire Wire Line
+	2600 1800 2350 1800
+Wire Wire Line
+	2600 1900 2600 1800
+$Comp
+L PorjectLibrary:Si4431CDY Q101
+U 1 1 600D5FDB
+P 2350 1500
+F 0 "Q101" V 2784 1500 50  0000 C CNN
+F 1 "Si4431CDY" V 2693 1500 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-SI4431CDY-T1-GE3_C144845.pdf" H 2350 1500 50  0001 C CNN
+F 4 "C144845" V 2602 1500 50  0000 C CNN "LCSC"
+	1    2350 1500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1700 1500 1700 2200
+Wire Wire Line
+	1700 2200 2200 2200
+Wire Wire Line
+	1700 1400 2150 1400
+Wire Wire Line
+	2600 1400 3300 1400
+$Comp
+L Device:R_Small R101
+U 1 1 6010C1B8
+P 2600 1600
+AR Path="/6010C1B8" Ref="R101"  Part="1" 
+AR Path="/5ED2496F/6010C1B8" Ref="R?"  Part="1" 
+AR Path="/5FDD0F66/6010C1B8" Ref="R?"  Part="1" 
+F 0 "R101" H 2450 1600 50  0000 C CNN
+F 1 "22K1" H 2400 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 1600 50  0001 C CNN
+F 3 "~" H 2600 1600 50  0001 C CNN
+F 4 "C137768" H 2600 1600 50  0001 C CNN "LCSC"
+	1    2600 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R102
+U 1 1 601157F0
+P 2600 2000
+AR Path="/601157F0" Ref="R102"  Part="1" 
+AR Path="/5ED2496F/601157F0" Ref="R?"  Part="1" 
+AR Path="/5FDD0F66/601157F0" Ref="R?"  Part="1" 
+F 0 "R102" H 2450 2000 50  0000 C CNN
+F 1 "22K1" H 2400 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+F 4 "C137768" H 2600 2000 50  0001 C CNN "LCSC"
+	1    2600 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2100 2600 2200
+Connection ~ 2600 2200
+Text Notes 2950 1900 0    50   ~ 0
+Same resistor as in CPU-Board\nto reduce BOM\n
 $EndSCHEMATC
