@@ -1,3 +1,0 @@
-Hinweis:Die Voreinstellung der Linienbreite wurde verletzt!
-Fehler:Konnte das Ausgabeverzeichnis 'C:\home\simon\Documents\KiCad\Projects\SumoBot\DAC_Sumo_Gerber' nicht erstellen.
-
