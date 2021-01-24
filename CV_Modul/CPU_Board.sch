@@ -4156,12 +4156,12 @@ Wire Wire Line
 Wire Wire Line
 	14950 1550 15400 1550
 $Comp
-L CPU_Board-rescue:L_Coupled_1243-Device L1
+L Device:L_Core_Ferrite_Coupled L1
 U 1 1 608E0B2D
 P 14100 1450
 F 0 "L1" H 14100 1731 50  0000 C CNN
 F 1 "DNP" H 14100 1650 50  0000 C CNN
-F 2 "Inductor_SMD:L_CommonModeChoke_Coilcraft_1812CAN" H 14100 1450 50  0001 C CNN
+F 2 "ProjectFootprints:L_CommonModeChoke_Coilcraft_1812CAN" H 14100 1450 50  0001 C CNN
 F 3 "~" H 14100 1450 50  0001 C CNN
 	1    14100 1450
 	-1   0    0    -1  
