@@ -4164,7 +4164,7 @@ F 1 "DNP" H 14100 1650 50  0000 C CNN
 F 2 "ProjectFootprints:L_CommonModeChoke_Coilcraft_1812CAN" H 14100 1450 50  0001 C CNN
 F 3 "~" H 14100 1450 50  0001 C CNN
 	1    14100 1450
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	14950 1350 14350 1350

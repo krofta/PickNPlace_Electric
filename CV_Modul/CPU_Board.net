@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/niko/Dokumente/Pick_n_Place/02_Electric/CV_Modul/CPU_Board.sch)
-    (date "Sa 23 Jan 2021 18:13:09 CET")
+    (date "Mo 25 Jan 2021 20:21:56 CET")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -997,9 +997,9 @@
       (tstamp 60484C21))
     (comp (ref L1)
       (value DNP)
-      (footprint Inductor_SMD:L_CommonModeChoke_Coilcraft_1812CAN)
+      (footprint ProjectFootprints:L_CommonModeChoke_Coilcraft_1812CAN)
       (datasheet ~)
-      (libsource (lib CPU_Board-rescue) (part L_Coupled_1243-Device) (description ""))
+      (libsource (lib Device) (part L_Core_Ferrite_Coupled) (description "Coupled inductor with ferrite core"))
       (sheetpath (names /) (tstamps /))
       (tstamp 608E0B2D))
     (comp (ref R6)
@@ -1048,20 +1048,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60101AA8)))
   (libparts
-    (libpart (lib CPU_Board-rescue) (part L_Coupled_1243-Device)
-      (footprints
-        (fp Choke_*)
-        (fp *Coil*)
-        (fp Inductor_*)
-        (fp L_*))
-      (fields
-        (field (name Reference) L)
-        (field (name Value) L_Coupled_1243-Device))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))))
     (libpart (lib CPU_Board-rescue) (part W9864G6KH-PorjectLibrary)
       (fields
         (field (name Reference) U)
@@ -1280,6 +1266,22 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
+    (libpart (lib Device) (part L_Core_Ferrite_Coupled)
+      (description "Coupled inductor with ferrite core")
+      (docs ~)
+      (footprints
+        (fp Choke_*)
+        (fp *Coil*)
+        (fp Inductor_*)
+        (fp L_*))
+      (fields
+        (field (name Reference) L)
+        (field (name Value) L_Core_Ferrite_Coupled))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))))
     (libpart (lib Device) (part L_Small)
       (description "Inductor, small symbol")
       (docs ~)
@@ -1908,13 +1910,13 @@
       (node (ref U1) (pin 6))
       (node (ref L1) (pin 3))
       (node (ref R7) (pin 1)))
-    (net (code 50) (name "Net-(L1-Pad2)")
+    (net (code 50) (name "Net-(L1-Pad1)")
       (node (ref R6) (pin 2))
-      (node (ref L1) (pin 2))
+      (node (ref L1) (pin 1))
       (node (ref U1) (pin 7)))
     (net (code 51) (name /CAN_H)
-      (node (ref L1) (pin 1))
       (node (ref R131) (pin 1))
+      (node (ref L1) (pin 2))
       (node (ref R6) (pin 1))
       (node (ref J110) (pin 3)))
     (net (code 52) (name "Net-(J107-Pad6)")
