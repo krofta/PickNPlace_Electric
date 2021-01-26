@@ -1,56 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Wall-F_V3-rescue_+3.3V
+# BC847
 #
-DEF Wall-F_V3-rescue_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Wall-F_V3-rescue_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wall-F_V3-rescue_+3V3
-#
-DEF Wall-F_V3-rescue_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Wall-F_V3-rescue_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wall-F_V3-rescue_+5V
-#
-DEF Wall-F_V3-rescue_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Wall-F_V3-rescue_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wall-F_V3-rescue_BC847
-#
-DEF Wall-F_V3-rescue_BC847 Q 0 0 Y N 1 F N
+DEF BC847 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Wall-F_V3-rescue_BC847" 200 0 50 H V L CNN
+F1 "BC847" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -68,11 +23,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_C
+# C
 #
-DEF Wall-F_V3-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Wall-F_V3-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -86,11 +41,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_CP
+# CP
 #
-DEF Wall-F_V3-rescue_CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Wall-F_V3-rescue_CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -109,11 +64,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Conn_01x01
+# Conn_01x01
 #
-DEF Wall-F_V3-rescue_Conn_01x01 J 0 40 Y N 1 F N
+DEF Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Wall-F_V3-rescue_Conn_01x01" 0 -100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -131,11 +86,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Conn_01x02
+# Conn_01x02
 #
-DEF Wall-F_V3-rescue_Conn_01x02 J 0 40 Y N 1 F N
+DEF Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Wall-F_V3-rescue_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +110,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Conn_01x05
+# Conn_01x05
 #
-DEF Wall-F_V3-rescue_Conn_01x05 J 0 40 Y N 1 F N
+DEF Conn_01x05 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Wall-F_V3-rescue_Conn_01x05" 0 -300 50 H V C CNN
+F1 "Conn_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -185,11 +140,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Conn_01x06
+# Conn_01x06
 #
-DEF Wall-F_V3-rescue_Conn_01x06 J 0 40 Y N 1 F N
+DEF Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Wall-F_V3-rescue_Conn_01x06" 0 -400 50 H V C CNN
+F1 "Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -217,11 +172,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Conn_02x03_Odd_Even
+# Conn_02x03_Odd_Even
 #
-DEF Wall-F_V3-rescue_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Wall-F_V3-rescue_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -249,11 +204,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Conn_02x05_Odd_Even
+# Conn_02x05_Odd_Even
 #
-DEF Wall-F_V3-rescue_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Wall-F_V3-rescue_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -289,11 +244,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Crystal
+# Crystal
 #
-DEF Wall-F_V3-rescue_Crystal Y 0 40 N N 1 F N
+DEF Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Wall-F_V3-rescue_Crystal" 0 -150 50 H V C CNN
+F1 "Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -310,11 +265,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Crystal_GND24
+# Crystal_GND24
 #
-DEF Wall-F_V3-rescue_Crystal_GND24 Y 0 40 Y N 1 F N
+DEF Crystal_GND24 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "Wall-F_V3-rescue_Crystal_GND24" 125 125 50 H V L CNN
+F1 "Crystal_GND24" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -337,11 +292,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_DRV8835
+# DRV8835
 #
-DEF Wall-F_V3-rescue_DRV8835 U 0 40 Y Y 1 F N
+DEF DRV8835 U 0 40 Y Y 1 F N
 F0 "U" -450 600 60 H V C CNN
-F1 "Wall-F_V3-rescue_DRV8835" -300 -450 60 H V C CNN
+F1 "DRV8835" -300 -450 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -362,11 +317,11 @@ X A_IN2_EN 9 700 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_D_Schottky_x2_ACom_AKK
+# D_Schottky_x2_ACom_AKK
 #
-DEF Wall-F_V3-rescue_D_Schottky_x2_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Schottky_x2_ACom_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "Wall-F_V3-rescue_D_Schottky_x2_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Schottky_x2_ACom_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -386,11 +341,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_EE-SX1350_PCB
+# EE-SX1350_PCB
 #
-DEF Wall-F_V3-rescue_EE-SX1350_PCB U 0 40 Y Y 1 F N
+DEF EE-SX1350_PCB U 0 40 Y Y 1 F N
 F0 "U" 0 -250 60 H V C CNN
-F1 "Wall-F_V3-rescue_EE-SX1350_PCB" 0 250 60 H V C CNN
+F1 "EE-SX1350_PCB" 0 250 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -405,11 +360,11 @@ X GND 7 300 -400 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_Ferrite_Bead_Small
+# Ferrite_Bead_Small
 #
-DEF Wall-F_V3-rescue_Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "Wall-F_V3-rescue_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -426,37 +381,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_GND
+# LED
 #
-DEF Wall-F_V3-rescue_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Wall-F_V3-rescue_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wall-F_V3-rescue_GNDA
-#
-DEF Wall-F_V3-rescue_GNDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Wall-F_V3-rescue_GNDA" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Wall-F_V3-rescue_LED
-#
-DEF Wall-F_V3-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Wall-F_V3-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -473,11 +402,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_MK20DX128VFT
+# MK20DX128VFT
 #
-DEF Wall-F_V3-rescue_MK20DX128VFT U 0 40 Y Y 1 F N
+DEF MK20DX128VFT U 0 40 Y Y 1 F N
 F0 "U" -1000 1700 50 H V L BNN
-F1 "Wall-F_V3-rescue_MK20DX128VFT" 950 1700 50 H V R BNN
+F1 "MK20DX128VFT" 950 1700 50 H V R BNN
 F2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" -1000 -1900 50 H I L TNN
 F3 "" 400 -3400 50 H I L BNN
 $FPLIST
@@ -537,11 +466,11 @@ X VDDA 9 -1200 700 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_R
+# R
 #
-DEF Wall-F_V3-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Wall-F_V3-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -555,11 +484,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_SW_Push
+# SW_Push
 #
-DEF Wall-F_V3-rescue_SW_Push SW 0 40 N N 1 F N
+DEF SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Wall-F_V3-rescue_SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -572,11 +501,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Wall-F_V3-rescue_TC1262-33
+# TC1262-33
 #
-DEF Wall-F_V3-rescue_TC1262-33 U 0 10 Y Y 1 F N
+DEF TC1262-33 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "Wall-F_V3-rescue_TC1262-33" 0 125 50 H V L CNN
+F1 "TC1262-33" 0 125 50 H V L CNN
 F2 "" 0 225 50 H I C CIN
 F3 "" 0 -300 50 H I C CNN
 $FPLIST
