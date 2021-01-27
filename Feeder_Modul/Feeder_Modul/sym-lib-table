@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name PorjectLibrary)(type Legacy)(uri /home/niko/Dokumente/Pick_n_Place/02_Electric/KiCAD_Library/PorjectLibrary.lib)(options "")(descr ""))
+  (lib (name PorjectLibrary)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library/PorjectLibrary.lib)(options "")(descr ""))
+  (lib (name Feeder_Modul-rescue)(type Legacy)(uri ${KIPRJMOD}/Feeder_Modul-rescue.lib)(options "")(descr ""))
 )
