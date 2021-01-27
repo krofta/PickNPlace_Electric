@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name CPU_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/CPU_Board-rescue.lib)(options "")(descr ""))
-  (lib (name PorjectLibrary)(type Legacy)(uri /home/nk/Dokumente/Pick_n_Place/02_Electric/KiCAD_Library/PorjectLibrary.lib)(options "")(descr ""))
+  (lib (name PorjectLibrary)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library/PorjectLibrary.lib)(options "")(descr ""))
 )
