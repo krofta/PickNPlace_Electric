@@ -310,7 +310,7 @@ U 1 1 60135364
 P 1400 1200
 F 0 "J102" H 1320 785 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1320 876 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 1200 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 1200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 1400 1200 50  0001 C CNN
 F 4 "C8475" H 1320 967 50  0000 C CNN "LCSC"
 	1    1400 1200
@@ -412,7 +412,7 @@ U 1 1 6027A054
 P 1400 2050
 F 0 "J103" H 1320 1635 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1320 1726 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 2050 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 2050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 1400 2050 50  0001 C CNN
 F 4 "C8475" H 1320 1817 50  0000 C CNN "LCSC"
 	1    1400 2050
@@ -463,7 +463,7 @@ U 1 1 6027C08B
 P 1400 2950
 F 0 "J104" H 1320 2535 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1320 2626 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 2950 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 2950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 1400 2950 50  0001 C CNN
 F 4 "C8475" H 1320 2717 50  0000 C CNN "LCSC"
 	1    1400 2950
@@ -514,7 +514,7 @@ U 1 1 6027EA98
 P 1400 3850
 F 0 "J105" H 1320 3435 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1320 3526 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 3850 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 1400 3850 50  0001 C CNN
 F 4 "C8475" H 1320 3617 50  0000 C CNN "LCSC"
 	1    1400 3850
@@ -565,7 +565,7 @@ U 1 1 60280F06
 P 1400 4750
 F 0 "J106" H 1320 4335 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1320 4426 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 4750 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 1400 4750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 1400 4750 50  0001 C CNN
 F 4 "C8475" H 1320 4517 50  0000 C CNN "LCSC"
 	1    1400 4750
@@ -616,7 +616,7 @@ U 1 1 60289186
 P 2650 1200
 F 0 "J107" H 2570 785 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2570 876 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 1200 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 1200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 2650 1200 50  0001 C CNN
 F 4 "C8475" H 2570 967 50  0000 C CNN "LCSC"
 	1    2650 1200
@@ -667,7 +667,7 @@ U 1 1 602893BB
 P 2650 2050
 F 0 "J108" H 2570 1635 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2570 1726 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 2050 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 2050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 2650 2050 50  0001 C CNN
 F 4 "C8475" H 2570 1817 50  0000 C CNN "LCSC"
 	1    2650 2050
@@ -718,7 +718,7 @@ U 1 1 602893E7
 P 2650 2950
 F 0 "J109" H 2570 2535 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2570 2626 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 2950 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 2950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 2650 2950 50  0001 C CNN
 F 4 "C8475" H 2570 2717 50  0000 C CNN "LCSC"
 	1    2650 2950
@@ -769,7 +769,7 @@ U 1 1 60289413
 P 2650 3850
 F 0 "J110" H 2570 3435 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2570 3526 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 3850 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 2650 3850 50  0001 C CNN
 F 4 "C8475" H 2570 3617 50  0000 C CNN "LCSC"
 	1    2650 3850
@@ -820,7 +820,7 @@ U 1 1 6028943F
 P 2650 4750
 F 0 "J111" H 2570 4335 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2570 4426 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 4750 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 2650 4750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 2650 4750 50  0001 C CNN
 F 4 "C8475" H 2570 4517 50  0000 C CNN "LCSC"
 	1    2650 4750
@@ -889,7 +889,7 @@ U 1 1 60312321
 P 4350 1350
 F 0 "J112" H 4650 1300 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 4850 1400 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 1350 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 1350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 4350 1350 50  0001 C CNN
 F 4 "C8475" H 4650 1500 50  0000 C CNN "LCSC"
 	1    4350 1350
@@ -914,7 +914,7 @@ U 1 1 603629E1
 P 9450 900
 F 0 "J122" H 9450 450 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 9450 550 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 9450 900 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 9450 900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 9450 900 50  0001 C CNN
 F 4 "C8475" H 9450 650 50  0000 C CNN "LCSC"
 	1    9450 900 
@@ -996,23 +996,23 @@ Wire Wire Line
 Connection ~ 5100 1450
 Text Label 5550 1250 0    50   ~ 0
 VENTIL1
-Text Label 5550 3350 0    50   ~ 0
-VACUUM_MOTOR
-Text Label 5550 5400 0    50   ~ 0
-OUTPUT_RES2
-Text Label 7850 2300 0    50   ~ 0
-OUTPUT_RES4
-Text Label 7850 4350 0    50   ~ 0
-OUTPUT_RES6
 Text Label 5550 2300 0    50   ~ 0
+VACUUM_MOTOR
+Text Label 5550 3350 0    50   ~ 0
+OUTPUT_RES2
+Text Label 5550 4350 0    50   ~ 0
+OUTPUT_RES4
+Text Label 5550 5400 0    50   ~ 0
+OUTPUT_RES6
+Text Label 7850 1250 0    50   ~ 0
 VENTIL2
 Text Label 7850 5400 0    50   ~ 0
 OUTPUT_RES7
-Text Label 5550 4350 0    50   ~ 0
+Text Label 7850 2300 0    50   ~ 0
 OUTPUT_RES1
-Text Label 7850 1250 0    50   ~ 0
-OUTPUT_RES3
 Text Label 7850 3350 0    50   ~ 0
+OUTPUT_RES3
+Text Label 7850 4350 0    50   ~ 0
 OUTPUT_RES5
 Wire Wire Line
 	5550 1250 5400 1250
@@ -1914,7 +1914,7 @@ U 1 1 602C8D4B
 P 4350 2400
 F 0 "J113" H 4650 2350 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 4850 2450 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 2400 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 2400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 4350 2400 50  0001 C CNN
 F 4 "C8475" H 4650 2550 50  0000 C CNN "LCSC"
 	1    4350 2400
@@ -1926,7 +1926,7 @@ U 1 1 602CA554
 P 4350 3450
 F 0 "J114" H 4650 3400 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 4850 3500 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 3450 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 4350 3450 50  0001 C CNN
 F 4 "C8475" H 4650 3600 50  0000 C CNN "LCSC"
 	1    4350 3450
@@ -1938,7 +1938,7 @@ U 1 1 602CD97D
 P 4350 4450
 F 0 "J115" H 4650 4400 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 4850 4500 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 4450 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 4450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 4350 4450 50  0001 C CNN
 F 4 "C8475" H 4650 4600 50  0000 C CNN "LCSC"
 	1    4350 4450
@@ -1950,7 +1950,7 @@ U 1 1 602CFB34
 P 4350 5500
 F 0 "J116" H 4650 5450 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 4850 5550 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 5500 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 4350 5500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 4350 5500 50  0001 C CNN
 F 4 "C8475" H 4650 5650 50  0000 C CNN "LCSC"
 	1    4350 5500
@@ -1962,7 +1962,7 @@ U 1 1 602D1D3D
 P 6650 1350
 F 0 "J117" H 6950 1300 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7150 1400 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 1350 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 1350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 6650 1350 50  0001 C CNN
 F 4 "C8475" H 6950 1500 50  0000 C CNN "LCSC"
 	1    6650 1350
@@ -1974,7 +1974,7 @@ U 1 1 602D4064
 P 6650 2400
 F 0 "J118" H 6950 2350 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7150 2450 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 2400 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 2400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 6650 2400 50  0001 C CNN
 F 4 "C8475" H 6950 2550 50  0000 C CNN "LCSC"
 	1    6650 2400
@@ -1986,7 +1986,7 @@ U 1 1 602D62FF
 P 6650 3450
 F 0 "J119" H 6950 3400 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7150 3500 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 3450 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 6650 3450 50  0001 C CNN
 F 4 "C8475" H 6950 3600 50  0000 C CNN "LCSC"
 	1    6650 3450
@@ -1998,7 +1998,7 @@ U 1 1 602D8670
 P 6650 4450
 F 0 "J120" H 6950 4400 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7150 4500 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 4450 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 4450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 6650 4450 50  0001 C CNN
 F 4 "C8475" H 6950 4600 50  0000 C CNN "LCSC"
 	1    6650 4450
@@ -2010,7 +2010,7 @@ U 1 1 602DF947
 P 6650 5500
 F 0 "J121" H 6950 5450 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7150 5550 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 5500 50  0001 C CNN
+F 2 "ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 6650 5500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf" H 6650 5500 50  0001 C CNN
 F 4 "C8475" H 6950 5650 50  0000 C CNN "LCSC"
 	1    6650 5500

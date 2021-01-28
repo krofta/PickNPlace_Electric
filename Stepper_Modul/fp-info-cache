@@ -1,1 +1,57 @@
+12892496660807
+ProjectFootprints
+Diodes_PowerDI3333-8
+Diodes Incorporated PowerDI3333-8, Plastic Dual Flat No Lead Package, 3.3x3.3x0.8mm Body, https://www.diodes.com/assets/Package-Files/PowerDI3333-8.pdf
+PowerDI 0.65
 0
+13
+3
+ProjectFootprints
+EE-SX1350_90deg
+
+
+0
+6
+6
+ProjectFootprints
+L_CommonModeChoke_Coilcraft_1812CAN
+Coilcraft 1812CAN Series Common Mode Choke, https://www.coilcraft.com/pdfs/1812can.pdf
+surface mount common mode bead
+0
+4
+4
+ProjectFootprints
+ST7789_Waveshare
+
+
+0
+8
+8
+ProjectFootprints
+TF-115-BCP9
+
+
+0
+13
+10
+ProjectFootprints
+TactileSwitchLCSC
+
+
+0
+4
+2
+ProjectFootprints
+TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal
+terminal block RND 205-00045, 2 pins, pitch 5mm, size 10x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
+THT terminal block RND 205-00045 pitch 5mm size 10x8.1mm^2 drill 1.1mm pad 2.1mm
+0
+2
+2
+ProjectFootprints
+TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal
+terminal block RND 205-00047, 4 pins, pitch 5mm, size 20x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
+THT terminal block RND 205-00047 pitch 5mm size 20x8.1mm^2 drill 1.1mm pad 2.1mm
+0
+4
+4
