@@ -3184,4 +3184,6 @@ Text Label 6150 7350 2    50   ~ 0
 TAPE_MICROBTN
 Wire Wire Line
 	3850 8650 3450 8650
+Text Notes 9100 5400 0    50   ~ 0
+Vishay Semiconductors\nCST5250
 $EndSCHEMATC
