@@ -1,4 +1,4 @@
-19004044549385801
+19004044612272801
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73507,6 +73507,13 @@ ST7789_Waveshare
 8
 8
 ProjectFootprints
+ST7789_Waveshare2
+
+
+0
+16
+16
+ProjectFootprints
 TF-115-BCP9
 
 
@@ -73520,13 +73527,6 @@ TactileSwitchLCSC
 0
 4
 2
-ProjectFootprints
-USB-A-Conn_LCSC
-
-
-0
-6
-5
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

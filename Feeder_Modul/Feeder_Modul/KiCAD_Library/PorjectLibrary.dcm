@@ -18,6 +18,10 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP TCST5250
+F https://www.mouser.de/datasheet/2/427/tcst5250-1767360.pdf
+$ENDCMP
+#
 $CMP TF-115-BCP9
 D Micro SD Card Socket with card detection pins
 K connector SD microsd

@@ -1569,14 +1569,10 @@ Text Label 2500 5250 2    50   ~ 0
 PE9
 Text Label 2150 5250 2    50   ~ 0
 TIM1_CH1_Z
-Text Label 4300 3850 0    50   ~ 0
-PA11
 Text Label 4650 3850 0    50   ~ 0
-USB_FS_DM
+USB_FS_D-
 Text Label 4650 3950 0    50   ~ 0
-USB_FS_DP
-Text Label 4300 3950 0    50   ~ 0
-PA12
+USB_FS_D+
 Wire Wire Line
 	4650 3950 4300 3950
 Wire Wire Line
@@ -2909,17 +2905,17 @@ TIM8_ENC_CH1
 Text Label 7350 7750 2    50   ~ 0
 TIM8_ENC_CH2
 $Comp
-L Connector:Conn_01x08_Male J?
+L Connector_Generic:Conn_02x08_Counter_Clockwise J?
 U 1 1 61385E73
 P 9100 9350
 AR Path="/5FDD0F66/61385E73" Ref="J?"  Part="1" 
 AR Path="/61385E73" Ref="J106"  Part="1" 
 F 0 "J106" H 9206 9828 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 9206 9737 50  0000 C CNN
-F 2 "ProjectFootprints:ST7789_Waveshare" H 9100 9350 50  0001 C CNN
+F 2 "ProjectFootprints:ST7789_Waveshare2" H 9100 9350 50  0001 C CNN
 F 3 "~" H 9100 9350 50  0001 C CNN
 	1    9100 9350
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -3144,11 +3140,11 @@ Wire Wire Line
 Wire Wire Line
 	8450 3700 8250 3700
 Text Label 8250 3600 2    50   ~ 0
-USB_FS_DM
+USB_FS_D+
 Wire Wire Line
 	8450 3600 8250 3600
 Text Label 8250 3700 2    50   ~ 0
-USB_FS_DP
+USB_FS_D-
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61C5C964
@@ -3966,105 +3962,18 @@ F 4 "C8475" H 15530 2505 50  0000 L CNN "LCSC"
 	1    15450 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J108
-U 1 1 605095AE
-P 6150 9500
-F 0 "J108" H 6200 10017 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 6200 9926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 6150 9500 50  0001 C CNN
-F 3 "~" H 6150 9500 50  0001 C CNN
-	1    6150 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60509B6F
-P 5550 9200
-AR Path="/5FDD0F66/60509B6F" Ref="#PWR?"  Part="1" 
-AR Path="/60509B6F" Ref="#PWR0174"  Part="1" 
-F 0 "#PWR0174" H 5550 9050 50  0001 C CNN
-F 1 "+3V3" H 5565 9373 50  0000 C CNN
-F 2 "" H 5550 9200 50  0001 C CNN
-F 3 "" H 5550 9200 50  0001 C CNN
-	1    5550 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60509DE1
-P 6800 9200
-AR Path="/5FDD0F66/60509DE1" Ref="#PWR?"  Part="1" 
-AR Path="/60509DE1" Ref="#PWR0175"  Part="1" 
-F 0 "#PWR0175" H 6800 8950 50  0001 C CNN
-F 1 "GND" V 6805 9072 50  0000 R CNN
-F 2 "" H 6800 9200 50  0001 C CNN
-F 3 "" H 6800 9200 50  0001 C CNN
-	1    6800 9200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5950 9200 5550 9200
-Text Label 5550 9300 2    50   ~ 0
-DISP_DIN
-Text Label 6850 9300 0    50   ~ 0
-DISP_CLK
-Text Label 5550 9400 2    50   ~ 0
-DISP_CS
-Text Label 6850 9400 0    50   ~ 0
-DISP_DC
-Text Label 5550 9500 2    50   ~ 0
-DISP_RST
-Text Label 6850 9500 0    50   ~ 0
-DISP_RST
-Text Label 5550 9600 2    50   ~ 0
-DISP_BL
-Text Label 5550 9700 2    50   ~ 0
+Text Label 9800 9050 0    50   ~ 0
 TIM8_ENC_CH2
-Text Label 5550 9800 2    50   ~ 0
+Text Label 9800 9150 0    50   ~ 0
 TIM8_ENC_CH1
-Text Label 6850 9800 0    50   ~ 0
+Text Label 9800 9250 0    50   ~ 0
 ENC_BTN
-$Comp
-L power:GND #PWR?
-U 1 1 6057FCD9
-P 6800 9600
-AR Path="/5FDD0F66/6057FCD9" Ref="#PWR?"  Part="1" 
-AR Path="/6057FCD9" Ref="#PWR0176"  Part="1" 
-F 0 "#PWR0176" H 6800 9350 50  0001 C CNN
-F 1 "GND" V 6805 9472 50  0000 R CNN
-F 2 "" H 6800 9600 50  0001 C CNN
-F 3 "" H 6800 9600 50  0001 C CNN
-	1    6800 9600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	6450 9600 6450 9700
-Connection ~ 6450 9600
+	9800 9250 9400 9250
 Wire Wire Line
-	6850 9800 6450 9800
+	9400 9150 9800 9150
 Wire Wire Line
-	5950 9800 5550 9800
-Wire Wire Line
-	5550 9700 5950 9700
-Wire Wire Line
-	5950 9600 5550 9600
-Wire Wire Line
-	5550 9500 5950 9500
-Wire Wire Line
-	5950 9400 5550 9400
-Wire Wire Line
-	5550 9300 5950 9300
-Wire Wire Line
-	6850 9300 6450 9300
-Wire Wire Line
-	6450 9400 6850 9400
-Wire Wire Line
-	6850 9500 6450 9500
-Wire Wire Line
-	6450 9200 6800 9200
-Wire Wire Line
-	6450 9600 6800 9600
+	9800 9050 9400 9050
 $Comp
 L Device:C_Small C?
 U 1 1 60A49349
@@ -4491,4 +4400,31 @@ Text Notes 9750 4100 0    50   ~ 0
 High Speed Mode
 Wire Wire Line
 	11300 2050 11300 2400
+$Comp
+L power:GND #PWR?
+U 1 1 602E120E
+P 9400 9350
+AR Path="/5FDD0F66/602E120E" Ref="#PWR?"  Part="1" 
+AR Path="/602E120E" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0174" H 9400 9100 50  0001 C CNN
+F 1 "GND" V 9405 9222 50  0000 R CNN
+F 2 "" H 9400 9350 50  0001 C CNN
+F 3 "" H 9400 9350 50  0001 C CNN
+	1    9400 9350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 9750 9400 9650
+Connection ~ 9400 9350
+Connection ~ 9400 9450
+Wire Wire Line
+	9400 9450 9400 9350
+Connection ~ 9400 9550
+Wire Wire Line
+	9400 9550 9400 9450
+Connection ~ 9400 9650
+Wire Wire Line
+	9400 9650 9400 9550
+Text Notes 5350 6750 0    129  ~ 0
+TODO: Length Matching SDIO, SPI beachten\nConnector für Display mit CPU-Board abstimmen\nESD Schutz USB-Buchse\nStatus LED
 $EndSCHEMATC
