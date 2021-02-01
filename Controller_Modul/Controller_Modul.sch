@@ -2905,7 +2905,7 @@ TIM8_ENC_CH1
 Text Label 7350 7750 2    50   ~ 0
 TIM8_ENC_CH2
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+L Connector_Generic:Conn_02x08_Top_Bottom J?
 U 1 1 61385E73
 P 9100 9350
 AR Path="/5FDD0F66/61385E73" Ref="J?"  Part="1" 
@@ -4427,4 +4427,48 @@ Wire Wire Line
 	9400 9650 9400 9550
 Text Notes 5350 6750 0    129  ~ 0
 TODO: Length Matching SDIO, SPI beachten\nConnector für Display mit CPU-Board abstimmen\nESD Schutz USB-Buchse\nStatus LED
+$Comp
+L Power_Protection:SRV05-4 U105
+U 1 1 60285F2C
+P 6750 3650
+F 0 "U105" H 6200 4350 50  0000 C CNN
+F 1 "SRV05-4" H 6150 4250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7450 3200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 6750 3650 50  0001 C CNN
+F 4 "C316033" H 6150 4150 50  0000 C CNN "LCSC"
+	1    6750 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 3550
+NoConn ~ 6250 3750
+$Comp
+L power:GND #PWR?
+U 1 1 603DCDB2
+P 6750 4150
+AR Path="/5FDD0F66/603DCDB2" Ref="#PWR?"  Part="1" 
+AR Path="/603DCDB2" Ref="#PWR0176"  Part="1" 
+F 0 "#PWR0176" H 6750 3900 50  0001 C CNN
+F 1 "GND" H 6900 4100 50  0000 C CNN
+F 2 "" H 6750 4150 50  0001 C CNN
+F 3 "" H 6750 4150 50  0001 C CNN
+	1    6750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 603DE440
+P 6750 3150
+AR Path="/5FDD0F66/603DE440" Ref="#PWR?"  Part="1" 
+AR Path="/603DE440" Ref="#PWR0175"  Part="1" 
+F 0 "#PWR0175" H 6750 3000 50  0001 C CNN
+F 1 "+3V3" H 6765 3323 50  0000 C CNN
+F 2 "" H 6750 3150 50  0001 C CNN
+F 3 "" H 6750 3150 50  0001 C CNN
+	1    6750 3150
+	1    0    0    -1  
+$EndComp
+Text Label 7250 3550 0    50   ~ 0
+USB_FS_D+
+Text Label 7250 3750 0    50   ~ 0
+USB_FS_D-
 $EndSCHEMATC
