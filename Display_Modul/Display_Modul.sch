@@ -23,6 +23,7 @@ F 0 "SW101" H 5450 2900 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 5500 2800 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 5300 3310 50  0001 C CNN
 F 3 "~" H 5450 3410 50  0001 C CNN
+F 4 "C1322538" H 5450 3150 50  0001 C CNN "LCSC"
 	1    5450 3150
 	1    0    0    -1  
 $EndComp
@@ -349,6 +350,7 @@ F 0 "J101" H 3822 4624 50  0000 R CNN
 F 1 "Conn_01x08_Male" H 3822 4533 50  0000 R CNN
 F 2 "ProjectFootprints:ST7789_Waveshare" H 3850 4650 50  0001 C CNN
 F 3 "~" H 3850 4650 50  0001 C CNN
+F 4 "0" H 3850 4650 50  0001 C CNN "LCSC"
 	1    3850 4650
 	-1   0    0    -1  
 $EndComp
@@ -408,6 +410,7 @@ F 0 "J102" H 6000 5167 50  0000 C CNN
 F 1 "Conn_02x08_Counter_Clockwise" H 6000 5076 50  0000 C CNN
 F 2 "ProjectFootprints:DisplayConnector" H 5950 4650 50  0001 C CNN
 F 3 "~" H 5950 4650 50  0001 C CNN
+F 4 "C3406" H 5950 4650 50  0001 C CNN "LCSC"
 	1    5950 4650
 	1    0    0    -1  
 $EndComp
@@ -429,6 +432,7 @@ F 0 "H101" V 7954 3150 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8045 3150 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8000 3000 50  0001 C CNN
 F 3 "~" H 8000 3000 50  0001 C CNN
+F 4 "0" H 8000 3000 50  0001 C CNN "LCSC"
 	1    8000 3000
 	0    1    1    0   
 $EndComp
@@ -451,6 +455,7 @@ F 0 "H102" V 7954 3350 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8045 3350 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8000 3200 50  0001 C CNN
 F 3 "~" H 8000 3200 50  0001 C CNN
+F 4 "0" H 8000 3200 50  0001 C CNN "LCSC"
 	1    8000 3200
 	0    1    1    0   
 $EndComp
@@ -462,6 +467,7 @@ F 0 "H103" V 7954 3550 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8045 3550 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8000 3400 50  0001 C CNN
 F 3 "~" H 8000 3400 50  0001 C CNN
+F 4 "0" H 8000 3400 50  0001 C CNN "LCSC"
 	1    8000 3400
 	0    1    1    0   
 $EndComp
@@ -473,6 +479,7 @@ F 0 "H104" V 7954 3750 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8045 3750 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8000 3600 50  0001 C CNN
 F 3 "~" H 8000 3600 50  0001 C CNN
+F 4 "0" H 8000 3600 50  0001 C CNN "LCSC"
 	1    8000 3600
 	0    1    1    0   
 $EndComp
@@ -487,4 +494,18 @@ Wire Wire Line
 Connection ~ 7900 3600
 Wire Wire Line
 	7900 3600 7900 4000
+$Comp
+L PorjectLibrary:Empty J103
+U 1 1 601D8426
+P 5850 5750
+F 0 "J103" H 5850 6050 50  0000 C CNN
+F 1 "IPC 16P" H 5850 5950 50  0000 C CNN
+F 2 "ProjectFootprints:Empty" H 5850 5750 50  0001 C CNN
+F 3 "~" H 5850 5750 50  0001 C CNN
+F 4 "C8372" H 5850 5750 50  0001 C CNN "LCSC"
+	1    5850 5750
+	1    0    0    -1  
+$EndComp
+Text Notes 5400 6100 0    50   ~ 0
+IDC Connector for BOM\n16P 2Rows 2,54mm Pitch
 $EndSCHEMATC
