@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC Part #,Quantity
+"Conn_02x20_Odd_Even Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J101,PinHeader_2x20_P2.54mm_Vertical,C601944,1
+"Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)","J102,J103,J104,J105,J106,J107,J108,J109,J110,J111,J112,J113,J114,J115,J116,J117,J118,J119,J120,J121,J122",TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal,C8475,21
+"Si4431CDY P-MOSFET transistor, drain/gate/source","Q101,Q102,Q103,Q104,Q105,Q111,Q112,Q113,Q114,Q115",SOIC-8_3.9x4.9mm_P1.27mm,C144845,10
+"2N7002 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23","Q106,Q107,Q108,Q109,Q110,Q116,Q117,Q118,Q119,Q120",SOT-23,C181082,10
+"10K Resistor, small symbol","R101,R102,R103,R104,R105,R106,R107,R108,R109,R110",R_0603_1608Metric,C99198,10
+"88K7 Resistor, small symbol","R111,R112,R113,R114,R115,R116,R117,R118,R119,R120,R121,R122,R123,R124,R125,R126,R127,R128,R129,R130",R_0603_1608Metric,C163418,20

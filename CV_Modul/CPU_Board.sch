@@ -317,6 +317,7 @@ F 0 "U101" H 3450 3000 50  0000 C CNN
 F 1 "STM32H730ZB" H 3450 2850 50  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 2450 2200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00387108.pdf" H 3550 5600 50  0001 C CNN
+F 4 "0" H 3550 5600 50  0001 C CNN "LCSC"
 	1    3550 5600
 	1    0    0    -1  
 $EndComp
@@ -1345,7 +1346,7 @@ F 0 "C117" H 4492 1746 50  0000 L CNN
 F 1 "10u" H 4492 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4400 1700 50  0001 C CNN
 F 3 "~" H 4400 1700 50  0001 C CNN
-F 4 " C696854 " H 4400 1700 50  0001 C CNN "LCSC"
+F 4 "C1849" H 4400 1700 50  0001 C CNN "LCSC"
 	1    4400 1700
 	1    0    0    -1  
 $EndComp
@@ -1410,6 +1411,7 @@ F 0 "R101" V 1154 2600 50  0000 C CNN
 F 1 "DNP" V 1245 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1350 2600 50  0001 C CNN
 F 3 "~" H 1350 2600 50  0001 C CNN
+F 4 "0" H 1350 2600 50  0001 C CNN "LCSC"
 	1    1350 2600
 	0    1    1    0   
 $EndComp
@@ -1513,6 +1515,7 @@ F 0 "J107" H 15150 5600 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 15050 5500 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 14750 5150 50  0001 C CNN
 F 3 "~" H 14750 5150 50  0001 C CNN
+F 4 "0" H 14750 5150 50  0001 C CNN "LCSC"
 	1    14750 5150
 	-1   0    0    -1  
 $EndComp
@@ -1774,6 +1777,7 @@ F 0 "SW101" H 10050 6550 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 10100 6450 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 9900 6960 50  0001 C CNN
 F 3 "~" H 10050 7060 50  0001 C CNN
+F 4 "0" H 10050 6800 50  0001 C CNN "LCSC"
 	1    10050 6800
 	1    0    0    -1  
 $EndComp
@@ -1823,6 +1827,7 @@ F 0 "J104" H 12206 5728 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 12206 5637 50  0000 C CNN
 F 2 "ProjectFootprints:ST7789_Waveshare" H 12100 5250 50  0001 C CNN
 F 3 "~" H 12100 5250 50  0001 C CNN
+F 4 "0" H 12100 5250 50  0001 C CNN "LCSC"
 	1    12100 5250
 	1    0    0    -1  
 $EndComp
@@ -2358,6 +2363,7 @@ F 0 "J108" H 15250 3017 50  0000 C CNN
 F 1 "Conn_02x01" H 15250 2926 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15200 2800 50  0001 C CNN
 F 3 "~" H 15200 2800 50  0001 C CNN
+F 4 "0" H 15200 2800 50  0001 C CNN "LCSC"
 	1    15200 2800
 	1    0    0    -1  
 $EndComp
@@ -2373,6 +2379,7 @@ F 0 "J102" H 11000 2917 50  0000 C CNN
 F 1 "Conn_02x01" H 11000 2826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10950 2700 50  0001 C CNN
 F 3 "~" H 10950 2700 50  0001 C CNN
+F 4 "0" H 10950 2700 50  0001 C CNN "LCSC"
 	1    10950 2700
 	1    0    0    -1  
 $EndComp
@@ -2826,6 +2833,7 @@ F 0 "J109" H 15250 4117 50  0000 C CNN
 F 1 "Conn_02x01" H 15250 4026 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15200 3900 50  0001 C CNN
 F 3 "~" H 15200 3900 50  0001 C CNN
+F 4 "0" H 15200 3900 50  0001 C CNN "LCSC"
 	1    15200 3900
 	1    0    0    -1  
 $EndComp
@@ -2841,6 +2849,7 @@ F 0 "J103" H 11000 4017 50  0000 C CNN
 F 1 "Conn_02x01" H 11000 3926 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10950 3800 50  0001 C CNN
 F 3 "~" H 10950 3800 50  0001 C CNN
+F 4 "0" H 10950 3800 50  0001 C CNN "LCSC"
 	1    10950 3800
 	1    0    0    -1  
 $EndComp
@@ -3652,6 +3661,7 @@ F 0 "H102" V 8054 10400 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8145 10400 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8100 10250 50  0001 C CNN
 F 3 "~" H 8100 10250 50  0001 C CNN
+F 4 "0" H 8100 10250 50  0001 C CNN "LCSC"
 	1    8100 10250
 	0    1    1    0   
 $EndComp
@@ -3663,6 +3673,7 @@ F 0 "H101" V 8054 10200 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8145 10200 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8100 10050 50  0001 C CNN
 F 3 "~" H 8100 10050 50  0001 C CNN
+F 4 "0" H 8100 10050 50  0001 C CNN "LCSC"
 	1    8100 10050
 	0    1    1    0   
 $EndComp
@@ -3674,6 +3685,7 @@ F 0 "H103" V 8054 10600 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8145 10600 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8100 10450 50  0001 C CNN
 F 3 "~" H 8100 10450 50  0001 C CNN
+F 4 "0" H 8100 10450 50  0001 C CNN "LCSC"
 	1    8100 10450
 	0    1    1    0   
 $EndComp
@@ -3685,6 +3697,7 @@ F 0 "H104" V 8054 10800 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8145 10800 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8100 10650 50  0001 C CNN
 F 3 "~" H 8100 10650 50  0001 C CNN
+F 4 "0" H 8100 10650 50  0001 C CNN "LCSC"
 	1    8100 10650
 	0    1    1    0   
 $EndComp
@@ -4066,6 +4079,7 @@ F 0 "L1" H 14100 1731 50  0000 C CNN
 F 1 "DNP" H 14100 1650 50  0000 C CNN
 F 2 "ProjectFootprints:L_CommonModeChoke_Coilcraft_1812CAN" H 14100 1450 50  0001 C CNN
 F 3 "~" H 14100 1450 50  0001 C CNN
+F 4 "0" H 14100 1450 50  0001 C CNN "LCSC"
 	1    14100 1450
 	1    0    0    -1  
 $EndComp
@@ -4295,7 +4309,7 @@ F 0 "J111" H 15050 2217 50  0000 C CNN
 F 1 "Conn_02x01" H 15050 2126 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15000 2000 50  0001 C CNN
 F 3 "~" H 15000 2000 50  0001 C CNN
-F 4 "C358684" H 15000 2000 50  0001 C CNN "LCSC"
+F 4 "0" H 15000 2000 50  0001 C CNN "LCSC"
 	1    15000 2000
 	1    0    0    -1  
 $EndComp

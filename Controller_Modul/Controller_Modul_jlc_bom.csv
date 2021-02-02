@@ -1,0 +1,28 @@
+Comment,Designator,Footprint,LCSC Part #
+"2.2u 50V Unpolarized capacitor, small symbol","C101,C104",C_1210_3225Metric, C696854 
+"18p 50V Unpolarized capacitor, small symbol","C102,C103",C_0603_1608Metric,C258467
+"10u 50V Unpolarized capacitor, small symbol","C105,C106,C108,C111,C112,C121,C122",C_1210_3225Metric,C1849
+"100n 50V Unpolarized capacitor, small symbol","C107,C109,C110,C123,C124,C125,C126,C127,C128,C129",C_0603_1608Metric,C282519
+"100n Unpolarized capacitor, small symbol","C113,C114,C117,C118",C_0603_1608Metric,C83060
+"10u Unpolarized capacitor, small symbol","C119,C120",C_1210_3225Metric,C1849
+"SS22F-SS2200F Schottky diode, small symbol",D101,D_SMA,C190803
+"70R Ferrite bead, small symbol",FB101,L_0603_1608Metric,C513774
+"Screw_Terminal_01x06 Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",J101,TerminalBlock_RND_205-00049_1x06_P5.00mm_Horizontal,C8475
+"Conn_02x01 Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)","J102,J104,J112,J113",PinHeader_1x02_P2.54mm_Vertical,C358684
+"Conn_01x08_Male Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)",J106,ST7789_Waveshare2,C3406
+Micro_SD_Card_Det Micro SD Card Socket with card detection pins,J107,TF-115-BCP9,C720505
+IPC 16P ,J108,Empty,C8372
+"Conn_02x20_Odd_Even Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)","J109,J111",PinHeader_2x20_P2.54mm_Vertical,C601944
+USB_B_Mini USB Type B connector,J110,USB_B_OST_USB-B1HSxx_Horizontal,C46392
+IPC 40P ,"J114,J115",Empty,C601933
+"12u  SRN4018 Inductor, small symbol",L101,L_Bourns-SRN4018,C354591 
+"1K Resistor, small symbol","R101,R103,R104,R105,R106,R108,R109,R110,R111,R112,R113,R114,R115,R116,R117,R118,R119,R123,R124,R125,R126,R128,R129,R130,R132,R133,R136,R137,R138,R139,R140,R141,R155,R156,R157,R158,R159,R160,R161,R162,R163,R164,R165,R166,R167,R168,R169,R170,R171,R172,R173,R174,R175,R176,R177,R178,R179",R_0603_1608Metric,C14676
+"10K Resistor, small symbol","R107,R120,R134,R135,R152",R_0603_1608Metric,C99198
+"51K Resistor, small symbol","R121,R122,R131",R_0603_1608Metric,C384211
+"22K1 Resistor, small symbol","R127,R142,R143,R144,R145,R146,R151",R_0603_1608Metric,C137768
+"0R Resistor, small symbol","R147,R148,R149,R150",R_0603_1608Metric,C384298
+"120R Resistor, small symbol","R153,R154",R_0603_1608Metric,C114681
+TPS560430 ,U102,SOT-23-6,C524782
+"SN65HVD230 CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8","U103,U104",SOIC-8_3.9x4.9mm_P1.27mm,C12084
+"SRV05-4 ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",U105,SOT-23-6,C316033
+"8MHz Four pin crystal, GND on pins 2 and 4",Y101,Crystal_SMD_3225-4Pin_3.2x2.5mm,C400090

@@ -21,6 +21,7 @@ F 0 "H103" V 1104 7200 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 7200 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 7050 50  0001 C CNN
 F 3 "~" H 1150 7050 50  0001 C CNN
+F 4 "0" H 1150 7050 50  0001 C CNN "LCSC"
 	1    1150 7050
 	0    1    1    0   
 $EndComp
@@ -32,6 +33,7 @@ F 0 "H102" V 1104 6800 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 6800 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 6650 50  0001 C CNN
 F 3 "~" H 1150 6650 50  0001 C CNN
+F 4 "0" H 1150 6650 50  0001 C CNN "LCSC"
 	1    1150 6650
 	0    1    1    0   
 $EndComp
@@ -43,6 +45,7 @@ F 0 "H101" V 1104 7000 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 7000 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 6850 50  0001 C CNN
 F 3 "~" H 1150 6850 50  0001 C CNN
+F 4 "0" H 1150 6850 50  0001 C CNN "LCSC"
 	1    1150 6850
 	0    1    1    0   
 $EndComp
@@ -54,6 +57,7 @@ F 0 "H104" V 1104 7400 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 7400 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 7250 50  0001 C CNN
 F 3 "~" H 1150 7250 50  0001 C CNN
+F 4 "0" H 1150 7250 50  0001 C CNN "LCSC"
 	1    1150 7250
 	0    1    1    0   
 $EndComp
@@ -149,6 +153,7 @@ F 0 "J101" H 9700 5467 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 9700 5376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 9650 4350 50  0001 C CNN
 F 3 "~" H 9650 4350 50  0001 C CNN
+F 4 "C601944" H 9650 4350 50  0001 C CNN "LCSC"
 	1    9650 4350
 	1    0    0    -1  
 $EndComp

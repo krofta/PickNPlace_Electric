@@ -1,0 +1,14 @@
+Comment,Designator,Footprint,LCSC Part #,Quantity
+"100n 50V Unpolarized capacitor, small symbol","C201,C205,C206,C207,C401,C405,C406,C407,C501,C505,C506,C507,C510,C514,C515,C516",C_0603_1608Metric,C282519,16
+"2.2u 50V Unpolarized capacitor, small symbol","C202,C203,C402,C403,C502,C503,C511,C512",C_1210_3225Metric, C696854 ,8
+"22n 50V Unpolarized capacitor, small symbol","C204,C404,C504,C513",C_0603_1608Metric,C84712,4
+"100u 35V Polarized capacitor, small symbol","C208,C209,C408,C409,C508,C509,C517,C518",CP_Radial_D6.3mm_P2.50mm,C45075,8
+"Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J101,TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal,C8475,1
+"Screw_Terminal_01x04 Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)","J102,J103,J104,J105",TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal,C8475,4
+"Conn_02x20_Odd_Even Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J106,PinHeader_2x20_P2.54mm_Vertical,C601944,1
+"Si4431CDY P-MOSFET transistor, drain/gate/source",Q101,SOIC-8_3.9x4.9mm_P1.27mm,C144845,1
+"22K1 Resistor, small symbol","R101,R102,R201,R401,R501,R504",R_0603_1608Metric,C137768,6
+"0.1R 0.5W Resistor, small symbol","R202,R203,R402,R403,R502,R503",R_1210_3225Metric,C270892,6
+"0.22R 0.5W Resistor, small symbol","R505,R506",R_1210_3225Metric,C159293,2
+"SW_DIP_x03 3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol","SW201,SW401,SW501,SW502",DIP-6_W7.62mm,C52648,4
+TMC2226 ,"U201,U401,U501,U502",TSSOP-28-1EP_4.4x9.7mm_P0.65mm,C705366,4

@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/nk/Dokumente/Pick_n_Place/02_Electric/Stepper_Modul/StepperBoard.sch</source>
+    <date>Di 02 Feb 2021 17:51:58 CET</date>
+    <tool>Eeschema 5.1.8-db9833491~87~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>StepperBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Stepper_y/" tstamps="/5FBD329F/">
+      <title_block>
+        <title>Stepper Driver X-Axis</title>
+        <company/>
+        <rev/>
+        <date>2020-11-24</date>
+        <source>Stepper_y.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Stepper_z/" tstamps="/5FCAEEEC/">
+      <title_block>
+        <title>Stepper Driver X-Axis</title>
+        <company/>
+        <rev/>
+        <date>2020-11-24</date>
+        <source>Stepper_z.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Stepper_rotation/" tstamps="/5FCB2242/">
+      <title_block>
+        <title>Stepper Driver X-Axis</title>
+        <company/>
+        <rev/>
+        <date>2020-11-24</date>
+        <source>Stepper_rotation.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Stepper_x/" tstamps="/5FCAC453/">
+      <title_block>
+        <title>Stepper Driver X-Axis</title>
+        <company/>
+        <rev/>
+        <date>2020-11-24</date>
+        <source>Stepper_x.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J105">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>ProjectFootprints:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8475</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBFBC6F</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>ProjectFootprints:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8475</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBFC3D6</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>ProjectFootprints:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8475</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBFC7E1</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>ProjectFootprints:TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8475</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBFCACB</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>ProjectFootprints:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251636_Ningbo-Kangnex-Elec-WJ301V-5-0-2P_C8475.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8475</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE8C83</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C601944</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A74FC</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60176F0C</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017B283</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017B2A9</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017B2D5</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>Si4431CDY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-SI4431CDY-T1-GE3_C144845.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C144845</field>
+      </fields>
+      <libsource lib="PorjectLibrary" part="Si4431CDY" description="P-MOSFET transistor, drain/gate/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D5FDB</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>22K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010C1B8</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>22K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601157F0</tstamp>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_DIP_x03</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Made-in-China-VDG-S-03HG-R_C52648.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52648</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x03" description="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6215</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6219</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>22n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84712</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6220</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6223</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6226</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB622B</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6230</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6232</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>0.1R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C270892</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6237</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>0.1R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C270892</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FBD9462</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB6246</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>22K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCB624C</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FBDE184</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>TMC2226</value>
+      <footprint>Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm</footprint>
+      <fields>
+        <field name="LCSC">C705366</field>
+      </fields>
+      <libsource lib="PorjectLibrary" part="TMC2226" description=""/>
+      <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
+      <tstamp>5FCAEB1B</tstamp>
+    </comp>
+    <comp ref="SW401">
+      <value>SW_DIP_x03</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Made-in-China-VDG-S-03HG-R_C52648.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52648</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x03" description="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6214</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6217</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>22n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84712</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FBD3F02</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6224</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6227</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB622A</tstamp>
+    </comp>
+    <comp ref="C408">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB622F</tstamp>
+    </comp>
+    <comp ref="C409">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6233</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>0.1R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C270892</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6236</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>0.1R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C270892</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6238</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB6244</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>22K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB624B</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB624F</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TMC2226</value>
+      <footprint>Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm</footprint>
+      <fields>
+        <field name="LCSC">C705366</field>
+      </fields>
+      <libsource lib="PorjectLibrary" part="TMC2226" description=""/>
+      <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
+      <tstamp>5FCB2199</tstamp>
+    </comp>
+    <comp ref="SW501">
+      <value>SW_DIP_x03</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Made-in-China-VDG-S-03HG-R_C52648.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52648</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x03" description="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6216</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6218</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>22n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84712</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6222</tstamp>
+    </comp>
+    <comp ref="C505">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FBD4305</tstamp>
+    </comp>
+    <comp ref="C506">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FBD48F0</tstamp>
+    </comp>
+    <comp ref="C507">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6229</tstamp>
+    </comp>
+    <comp ref="C508">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FBD5ED4</tstamp>
+    </comp>
+    <comp ref="C509">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6234</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>0.1R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C270892</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6235</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>0.1R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C270892</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6239</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB6245</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>22K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB624A</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB624D</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>TMC2226</value>
+      <footprint>Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2007202037_TRINAMIC-Motion-Control-GmbH-TMC2226-SA-T_C705366.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C705366</field>
+      </fields>
+      <libsource lib="PorjectLibrary" part="TMC2226" description=""/>
+      <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
+      <tstamp>5FCB54D1</tstamp>
+    </comp>
+    <comp ref="U502">
+      <value>TMC2226</value>
+      <footprint>Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2007202037_TRINAMIC-Motion-Control-GmbH-TMC2226-SA-T_C705366.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C705366</field>
+      </fields>
+      <libsource lib="PorjectLibrary" part="TMC2226" description=""/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBD32EE</tstamp>
+    </comp>
+    <comp ref="SW502">
+      <value>SW_DIP_x03</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Made-in-China-VDG-S-03HG-R_C52648.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52648</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x03" description="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBD3477</tstamp>
+    </comp>
+    <comp ref="C511">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBD37D6</tstamp>
+    </comp>
+    <comp ref="C513">
+      <value>22n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84712</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FCB6221</tstamp>
+    </comp>
+    <comp ref="C514">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FCB6225</tstamp>
+    </comp>
+    <comp ref="C515">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FCB6228</tstamp>
+    </comp>
+    <comp ref="C516">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBD4985</tstamp>
+    </comp>
+    <comp ref="C517">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FCB6231</tstamp>
+    </comp>
+    <comp ref="C518">
+      <value>100u 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-TOPAZ-Elec-Tech-ECSS0608101M035P00_C156874.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C45075</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBD73B4</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>0.22R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C159293</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBD9393</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>0.22R 0.5W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C159293</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FCB623A</tstamp>
+    </comp>
+    <comp ref="C512">
+      <value>2.2u 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C696854 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBDC148</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>22K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137768</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FBDD375</tstamp>
+    </comp>
+    <comp ref="C510">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C282519</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Stepper_x/" tstamps="/5FCAC453/"/>
+      <tstamp>5FCB624E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PorjectLibrary" part="Si4431CDY">
+      <description>P-MOSFET transistor, drain/gate/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Si4431CDY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="S" type="passive"/>
+        <pin num="7" name="S" type="passive"/>
+        <pin num="8" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PorjectLibrary" part="TMC2226">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC2226</field>
+        <field name="Footprint">Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OB1" type="passive"/>
+        <pin num="2" name="BRB" type="passive"/>
+        <pin num="3" name="VS" type="power_in"/>
+        <pin num="4" name="OB2" type="passive"/>
+        <pin num="5" name="ENN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="CPO" type="output"/>
+        <pin num="8" name="CPI" type="input"/>
+        <pin num="9" name="VCP" type="power_in"/>
+        <pin num="10" name="SPREAD" type="input"/>
+        <pin num="11" name="5VOUT" type="power_out"/>
+        <pin num="12" name="MS1_AD0" type="input"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="MS2_AD1" type="input"/>
+        <pin num="15" name="DIAG" type="output"/>
+        <pin num="16" name="INDEX" type="output"/>
+        <pin num="17" name="CLK" type="input"/>
+        <pin num="18" name="PND_UART" type="BiDi"/>
+        <pin num="19" name="VCC_IO" type="power_in"/>
+        <pin num="20" name="STEP" type="input"/>
+        <pin num="21" name="VREF" type="input"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="DIR" type="input"/>
+        <pin num="24" name="STDBY" type="input"/>
+        <pin num="25" name="OA2" type="passive"/>
+        <pin num="26" name="VS" type="power_in"/>
+        <pin num="27" name="BRA" type="passive"/>
+        <pin num="28" name="OA1" type="passive"/>
+        <pin num="29" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x03">
+      <description>3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="PorjectLibrary">
+      <uri>/home/nk/Dokumente/Pick_n_Place/02_Electric/Stepper_Modul/KiCAD_Library/PorjectLibrary.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CUR_X">
+      <node ref="J106" pin="21"/>
+      <node ref="R504" pin="2"/>
+    </net>
+    <net code="2" name="/INDEX_X">
+      <node ref="U502" pin="16"/>
+      <node ref="J106" pin="19"/>
+    </net>
+    <net code="3" name="/DIAG_X">
+      <node ref="J106" pin="18"/>
+      <node ref="U502" pin="15"/>
+    </net>
+    <net code="4" name="/EN_X">
+      <node ref="J106" pin="17"/>
+      <node ref="U502" pin="5"/>
+    </net>
+    <net code="5" name="/SINGLE_WIRE">
+      <node ref="U502" pin="18"/>
+      <node ref="U501" pin="18"/>
+      <node ref="U401" pin="18"/>
+      <node ref="U201" pin="18"/>
+      <node ref="J106" pin="32"/>
+    </net>
+    <net code="6" name="/DIR_X">
+      <node ref="J106" pin="22"/>
+      <node ref="U502" pin="23"/>
+    </net>
+    <net code="7" name="/STEP_X">
+      <node ref="J106" pin="20"/>
+      <node ref="U502" pin="20"/>
+    </net>
+    <net code="8" name="/DIR_Y">
+      <node ref="J106" pin="28"/>
+      <node ref="U201" pin="23"/>
+    </net>
+    <net code="9" name="/INDEX_Y">
+      <node ref="J106" pin="25"/>
+      <node ref="U201" pin="16"/>
+    </net>
+    <net code="10" name="/DIAG_Y">
+      <node ref="U201" pin="15"/>
+      <node ref="J106" pin="24"/>
+    </net>
+    <net code="11" name="/EN_Y">
+      <node ref="J106" pin="23"/>
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C515" pin="1"/>
+      <node ref="C511" pin="1"/>
+      <node ref="U502" pin="6"/>
+      <node ref="C516" pin="1"/>
+      <node ref="U502" pin="24"/>
+      <node ref="U502" pin="29"/>
+      <node ref="U502" pin="17"/>
+      <node ref="U502" pin="22"/>
+      <node ref="U201" pin="6"/>
+      <node ref="U201" pin="17"/>
+      <node ref="U201" pin="29"/>
+      <node ref="U201" pin="24"/>
+      <node ref="U201" pin="22"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C207" pin="1"/>
+      <node ref="C208" pin="2"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R202" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C209" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="R502" pin="1"/>
+      <node ref="C507" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="C506" pin="1"/>
+      <node ref="C509" pin="2"/>
+      <node ref="C502" pin="1"/>
+      <node ref="C508" pin="2"/>
+      <node ref="C408" pin="2"/>
+      <node ref="C407" pin="1"/>
+      <node ref="C406" pin="1"/>
+      <node ref="R403" pin="1"/>
+      <node ref="R402" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="C503" pin="1"/>
+      <node ref="U501" pin="22"/>
+      <node ref="U501" pin="24"/>
+      <node ref="U501" pin="29"/>
+      <node ref="U501" pin="6"/>
+      <node ref="U501" pin="17"/>
+      <node ref="C512" pin="1"/>
+      <node ref="C517" pin="2"/>
+      <node ref="C518" pin="2"/>
+      <node ref="R505" pin="1"/>
+      <node ref="R506" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C409" pin="2"/>
+      <node ref="C510" pin="1"/>
+      <node ref="U401" pin="17"/>
+      <node ref="U401" pin="6"/>
+      <node ref="U401" pin="29"/>
+      <node ref="U401" pin="24"/>
+      <node ref="U401" pin="22"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C403" pin="1"/>
+      <node ref="J106" pin="29"/>
+      <node ref="J106" pin="16"/>
+      <node ref="J106" pin="15"/>
+      <node ref="J106" pin="14"/>
+      <node ref="H101" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="H102" pin="1"/>
+      <node ref="H103" pin="1"/>
+      <node ref="H104" pin="1"/>
+      <node ref="J106" pin="13"/>
+      <node ref="J101" pin="2"/>
+      <node ref="J106" pin="40"/>
+      <node ref="J106" pin="39"/>
+      <node ref="J106" pin="36"/>
+      <node ref="J106" pin="35"/>
+      <node ref="J106" pin="34"/>
+      <node ref="J106" pin="33"/>
+      <node ref="J106" pin="31"/>
+      <node ref="J106" pin="30"/>
+    </net>
+    <net code="13" name="+3V3">
+      <node ref="U502" pin="19"/>
+      <node ref="SW502" pin="3"/>
+      <node ref="SW502" pin="2"/>
+      <node ref="SW502" pin="1"/>
+      <node ref="C510" pin="2"/>
+      <node ref="SW501" pin="3"/>
+      <node ref="C501" pin="2"/>
+      <node ref="U501" pin="19"/>
+      <node ref="SW501" pin="2"/>
+      <node ref="SW501" pin="1"/>
+      <node ref="C401" pin="2"/>
+      <node ref="U401" pin="19"/>
+      <node ref="SW401" pin="1"/>
+      <node ref="SW401" pin="2"/>
+      <node ref="SW401" pin="3"/>
+      <node ref="C201" pin="2"/>
+      <node ref="J106" pin="38"/>
+      <node ref="J106" pin="37"/>
+      <node ref="U201" pin="19"/>
+      <node ref="SW201" pin="3"/>
+      <node ref="SW201" pin="2"/>
+      <node ref="SW201" pin="1"/>
+    </net>
+    <net code="14" name="/CUR_Y">
+      <node ref="R201" pin="2"/>
+      <node ref="J106" pin="27"/>
+    </net>
+    <net code="15" name="/STEP_Y">
+      <node ref="J106" pin="26"/>
+      <node ref="U201" pin="20"/>
+    </net>
+    <net code="16" name="/DIR_Z">
+      <node ref="J106" pin="12"/>
+      <node ref="U401" pin="23"/>
+    </net>
+    <net code="17" name="/CUR_Z">
+      <node ref="R401" pin="2"/>
+      <node ref="J106" pin="11"/>
+    </net>
+    <net code="18" name="/STEP_Z">
+      <node ref="J106" pin="10"/>
+      <node ref="U401" pin="20"/>
+    </net>
+    <net code="19" name="/INDEX_Z">
+      <node ref="J106" pin="9"/>
+      <node ref="U401" pin="16"/>
+    </net>
+    <net code="20" name="/DIAG_Z">
+      <node ref="U401" pin="15"/>
+      <node ref="J106" pin="8"/>
+    </net>
+    <net code="21" name="/EN_Z">
+      <node ref="J106" pin="7"/>
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="22" name="Net-(Q101-Pad4)">
+      <node ref="Q101" pin="4"/>
+      <node ref="R102" pin="2"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="23" name="+24V">
+      <node ref="C205" pin="2"/>
+      <node ref="U401" pin="26"/>
+      <node ref="U401" pin="3"/>
+      <node ref="C409" pin="1"/>
+      <node ref="Q101" pin="5"/>
+      <node ref="Q101" pin="6"/>
+      <node ref="Q101" pin="7"/>
+      <node ref="Q101" pin="8"/>
+      <node ref="C517" pin="1"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C518" pin="1"/>
+      <node ref="U502" pin="3"/>
+      <node ref="C516" pin="2"/>
+      <node ref="C515" pin="2"/>
+      <node ref="C514" pin="2"/>
+      <node ref="U502" pin="26"/>
+      <node ref="C505" pin="2"/>
+      <node ref="U201" pin="26"/>
+      <node ref="U201" pin="3"/>
+      <node ref="C509" pin="1"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C208" pin="1"/>
+      <node ref="U501" pin="26"/>
+      <node ref="U501" pin="3"/>
+      <node ref="C508" pin="1"/>
+      <node ref="C209" pin="1"/>
+      <node ref="C408" pin="1"/>
+      <node ref="R101" pin="2"/>
+      <node ref="C506" pin="2"/>
+      <node ref="C507" pin="2"/>
+      <node ref="C407" pin="2"/>
+    </net>
+    <net code="24" name="Net-(J101-Pad1)">
+      <node ref="Q101" pin="1"/>
+      <node ref="J101" pin="1"/>
+      <node ref="Q101" pin="3"/>
+      <node ref="Q101" pin="2"/>
+    </net>
+    <net code="25" name="/Stepper_x/OA2_X">
+      <node ref="U502" pin="25"/>
+      <node ref="J104" pin="4"/>
+    </net>
+    <net code="26" name="/Stepper_z/OB2_Z">
+      <node ref="U401" pin="4"/>
+      <node ref="J103" pin="1"/>
+    </net>
+    <net code="27" name="/Stepper_z/OB1_Z">
+      <node ref="U401" pin="1"/>
+      <node ref="J103" pin="2"/>
+    </net>
+    <net code="28" name="/Stepper_z/OA2_Z">
+      <node ref="U401" pin="25"/>
+      <node ref="J103" pin="4"/>
+    </net>
+    <net code="29" name="/Stepper_z/OA1_Z">
+      <node ref="U401" pin="28"/>
+      <node ref="J103" pin="3"/>
+    </net>
+    <net code="30" name="/Stepper_rotation/OA2_ROT">
+      <node ref="J102" pin="4"/>
+      <node ref="U501" pin="25"/>
+    </net>
+    <net code="31" name="/EN_ROT">
+      <node ref="U501" pin="5"/>
+      <node ref="J106" pin="1"/>
+    </net>
+    <net code="32" name="/Stepper_rotation/OA1_ROT">
+      <node ref="U501" pin="28"/>
+      <node ref="J102" pin="3"/>
+    </net>
+    <net code="33" name="/Stepper_rotation/OB2_ROT">
+      <node ref="U501" pin="4"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="34" name="/Stepper_rotation/OB1_ROT">
+      <node ref="J102" pin="2"/>
+      <node ref="U501" pin="1"/>
+    </net>
+    <net code="35" name="/Stepper_y/OB2_Y">
+      <node ref="J105" pin="1"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="36" name="/Stepper_x/OB1_X">
+      <node ref="J104" pin="2"/>
+      <node ref="U502" pin="1"/>
+    </net>
+    <net code="37" name="/Stepper_x/OB2_X">
+      <node ref="J104" pin="1"/>
+      <node ref="U502" pin="4"/>
+    </net>
+    <net code="38" name="/Stepper_y/OA2_Y">
+      <node ref="U201" pin="25"/>
+      <node ref="J105" pin="4"/>
+    </net>
+    <net code="39" name="/Stepper_y/OA1_Y">
+      <node ref="J105" pin="3"/>
+      <node ref="U201" pin="28"/>
+    </net>
+    <net code="40" name="/Stepper_y/OB1_Y">
+      <node ref="U201" pin="1"/>
+      <node ref="J105" pin="2"/>
+    </net>
+    <net code="41" name="/Stepper_x/OA1_X">
+      <node ref="U502" pin="28"/>
+      <node ref="J104" pin="3"/>
+    </net>
+    <net code="42" name="/INDEX_ROT">
+      <node ref="U501" pin="16"/>
+      <node ref="J106" pin="3"/>
+    </net>
+    <net code="43" name="/DIAG_ROT">
+      <node ref="U501" pin="15"/>
+      <node ref="J106" pin="2"/>
+    </net>
+    <net code="44" name="/DIR_ROT">
+      <node ref="U501" pin="23"/>
+      <node ref="J106" pin="6"/>
+    </net>
+    <net code="45" name="/STEP_ROT">
+      <node ref="J106" pin="4"/>
+      <node ref="U501" pin="20"/>
+    </net>
+    <net code="46" name="/CUR_ROT">
+      <node ref="J106" pin="5"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="47" name="Net-(C203-Pad2)">
+      <node ref="U201" pin="21"/>
+      <node ref="R201" pin="1"/>
+      <node ref="C203" pin="2"/>
+    </net>
+    <net code="48" name="Net-(C204-Pad2)">
+      <node ref="U201" pin="7"/>
+      <node ref="C204" pin="2"/>
+    </net>
+    <net code="49" name="Net-(U201-Pad13)">
+      <node ref="U201" pin="13"/>
+    </net>
+    <net code="50" name="Net-(C204-Pad1)">
+      <node ref="U201" pin="8"/>
+      <node ref="C204" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C205-Pad1)">
+      <node ref="C205" pin="1"/>
+      <node ref="U201" pin="9"/>
+    </net>
+    <net code="52" name="Net-(SW201-Pad4)">
+      <node ref="SW201" pin="4"/>
+      <node ref="U201" pin="10"/>
+    </net>
+    <net code="53" name="Net-(SW201-Pad5)">
+      <node ref="SW201" pin="5"/>
+      <node ref="U201" pin="14"/>
+    </net>
+    <net code="54" name="Net-(SW201-Pad6)">
+      <node ref="U201" pin="12"/>
+      <node ref="SW201" pin="6"/>
+    </net>
+    <net code="55" name="/Stepper_y/5VOUT">
+      <node ref="U201" pin="11"/>
+      <node ref="C202" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R202-Pad2)">
+      <node ref="U201" pin="27"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="57" name="Net-(R203-Pad2)">
+      <node ref="R203" pin="2"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="58" name="Net-(C513-Pad2)">
+      <node ref="U502" pin="7"/>
+      <node ref="C513" pin="2"/>
+    </net>
+    <net code="59" name="/Stepper_x/5VOUT">
+      <node ref="U502" pin="11"/>
+      <node ref="C511" pin="2"/>
+    </net>
+    <net code="60" name="Net-(C514-Pad1)">
+      <node ref="C514" pin="1"/>
+      <node ref="U502" pin="9"/>
+    </net>
+    <net code="61" name="Net-(C513-Pad1)">
+      <node ref="U502" pin="8"/>
+      <node ref="C513" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R505-Pad2)">
+      <node ref="U502" pin="27"/>
+      <node ref="R505" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R506-Pad2)">
+      <node ref="R506" pin="2"/>
+      <node ref="U502" pin="2"/>
+    </net>
+    <net code="64" name="Net-(U502-Pad13)">
+      <node ref="U502" pin="13"/>
+    </net>
+    <net code="65" name="Net-(SW502-Pad6)">
+      <node ref="U502" pin="12"/>
+      <node ref="SW502" pin="6"/>
+    </net>
+    <net code="66" name="Net-(SW502-Pad4)">
+      <node ref="SW502" pin="4"/>
+      <node ref="U502" pin="10"/>
+    </net>
+    <net code="67" name="Net-(SW502-Pad5)">
+      <node ref="SW502" pin="5"/>
+      <node ref="U502" pin="14"/>
+    </net>
+    <net code="68" name="Net-(C512-Pad2)">
+      <node ref="R504" pin="1"/>
+      <node ref="C512" pin="2"/>
+      <node ref="U502" pin="21"/>
+    </net>
+    <net code="69" name="Net-(C403-Pad2)">
+      <node ref="U401" pin="21"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C403" pin="2"/>
+    </net>
+    <net code="70" name="Net-(C404-Pad2)">
+      <node ref="C404" pin="2"/>
+      <node ref="U401" pin="7"/>
+    </net>
+    <net code="71" name="Net-(U401-Pad13)">
+      <node ref="U401" pin="13"/>
+    </net>
+    <net code="72" name="Net-(C404-Pad1)">
+      <node ref="C404" pin="1"/>
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="73" name="Net-(C405-Pad1)">
+      <node ref="U401" pin="9"/>
+      <node ref="C405" pin="1"/>
+    </net>
+    <net code="74" name="Net-(SW401-Pad4)">
+      <node ref="SW401" pin="4"/>
+      <node ref="U401" pin="10"/>
+    </net>
+    <net code="75" name="Net-(SW401-Pad5)">
+      <node ref="U401" pin="14"/>
+      <node ref="SW401" pin="5"/>
+    </net>
+    <net code="76" name="Net-(SW401-Pad6)">
+      <node ref="SW401" pin="6"/>
+      <node ref="U401" pin="12"/>
+    </net>
+    <net code="77" name="/Stepper_z/5VOUT">
+      <node ref="U401" pin="11"/>
+      <node ref="C402" pin="2"/>
+    </net>
+    <net code="78" name="Net-(R402-Pad2)">
+      <node ref="U401" pin="27"/>
+      <node ref="R402" pin="2"/>
+    </net>
+    <net code="79" name="Net-(R403-Pad2)">
+      <node ref="R403" pin="2"/>
+      <node ref="U401" pin="2"/>
+    </net>
+    <net code="80" name="Net-(R502-Pad2)">
+      <node ref="R502" pin="2"/>
+      <node ref="U501" pin="27"/>
+    </net>
+    <net code="81" name="Net-(R503-Pad2)">
+      <node ref="U501" pin="2"/>
+      <node ref="R503" pin="2"/>
+    </net>
+    <net code="82" name="/Stepper_rotation/5VOUT">
+      <node ref="C502" pin="2"/>
+      <node ref="U501" pin="11"/>
+    </net>
+    <net code="83" name="Net-(SW501-Pad4)">
+      <node ref="U501" pin="10"/>
+      <node ref="SW501" pin="4"/>
+    </net>
+    <net code="84" name="Net-(SW501-Pad5)">
+      <node ref="SW501" pin="5"/>
+      <node ref="U501" pin="14"/>
+    </net>
+    <net code="85" name="Net-(SW501-Pad6)">
+      <node ref="SW501" pin="6"/>
+      <node ref="U501" pin="12"/>
+    </net>
+    <net code="86" name="Net-(C505-Pad1)">
+      <node ref="U501" pin="9"/>
+      <node ref="C505" pin="1"/>
+    </net>
+    <net code="87" name="Net-(C504-Pad1)">
+      <node ref="C504" pin="1"/>
+      <node ref="U501" pin="8"/>
+    </net>
+    <net code="88" name="Net-(C504-Pad2)">
+      <node ref="C504" pin="2"/>
+      <node ref="U501" pin="7"/>
+    </net>
+    <net code="89" name="Net-(U501-Pad13)">
+      <node ref="U501" pin="13"/>
+    </net>
+    <net code="90" name="Net-(C503-Pad2)">
+      <node ref="U501" pin="21"/>
+      <node ref="C503" pin="2"/>
+      <node ref="R501" pin="1"/>
+    </net>
+  </nets>
+</export>
