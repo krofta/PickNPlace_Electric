@@ -172,6 +172,7 @@ F 0 "J107" H 14650 9517 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 14650 9426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Horizontal" H 14600 9000 50  0001 C CNN
 F 3 "~" H 14600 9000 50  0001 C CNN
+F 4 "C146608" H 14600 9000 50  0001 C CNN "LCSC"
 	1    14600 9000
 	1    0    0    -1  
 $EndComp
@@ -1580,6 +1581,7 @@ F 0 "J106" H 14555 6567 50  0000 C CNN
 F 1 "WE_629104190121" H 14555 6476 50  0000 C CNN
 F 2 "ProjectFootprints:WE629104190121" H 14650 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811170208_Jing-Extension-of-the-Electronic-Co-LCSC-A-F90-Vinyl-Not-high-temperature_C46405.pdf" H 14650 6050 50  0001 C CNN
+F 4 "C718026" H 14500 6100 50  0001 C CNN "LCSC"
 	1    14500 6100
 	-1   0    0    -1  
 $EndComp
@@ -2423,10 +2425,10 @@ L Device:R_Small R127
 U 1 1 60426DAE
 P 10250 9250
 F 0 "R127" H 10191 9204 50  0000 R CNN
-F 1 "10K" H 10191 9295 50  0000 R CNN
+F 1 "1k" H 10191 9295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10250 9250 50  0001 C CNN
 F 3 "~" H 10250 9250 50  0001 C CNN
-F 4 "C99198" H 10250 9250 50  0001 C CNN "LCSC"
+F 4 "C21190" H 10250 9250 50  0001 C CNN "LCSC"
 	1    10250 9250
 	-1   0    0    1   
 $EndComp
@@ -3131,10 +3133,10 @@ $EndComp
 Wire Wire Line
 	6950 4650 8000 4650
 $Comp
-L Device:R_Small R?
+L Device:R_Small R115
 U 1 1 6017D48A
 P 6800 4350
-F 0 "R?" H 6741 4304 50  0000 R CNN
+F 0 "R115" H 6741 4304 50  0000 R CNN
 F 1 "10K" H 6741 4395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 4350 50  0001 C CNN
 F 3 "~" H 6800 4350 50  0001 C CNN
@@ -3152,4 +3154,37 @@ Wire Wire Line
 Connection ~ 6800 4650
 Wire Wire Line
 	6800 4650 6700 4650
+$Comp
+L PorjectLibrary:Empty U?
+U 1 1 601D655D
+P 7150 9600
+F 0 "U?" H 7328 9646 50  0000 L CNN
+F 1 "Panasonic_ESE22" H 7328 9555 50  0000 L CNN
+F 2 "ProjectFootprints:Empty" H 7150 9600 50  0001 C CNN
+F 3 "" H 7150 9600 50  0001 C CNN
+	1    7150 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PorjectLibrary:Empty U?
+U 1 1 602321B1
+P 7150 10100
+F 0 "U?" H 7328 10146 50  0000 L CNN
+F 1 "N20_DC_Motor" H 7328 10055 50  0000 L CNN
+F 2 "ProjectFootprints:Empty" H 7150 10100 50  0001 C CNN
+F 3 "" H 7150 10100 50  0001 C CNN
+	1    7150 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PorjectLibrary:Empty U?
+U 1 1 60254EDC
+P 7150 10600
+F 0 "U?" H 7328 10646 50  0000 L CNN
+F 1 "N20_DC_Motor" H 7328 10555 50  0000 L CNN
+F 2 "ProjectFootprints:Empty" H 7150 10600 50  0001 C CNN
+F 3 "" H 7150 10600 50  0001 C CNN
+	1    7150 10600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

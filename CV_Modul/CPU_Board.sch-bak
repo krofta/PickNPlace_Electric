@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:CPU_Board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1577,6 +1576,7 @@ F 0 "J105" H 14350 6150 50  0000 C CNN
 F 1 "Conn_02x09_Odd_Even" H 14350 6050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 14300 6700 50  0001 C CNN
 F 3 "~" H 14300 6700 50  0001 C CNN
+F 4 "C11216" H 14300 6700 50  0001 C CNN "LCSC"
 	1    14300 6700
 	1    0    0    -1  
 $EndComp
@@ -4401,4 +4401,42 @@ Wire Wire Line
 	12700 1550 12550 1550
 Wire Wire Line
 	13250 1750 13250 1900
+$Comp
+L PorjectLibrary:Empty U?
+U 1 1 601E6B94
+P 15100 5600
+F 0 "U?" H 15278 5646 50  0000 L CNN
+F 1 "IDC Connector 18P" H 15278 5555 50  0000 L CNN
+F 2 "ProjectFootprints:Empty" H 15100 5600 50  0001 C CNN
+F 3 "" H 15100 5600 50  0001 C CNN
+F 4 "C376143" H 15100 5600 50  0001 C CNN "LCSC"
+	1    15100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PorjectLibrary:Empty U?
+U 1 1 601EB0C2
+P 15100 5850
+F 0 "U?" H 15278 5896 50  0000 L CNN
+F 1 "IDC Connector 18P" H 15278 5805 50  0000 L CNN
+F 2 "ProjectFootprints:Empty" H 15100 5850 50  0001 C CNN
+F 3 "" H 15100 5850 50  0001 C CNN
+F 4 "C376143" H 15100 5850 50  0001 C CNN "LCSC"
+	1    15100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PorjectLibrary:Empty J?
+U 1 1 6025AD06
+P 11900 6350
+F 0 "J?" H 11900 6650 50  0000 C CNN
+F 1 "IPC 16P" H 11900 6550 50  0000 C CNN
+F 2 "ProjectFootprints:Empty" H 11900 6350 50  0001 C CNN
+F 3 "~" H 11900 6350 50  0001 C CNN
+F 4 "C8372" H 11900 6350 50  0001 C CNN "LCSC"
+	1    11900 6350
+	1    0    0    -1  
+$EndComp
+Text Notes 11750 6700 0    50   ~ 0
+IDC Connector for BOM\n16P 2Rows 2,54mm Pitch
 $EndSCHEMATC

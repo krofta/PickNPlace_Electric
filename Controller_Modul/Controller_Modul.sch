@@ -1029,67 +1029,67 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x06_Male J?
 U 1 1 6006C002
-P 3900 9400
+P 2150 8600
 AR Path="/5FDD0F66/6006C002" Ref="J?"  Part="1" 
 AR Path="/6006C002" Ref="J103"  Part="1" 
-F 0 "J103" H 4300 9850 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 4200 9750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3900 9400 50  0001 C CNN
-F 3 "~" H 3900 9400 50  0001 C CNN
-	1    3900 9400
+F 0 "J103" H 2550 9050 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2450 8950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2150 8600 50  0001 C CNN
+F 3 "~" H 2150 8600 50  0001 C CNN
+	1    2150 8600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6006C009
-P 2850 9200
+P 1100 8400
 AR Path="/5FDD0F66/6006C009" Ref="#PWR?"  Part="1" 
 AR Path="/6006C009" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 2850 8950 50  0001 C CNN
-F 1 "GND" H 2950 9050 50  0000 R CNN
-F 2 "" H 2850 9200 50  0001 C CNN
-F 3 "" H 2850 9200 50  0001 C CNN
-	1    2850 9200
+F 0 "#PWR0123" H 1100 8150 50  0001 C CNN
+F 1 "GND" H 1200 8250 50  0000 R CNN
+F 2 "" H 1100 8400 50  0001 C CNN
+F 3 "" H 1100 8400 50  0001 C CNN
+	1    1100 8400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 9200 2850 9200
-Text Label 3600 9300 2    50   ~ 0
+	1950 8400 1100 8400
+Text Label 1850 8500 2    50   ~ 0
 T_JTCK
 $Comp
 L power:GND #PWR?
 U 1 1 6006C011
-P 2850 9400
+P 1100 8600
 AR Path="/5FDD0F66/6006C011" Ref="#PWR?"  Part="1" 
 AR Path="/6006C011" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR0124" H 2850 9150 50  0001 C CNN
-F 1 "GND" H 2950 9250 50  0000 R CNN
-F 2 "" H 2850 9400 50  0001 C CNN
-F 3 "" H 2850 9400 50  0001 C CNN
-	1    2850 9400
+F 0 "#PWR0124" H 1100 8350 50  0001 C CNN
+F 1 "GND" H 1200 8450 50  0000 R CNN
+F 2 "" H 1100 8600 50  0001 C CNN
+F 3 "" H 1100 8600 50  0001 C CNN
+	1    1100 8600
 	0    1    1    0   
 $EndComp
-Text Label 3600 9500 2    50   ~ 0
+Text Label 1850 8700 2    50   ~ 0
 T_JTMS
-Text Label 3600 9600 2    50   ~ 0
+Text Label 1850 8800 2    50   ~ 0
 T_NRST
 Wire Wire Line
-	3700 9400 2850 9400
-Text Label 2950 9600 0    50   ~ 0
+	1950 8600 1100 8600
+Text Label 1200 8800 0    50   ~ 0
 NRST
 Wire Wire Line
-	2950 9600 3700 9600
-Text Label 2950 9500 0    50   ~ 0
+	1200 8800 1950 8800
+Text Label 1200 8700 0    50   ~ 0
 PA13
 Wire Wire Line
-	2950 9500 3700 9500
-Text Label 2950 9300 0    50   ~ 0
+	1200 8700 1950 8700
+Text Label 1200 8500 0    50   ~ 0
 PA14
 Wire Wire Line
-	2950 9300 3700 9300
-Text Notes 3300 9900 0    50   ~ 0
+	1200 8500 1950 8500
+Text Notes 1550 9100 0    50   ~ 0
 ST-LINK
-NoConn ~ 3700 9700
+NoConn ~ 1950 8900
 Text Label 4300 4150 0    50   ~ 0
 PA14
 Text Label 4300 4050 0    50   ~ 0
@@ -1898,6 +1898,7 @@ F 0 "J109" H 14100 7067 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 14100 6976 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 14050 5950 50  0001 C CNN
 F 3 "~" H 14050 5950 50  0001 C CNN
+F 4 "C601944" H 14050 5950 50  0001 C CNN "LCSC"
 	1    14050 5950
 	1    0    0    -1  
 $EndComp
@@ -2914,6 +2915,7 @@ F 0 "J106" H 9206 9828 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 9206 9737 50  0000 C CNN
 F 2 "ProjectFootprints:ST7789_Waveshare2" H 9100 9350 50  0001 C CNN
 F 3 "~" H 9100 9350 50  0001 C CNN
+F 4 "C3406" H 9100 9350 50  0001 C CNN "LCSC"
 	1    9100 9350
 	1    0    0    -1  
 $EndComp
@@ -3760,6 +3762,7 @@ F 0 "J111" H 11100 7067 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 11100 6976 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 11050 5950 50  0001 C CNN
 F 3 "~" H 11050 5950 50  0001 C CNN
+F 4 "C601944" H 11050 5950 50  0001 C CNN "LCSC"
 	1    11050 5950
 	1    0    0    -1  
 $EndComp
@@ -4471,4 +4474,44 @@ Text Label 7250 3550 0    50   ~ 0
 USB_FS_D+
 Text Label 7250 3750 0    50   ~ 0
 USB_FS_D-
+$Comp
+L PorjectLibrary:Empty J108
+U 1 1 6029D132
+P 4150 9900
+F 0 "J108" H 4150 10200 50  0000 C CNN
+F 1 "IPC 16P" H 4150 10100 50  0000 C CNN
+F 2 "ProjectFootprints:Empty" H 4150 9900 50  0001 C CNN
+F 3 "~" H 4150 9900 50  0001 C CNN
+F 4 "C8372" H 4150 9900 50  0001 C CNN "LCSC"
+	1    4150 9900
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 10250 0    50   ~ 0
+IDC Connector for BOM\n16P 2Rows 2,54mm Pitch
+$Comp
+L PorjectLibrary:Empty J114
+U 1 1 6026697E
+P 3100 9900
+F 0 "J114" H 3100 10150 50  0000 C CNN
+F 1 "IPC 40P" H 3100 10050 50  0000 C CNN
+F 2 "ProjectFootprints:Empty" H 3100 9900 50  0001 C CNN
+F 3 "~" H 3100 9900 50  0001 C CNN
+F 4 "C601933" H 3100 9900 50  0001 C CNN "LCSC"
+	1    3100 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PorjectLibrary:Empty J115
+U 1 1 60DA27AD
+P 3650 9900
+F 0 "J115" H 3650 10150 50  0000 C CNN
+F 1 "IPC 40P" H 3650 10050 50  0000 C CNN
+F 2 "ProjectFootprints:Empty" H 3650 9900 50  0001 C CNN
+F 3 "~" H 3650 9900 50  0001 C CNN
+F 4 "C601933" H 3650 9900 50  0001 C CNN "LCSC"
+	1    3650 9900
+	1    0    0    -1  
+$EndComp
+Text Notes 2850 10250 0    50   ~ 0
+IDC Connector for BOM\n40P 2Rows 2,54mm Pitch
 $EndSCHEMATC
