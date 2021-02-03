@@ -1472,8 +1472,6 @@ Wire Wire Line
 	2250 2300 2000 2300
 Wire Wire Line
 	2000 2300 2000 2250
-Wire Wire Line
-	1700 2300 2000 2300
 Connection ~ 2000 2300
 Text Label 1700 2300 2    50   ~ 0
 NRST
@@ -4453,4 +4451,31 @@ F 4 "C8372" H 11900 6350 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 11450 6700 0    50   ~ 0
 IDC Connector for BOM\n16P 2Rows 2,54mm Pitch
+$Comp
+L Switch:SW_Push SW102
+U 1 1 6033743F
+P 1150 2300
+F 0 "SW102" H 1150 2585 50  0000 C CNN
+F 1 "SW_Push" H 1150 2494 50  0000 C CNN
+F 2 "ProjectFootprints:TactileSwitchLCSC" H 1150 2500 50  0001 C CNN
+F 3 "" H 1150 2500 50  0001 C CNN
+F 4 "C455137" H -1750 -3550 50  0001 C CNN "LCSC"
+	1    1150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2300 2000 2300
+$Comp
+L power:GND #PWR?
+U 1 1 603B1885
+P 950 2300
+AR Path="/5FDD0F66/603B1885" Ref="#PWR?"  Part="1" 
+AR Path="/603B1885" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 950 2050 50  0001 C CNN
+F 1 "GND" V 1050 2200 50  0000 R CNN
+F 2 "" H 950 2300 50  0001 C CNN
+F 3 "" H 950 2300 50  0001 C CNN
+	1    950  2300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

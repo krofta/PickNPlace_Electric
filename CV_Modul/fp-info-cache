@@ -1,4 +1,4 @@
-19004044549385801
+19005656873290801
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73493,6 +73493,13 @@ EE-SX1350_90deg
 6
 6
 ProjectFootprints
+Empty
+
+
+0
+0
+0
+ProjectFootprints
 L_CommonModeChoke_Coilcraft_1812CAN
 Coilcraft 1812CAN Series Common Mode Choke, https://www.coilcraft.com/pdfs/1812can.pdf
 surface mount common mode bead
@@ -73507,6 +73514,13 @@ ST7789_Waveshare
 8
 8
 ProjectFootprints
+ST7789_Waveshare2
+
+
+0
+16
+16
+ProjectFootprints
 TF-115-BCP9
 
 
@@ -73520,13 +73534,6 @@ TactileSwitchLCSC
 0
 4
 2
-ProjectFootprints
-USB-A-Conn_LCSC
-
-
-0
-6
-5
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
