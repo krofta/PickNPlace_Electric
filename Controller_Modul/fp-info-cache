@@ -1,4 +1,4 @@
-19005656873290801
+19004045825584801
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73508,13 +73508,6 @@ surface mount common mode bead
 4
 ProjectFootprints
 ST7789_Waveshare
-
-
-0
-8
-8
-ProjectFootprints
-ST7789_Waveshare2
 
 
 0
