@@ -3238,4 +3238,37 @@ Text Label 11850 6350 0    50   ~ 0
 USB_OTG-
 NoConn ~ 10850 6150
 NoConn ~ 10850 6350
+$Comp
+L Mechanical:Fiducial FID101
+U 1 1 6025399D
+P 1000 8500
+F 0 "FID101" H 1085 8546 50  0000 L CNN
+F 1 "Fiducial" H 1085 8455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1000 8500 50  0001 C CNN
+F 3 "~" H 1000 8500 50  0001 C CNN
+	1    1000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID102
+U 1 1 60254D5A
+P 1000 8750
+F 0 "FID102" H 1085 8796 50  0000 L CNN
+F 1 "Fiducial" H 1085 8705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1000 8750 50  0001 C CNN
+F 3 "~" H 1000 8750 50  0001 C CNN
+	1    1000 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID103
+U 1 1 602552E6
+P 1000 9000
+F 0 "FID103" H 1085 9046 50  0000 L CNN
+F 1 "Fiducial" H 1085 8955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1000 9000 50  0001 C CNN
+F 3 "~" H 1000 9000 50  0001 C CNN
+	1    1000 9000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -2021,4 +2021,37 @@ F 4 "C8475" H 6950 5650 50  0000 C CNN "LCSC"
 	1    6650 5500
 	-1   0    0    1   
 $EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 602B2FA0
+P 2650 6650
+F 0 "FID?" H 2735 6696 50  0000 L CNN
+F 1 "Fiducial" H 2735 6605 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2650 6650 50  0001 C CNN
+F 3 "~" H 2650 6650 50  0001 C CNN
+	1    2650 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 602B428B
+P 2650 6850
+F 0 "FID?" H 2735 6896 50  0000 L CNN
+F 1 "Fiducial" H 2735 6805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2650 6850 50  0001 C CNN
+F 3 "~" H 2650 6850 50  0001 C CNN
+	1    2650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 602B49FA
+P 2650 7050
+F 0 "FID?" H 2735 7096 50  0000 L CNN
+F 1 "Fiducial" H 2735 7005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2650 7050 50  0001 C CNN
+F 3 "~" H 2650 7050 50  0001 C CNN
+	1    2650 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

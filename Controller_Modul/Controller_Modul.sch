@@ -4595,4 +4595,37 @@ F 3 "" H 5700 3450 50  0001 C CNN
 	1    5700 3450
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Mechanical:Fiducial FID101
+U 1 1 6021DC68
+P 6500 10500
+F 0 "FID101" H 6585 10546 50  0000 L CNN
+F 1 "Fiducial" H 6585 10455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6500 10500 50  0001 C CNN
+F 3 "~" H 6500 10500 50  0001 C CNN
+	1    6500 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID102
+U 1 1 60223FCE
+P 7000 10500
+F 0 "FID102" H 7085 10546 50  0000 L CNN
+F 1 "Fiducial" H 7085 10455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7000 10500 50  0001 C CNN
+F 3 "~" H 7000 10500 50  0001 C CNN
+	1    7000 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID103
+U 1 1 60224658
+P 7500 10500
+F 0 "FID103" H 7585 10546 50  0000 L CNN
+F 1 "Fiducial" H 7585 10455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7500 10500 50  0001 C CNN
+F 3 "~" H 7500 10500 50  0001 C CNN
+	1    7500 10500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
