@@ -2391,10 +2391,10 @@ Wire Wire Line
 	13000 8550 12900 8550
 Connection ~ 11900 8550
 Wire Wire Line
-	13050 9150 12200 9150
+	13050 9150 13000 9150
 Connection ~ 11900 9150
 Wire Wire Line
-	12900 8800 12900 8550
+	12900 8800 12900 8700
 Connection ~ 12900 8550
 Wire Wire Line
 	12900 8550 11900 8550
@@ -3239,10 +3239,10 @@ USB_OTG-
 NoConn ~ 10850 6150
 NoConn ~ 10850 6350
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID101
 U 1 1 6025399D
 P 1000 8500
-F 0 "FID?" H 1085 8546 50  0000 L CNN
+F 0 "FID101" H 1085 8546 50  0000 L CNN
 F 1 "Fiducial" H 1085 8455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1000 8500 50  0001 C CNN
 F 3 "~" H 1000 8500 50  0001 C CNN
@@ -3250,10 +3250,10 @@ F 3 "~" H 1000 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID102
 U 1 1 60254D5A
 P 1000 8750
-F 0 "FID?" H 1085 8796 50  0000 L CNN
+F 0 "FID102" H 1085 8796 50  0000 L CNN
 F 1 "Fiducial" H 1085 8705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1000 8750 50  0001 C CNN
 F 3 "~" H 1000 8750 50  0001 C CNN
@@ -3261,14 +3261,53 @@ F 3 "~" H 1000 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID103
 U 1 1 602552E6
 P 1000 9000
-F 0 "FID?" H 1085 9046 50  0000 L CNN
+F 0 "FID103" H 1085 9046 50  0000 L CNN
 F 1 "Fiducial" H 1085 8955 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1000 9000 50  0001 C CNN
 F 3 "~" H 1000 9000 50  0001 C CNN
 	1    1000 9000
 	1    0    0    -1  
 $EndComp
+Text Notes 11950 9600 0    50   ~ 0
+Built in ESD Protection 16kV
+$Comp
+L Power_Protection:NUP2105L D?
+U 1 1 6054232A
+P 13500 8800
+F 0 "D?" V 12950 8750 50  0000 L CNN
+F 1 "SM24CANA-02HTG" V 12850 8450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13725 8750 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 13625 8925 50  0001 C CNN
+F 4 "C151236" H 13500 8800 50  0001 C CNN "LCSC"
+	1    13500 8800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13300 8900 13000 8900
+Wire Wire Line
+	13000 8900 13000 9150
+Connection ~ 13000 9150
+Wire Wire Line
+	13000 9150 12200 9150
+Wire Wire Line
+	13300 8700 12900 8700
+Connection ~ 12900 8700
+Wire Wire Line
+	12900 8700 12900 8550
+$Comp
+L power:GND #PWR?
+U 1 1 605AEC06
+P 13800 8800
+F 0 "#PWR?" H 13800 8550 50  0001 C CNN
+F 1 "GND" H 13805 8627 50  0000 C CNN
+F 2 "" H 13800 8800 50  0001 C CNN
+F 3 "" H 13800 8800 50  0001 C CNN
+	1    13800 8800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 8800 13700 8800
 $EndSCHEMATC

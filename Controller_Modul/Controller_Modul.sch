@@ -3952,13 +3952,13 @@ Wire Wire Line
 	14900 2850 15250 2850
 Wire Wire Line
 	14900 2950 15250 2950
-Text Label 13500 1650 0    50   ~ 0
+Text Label 14550 1650 0    50   ~ 0
 CAN1_H
-Text Label 13500 1850 0    50   ~ 0
+Text Label 14550 1850 0    50   ~ 0
 CAN1_L
-Text Label 13500 3500 0    50   ~ 0
+Text Label 14450 3500 0    50   ~ 0
 CAN2_H
-Text Label 13500 3700 0    50   ~ 0
+Text Label 14450 3700 0    50   ~ 0
 CAN2_L
 $Comp
 L Connector:Screw_Terminal_01x06 J101
@@ -4368,12 +4368,12 @@ Wire Wire Line
 	12400 1850 13350 1850
 Connection ~ 12850 1650
 Wire Wire Line
-	12850 1650 13500 1650
+	12850 1650 13650 1650
 Wire Wire Line
 	13350 2250 13350 1850
 Connection ~ 13350 1850
 Wire Wire Line
-	13350 1850 13500 1850
+	13350 1850 13850 1850
 $Comp
 L Connector_Generic:Conn_02x01 J?
 U 1 1 608CB739
@@ -4398,16 +4398,12 @@ Wire Wire Line
 	12400 3700 13350 3700
 Connection ~ 12850 3500
 Wire Wire Line
-	12850 3500 13500 3500
+	12850 3500 13700 3500
 Wire Wire Line
 	13350 4000 13350 3700
 Connection ~ 13350 3700
 Wire Wire Line
-	13350 3700 13500 3700
-Text Notes 12600 1500 0    50   ~ 0
-Built in ESD Protection 16kV
-Text Notes 12650 3400 0    50   ~ 0
-Built in ESD Protection 16kV
+	13350 3700 13900 3700
 Text Notes 9700 2400 0    50   ~ 0
 High Speed Mode
 Text Notes 9750 4100 0    50   ~ 0
@@ -4628,4 +4624,70 @@ F 3 "~" H 7500 10500 50  0001 C CNN
 	1    7500 10500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Power_Protection:NUP2105L D104
+U 1 1 60571CCA
+P 13800 4000
+F 0 "D104" H 13800 4700 50  0000 L CNN
+F 1 "SM24CANA-02HTG" H 13650 4600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14025 3950 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 13925 4125 50  0001 C CNN
+F 4 "C151236" H 13800 4000 50  0001 C CNN "LCSC"
+	1    13800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 60571CD0
+P 13800 4200
+F 0 "#PWR0182" H 13800 3950 50  0001 C CNN
+F 1 "GND" H 13805 4027 50  0000 C CNN
+F 2 "" H 13800 4200 50  0001 C CNN
+F 3 "" H 13800 4200 50  0001 C CNN
+	1    13800 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 3800 13700 3500
+Connection ~ 13700 3500
+Wire Wire Line
+	13700 3500 14450 3500
+Wire Wire Line
+	13900 3800 13900 3700
+Connection ~ 13900 3700
+Wire Wire Line
+	13900 3700 14450 3700
+$Comp
+L Power_Protection:NUP2105L D103
+U 1 1 6072B4A3
+P 13750 2250
+F 0 "D103" H 13750 3050 50  0000 L CNN
+F 1 "SM24CANA-02HTG" H 13400 2900 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13975 2200 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 13875 2375 50  0001 C CNN
+F 4 "C151236" H 13750 2250 50  0001 C CNN "LCSC"
+	1    13750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0183
+U 1 1 6072BC55
+P 13750 2450
+F 0 "#PWR0183" H 13750 2200 50  0001 C CNN
+F 1 "GND" H 13755 2277 50  0000 C CNN
+F 2 "" H 13750 2450 50  0001 C CNN
+F 3 "" H 13750 2450 50  0001 C CNN
+	1    13750 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 2050 13650 1650
+Connection ~ 13650 1650
+Wire Wire Line
+	13650 1650 14550 1650
+Wire Wire Line
+	13850 2050 13850 1850
+Connection ~ 13850 1850
+Wire Wire Line
+	13850 1850 14550 1850
 $EndSCHEMATC
