@@ -748,35 +748,38 @@ Connection ~ 2600 2200
 Text Notes 2950 1900 0    50   ~ 0
 Same resistor as in CPU-Board\nto reduce BOM\n
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID101
 U 1 1 602BDED6
 P 5000 6200
-F 0 "FID?" H 5085 6246 50  0000 L CNN
+F 0 "FID101" H 5085 6246 50  0000 L CNN
 F 1 "Fiducial" H 5085 6155 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5000 6200 50  0001 C CNN
 F 3 "~" H 5000 6200 50  0001 C CNN
+F 4 "0" H 5000 6200 50  0001 C CNN "LCSC"
 	1    5000 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID102
 U 1 1 602BE652
 P 5000 6400
-F 0 "FID?" H 5085 6446 50  0000 L CNN
+F 0 "FID102" H 5085 6446 50  0000 L CNN
 F 1 "Fiducial" H 5085 6355 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5000 6400 50  0001 C CNN
 F 3 "~" H 5000 6400 50  0001 C CNN
+F 4 "0" H 5000 6400 50  0001 C CNN "LCSC"
 	1    5000 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID103
 U 1 1 602BE98D
 P 5000 6600
-F 0 "FID?" H 5085 6646 50  0000 L CNN
+F 0 "FID103" H 5085 6646 50  0000 L CNN
 F 1 "Fiducial" H 5085 6555 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5000 6600 50  0001 C CNN
 F 3 "~" H 5000 6600 50  0001 C CNN
+F 4 "0" H 5000 6600 50  0001 C CNN "LCSC"
 	1    5000 6600
 	1    0    0    -1  
 $EndComp

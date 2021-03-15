@@ -755,6 +755,7 @@ F 0 "FID101" H 5085 6246 50  0000 L CNN
 F 1 "Fiducial" H 5085 6155 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5000 6200 50  0001 C CNN
 F 3 "~" H 5000 6200 50  0001 C CNN
+F 4 "0" H 5000 6200 50  0001 C CNN "LCSC"
 	1    5000 6200
 	1    0    0    -1  
 $EndComp
@@ -766,6 +767,7 @@ F 0 "FID102" H 5085 6446 50  0000 L CNN
 F 1 "Fiducial" H 5085 6355 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5000 6400 50  0001 C CNN
 F 3 "~" H 5000 6400 50  0001 C CNN
+F 4 "0" H 5000 6400 50  0001 C CNN "LCSC"
 	1    5000 6400
 	1    0    0    -1  
 $EndComp
@@ -777,6 +779,7 @@ F 0 "FID103" H 5085 6646 50  0000 L CNN
 F 1 "Fiducial" H 5085 6555 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5000 6600 50  0001 C CNN
 F 3 "~" H 5000 6600 50  0001 C CNN
+F 4 "0" H 5000 6600 50  0001 C CNN "LCSC"
 	1    5000 6600
 	1    0    0    -1  
 $EndComp

@@ -127,7 +127,7 @@
   )
 
   (module ProjectFootprints:Empty (layer F.Cu) (tedit 60192699) (tstamp 601997AE)
-    (at 154.4 103.9)
+    (at 151.35 104.25)
     (path /601D8426)
     (fp_text reference J103 (at -0.5 -1.25) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/nk/Dokumente/Pick_n_Place/02_Electric/Stepper_Modul/StepperBoard.sch</source>
-    <date>Di 02 Feb 2021 17:51:58 CET</date>
-    <tool>Eeschema 5.1.8-db9833491~87~ubuntu18.04.1</tool>
+    <date>Mo 15 Mär 2021 12:38:49 CET</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -214,6 +214,39 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>601157F0</tstamp>
     </comp>
+    <comp ref="FID101">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602BDED6</tstamp>
+    </comp>
+    <comp ref="FID102">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602BE652</tstamp>
+    </comp>
+    <comp ref="FID103">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602BE98D</tstamp>
+    </comp>
     <comp ref="SW201">
       <value>SW_DIP_x03</value>
       <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
@@ -303,22 +336,22 @@
       <tstamp>5FCB6232</tstamp>
     </comp>
     <comp ref="R202">
-      <value>0.1R 0.5W</value>
+      <value>0.22R 0.5W</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C270892</field>
+        <field name="LCSC">C159293</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
       <tstamp>5FCB6237</tstamp>
     </comp>
     <comp ref="R203">
-      <value>0.1R 0.5W</value>
+      <value>0.22R 0.5W</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C270892</field>
+        <field name="LCSC">C159293</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Stepper_y/" tstamps="/5FBD329F/"/>
@@ -456,22 +489,22 @@
       <tstamp>5FCB6233</tstamp>
     </comp>
     <comp ref="R402">
-      <value>0.1R 0.5W</value>
+      <value>0.5R 0.5W</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C270892</field>
+        <field name="LCSC">C305329</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
       <tstamp>5FCB6236</tstamp>
     </comp>
     <comp ref="R403">
-      <value>0.1R 0.5W</value>
+      <value>0.5R 0.5W</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C270892</field>
+        <field name="LCSC">C305329</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Stepper_z/" tstamps="/5FCAEEEC/"/>
@@ -609,22 +642,22 @@
       <tstamp>5FCB6234</tstamp>
     </comp>
     <comp ref="R502">
-      <value>0.1R 0.5W</value>
+      <value>1R 0.5W</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C270892</field>
+        <field name="LCSC">C136108</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
       <tstamp>5FCB6235</tstamp>
     </comp>
     <comp ref="R503">
-      <value>0.1R 0.5W</value>
+      <value>1R 0.5W</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C270892</field>
+        <field name="LCSC">C136108</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Stepper_rotation/" tstamps="/5FCB2242/"/>
@@ -959,6 +992,17 @@
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
       <description>Mounting Hole with connection</description>

@@ -4435,8 +4435,6 @@ Wire Wire Line
 Connection ~ 9400 9650
 Wire Wire Line
 	9400 9650 9400 9550
-Text Notes 5350 6750 0    129  ~ 0
-TODO: Length Matching SDIO, SPI beachten\nConnector für Display mit CPU-Board abstimmen\nESD Schutz USB-Buchse\nStatus LED
 $Comp
 L Power_Protection:SRV05-4 U105
 U 1 1 60285F2C
@@ -4478,8 +4476,6 @@ F 3 "" H 6750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7250 3550 0    50   ~ 0
-USB_FS_D+
-Text Label 7250 3750 0    50   ~ 0
 USB_FS_D-
 $Comp
 L PorjectLibrary:Empty J108
@@ -4599,6 +4595,7 @@ F 0 "FID101" H 6585 10546 50  0000 L CNN
 F 1 "Fiducial" H 6585 10455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6500 10500 50  0001 C CNN
 F 3 "~" H 6500 10500 50  0001 C CNN
+F 4 "0" H 6500 10500 50  0001 C CNN "LCSC"
 	1    6500 10500
 	1    0    0    -1  
 $EndComp
@@ -4610,6 +4607,7 @@ F 0 "FID102" H 7085 10546 50  0000 L CNN
 F 1 "Fiducial" H 7085 10455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7000 10500 50  0001 C CNN
 F 3 "~" H 7000 10500 50  0001 C CNN
+F 4 "0" H 7000 10500 50  0001 C CNN "LCSC"
 	1    7000 10500
 	1    0    0    -1  
 $EndComp
@@ -4621,6 +4619,7 @@ F 0 "FID103" H 7585 10546 50  0000 L CNN
 F 1 "Fiducial" H 7585 10455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7500 10500 50  0001 C CNN
 F 3 "~" H 7500 10500 50  0001 C CNN
+F 4 "0" H 7500 10500 50  0001 C CNN "LCSC"
 	1    7500 10500
 	1    0    0    -1  
 $EndComp
@@ -4690,4 +4689,6 @@ Wire Wire Line
 Connection ~ 13850 1850
 Wire Wire Line
 	13850 1850 14550 1850
+Text Label 7250 3750 0    50   ~ 0
+USB_FS_D+
 $EndSCHEMATC

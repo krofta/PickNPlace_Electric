@@ -4435,8 +4435,6 @@ Wire Wire Line
 Connection ~ 9400 9650
 Wire Wire Line
 	9400 9650 9400 9550
-Text Notes 5350 6750 0    129  ~ 0
-TODO: Length Matching SDIO, SPI beachten\nConnector für Display mit CPU-Board abstimmen\nESD Schutz USB-Buchse\nStatus LED
 $Comp
 L Power_Protection:SRV05-4 U105
 U 1 1 60285F2C
@@ -4478,8 +4476,6 @@ F 3 "" H 6750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7250 3550 0    50   ~ 0
-USB_FS_D+
-Text Label 7250 3750 0    50   ~ 0
 USB_FS_D-
 $Comp
 L PorjectLibrary:Empty J108
@@ -4625,10 +4621,10 @@ F 3 "~" H 7500 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:NUP2105L D?
+L Power_Protection:NUP2105L D104
 U 1 1 60571CCA
 P 13800 4000
-F 0 "D?" H 13800 4700 50  0000 L CNN
+F 0 "D104" H 13800 4700 50  0000 L CNN
 F 1 "SM24CANA-02HTG" H 13650 4600 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14025 3950 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 13925 4125 50  0001 C CNN
@@ -4637,10 +4633,10 @@ F 4 "C151236" H 13800 4000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0182
 U 1 1 60571CD0
 P 13800 4200
-F 0 "#PWR?" H 13800 3950 50  0001 C CNN
+F 0 "#PWR0182" H 13800 3950 50  0001 C CNN
 F 1 "GND" H 13805 4027 50  0000 C CNN
 F 2 "" H 13800 4200 50  0001 C CNN
 F 3 "" H 13800 4200 50  0001 C CNN
@@ -4658,10 +4654,10 @@ Connection ~ 13900 3700
 Wire Wire Line
 	13900 3700 14450 3700
 $Comp
-L Power_Protection:NUP2105L D?
+L Power_Protection:NUP2105L D103
 U 1 1 6072B4A3
 P 13750 2250
-F 0 "D?" H 13750 3050 50  0000 L CNN
+F 0 "D103" H 13750 3050 50  0000 L CNN
 F 1 "SM24CANA-02HTG" H 13400 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 13975 2200 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 13875 2375 50  0001 C CNN
@@ -4670,10 +4666,10 @@ F 4 "C151236" H 13750 2250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0183
 U 1 1 6072BC55
 P 13750 2450
-F 0 "#PWR?" H 13750 2200 50  0001 C CNN
+F 0 "#PWR0183" H 13750 2200 50  0001 C CNN
 F 1 "GND" H 13755 2277 50  0000 C CNN
 F 2 "" H 13750 2450 50  0001 C CNN
 F 3 "" H 13750 2450 50  0001 C CNN
@@ -4690,4 +4686,6 @@ Wire Wire Line
 Connection ~ 13850 1850
 Wire Wire Line
 	13850 1850 14550 1850
+Text Label 7250 3750 0    50   ~ 0
+USB_FS_D+
 $EndSCHEMATC

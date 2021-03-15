@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/nk/Dokumente/Pick_n_Place/02_Electric/IO_Modul/IO_Modul/IO_Modul.sch</source>
-    <date>Di 02 Feb 2021 17:54:09 CET</date>
-    <tool>Eeschema 5.1.8-db9833491~87~ubuntu18.04.1</tool>
+    <date>Mo 15 Mär 2021 13:43:41 CET</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -855,6 +855,160 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>602DF947</tstamp>
     </comp>
+    <comp ref="FID101">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B2FA0</tstamp>
+    </comp>
+    <comp ref="FID102">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B428B</tstamp>
+    </comp>
+    <comp ref="FID103">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B49FA</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604C99B2</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604F9147</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604FA938</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604FC64F</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604FDFEA</tstamp>
+    </comp>
+    <comp ref="J124">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_RND:TerminalBlock_RND_205-00046_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8401</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054F9CD</tstamp>
+    </comp>
+    <comp ref="J125">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_RND:TerminalBlock_RND_205-00046_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8401</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605859F8</tstamp>
+    </comp>
+    <comp ref="J126">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_RND:TerminalBlock_RND_205-00046_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8401</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6058CBB5</tstamp>
+    </comp>
+    <comp ref="J123">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_RND:TerminalBlock_RND_205-00046_1x03_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8401</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A6F76</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6062AE44</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>MMBZ9V1AL-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C460913</field>
+      </fields>
+      <libsource lib="Diode" part="MMBZxx" description="Double Zener Diode, Common Anode, 225mW, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6062C5DB</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Screw_Terminal_01x02">
@@ -870,6 +1024,22 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
@@ -939,6 +1109,34 @@
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Diode" part="MMBZxx">
+      <description>Double Zener Diode, Common Anode, 225mW, SOT-23</description>
+      <docs>http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MMBZxx</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
       <description>Mounting Hole with connection</description>
@@ -1064,6 +1262,9 @@
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
@@ -1075,355 +1276,388 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J116-Pad2)">
-      <node ref="Q105" pin="6"/>
-      <node ref="Q105" pin="8"/>
-      <node ref="Q105" pin="7"/>
-      <node ref="Q105" pin="5"/>
-      <node ref="J116" pin="2"/>
-    </net>
-    <net code="2" name="+24V">
-      <node ref="Q115" pin="3"/>
-      <node ref="Q103" pin="3"/>
-      <node ref="R113" pin="2"/>
-      <node ref="Q115" pin="2"/>
-      <node ref="Q115" pin="1"/>
-      <node ref="R125" pin="2"/>
-      <node ref="R122" pin="2"/>
-      <node ref="R124" pin="2"/>
-      <node ref="Q103" pin="2"/>
-      <node ref="Q112" pin="1"/>
-      <node ref="Q103" pin="1"/>
-      <node ref="Q102" pin="1"/>
-      <node ref="Q102" pin="2"/>
-      <node ref="Q102" pin="3"/>
-      <node ref="Q104" pin="3"/>
-      <node ref="R112" pin="2"/>
-      <node ref="Q104" pin="1"/>
-      <node ref="Q104" pin="2"/>
-      <node ref="Q101" pin="1"/>
-      <node ref="Q101" pin="2"/>
-      <node ref="Q101" pin="3"/>
-      <node ref="R111" pin="2"/>
-      <node ref="J122" pin="1"/>
-      <node ref="Q114" pin="2"/>
-      <node ref="Q112" pin="2"/>
-      <node ref="Q112" pin="3"/>
-      <node ref="Q114" pin="1"/>
-      <node ref="Q114" pin="3"/>
-      <node ref="Q113" pin="1"/>
-      <node ref="Q113" pin="2"/>
-      <node ref="Q113" pin="3"/>
-      <node ref="R123" pin="2"/>
-      <node ref="Q105" pin="3"/>
-      <node ref="R114" pin="2"/>
-      <node ref="Q105" pin="1"/>
-      <node ref="R115" pin="2"/>
-      <node ref="R121" pin="2"/>
-      <node ref="Q111" pin="3"/>
-      <node ref="Q111" pin="1"/>
-      <node ref="Q111" pin="2"/>
-      <node ref="Q105" pin="2"/>
-    </net>
-    <net code="3" name="GND">
-      <node ref="Q109" pin="2"/>
-      <node ref="J101" pin="40"/>
-      <node ref="J101" pin="19"/>
-      <node ref="J101" pin="39"/>
-      <node ref="J108" pin="1"/>
-      <node ref="J112" pin="1"/>
-      <node ref="R127" pin="1"/>
-      <node ref="R119" pin="1"/>
-      <node ref="R117" pin="1"/>
-      <node ref="R120" pin="1"/>
-      <node ref="J101" pin="14"/>
-      <node ref="J104" pin="1"/>
-      <node ref="R128" pin="1"/>
-      <node ref="Q118" pin="2"/>
-      <node ref="J103" pin="1"/>
-      <node ref="J105" pin="1"/>
-      <node ref="J101" pin="20"/>
-      <node ref="J101" pin="22"/>
-      <node ref="J101" pin="33"/>
-      <node ref="J101" pin="34"/>
+    <net code="1" name="GND">
+      <node ref="J114" pin="1"/>
+      <node ref="J117" pin="1"/>
+      <node ref="J116" pin="1"/>
+      <node ref="J115" pin="1"/>
+      <node ref="J113" pin="1"/>
+      <node ref="D105" pin="3"/>
+      <node ref="D102" pin="3"/>
+      <node ref="D104" pin="3"/>
+      <node ref="D101" pin="3"/>
       <node ref="J102" pin="1"/>
+      <node ref="J121" pin="1"/>
+      <node ref="D107" pin="3"/>
+      <node ref="D106" pin="3"/>
+      <node ref="Q120" pin="2"/>
+      <node ref="J120" pin="1"/>
+      <node ref="J119" pin="1"/>
+      <node ref="Q119" pin="2"/>
+      <node ref="R129" pin="1"/>
+      <node ref="R130" pin="1"/>
+      <node ref="D103" pin="3"/>
+      <node ref="J123" pin="3"/>
+      <node ref="Q106" pin="2"/>
+      <node ref="Q107" pin="2"/>
+      <node ref="R117" pin="1"/>
+      <node ref="J107" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="J122" pin="2"/>
+      <node ref="J111" pin="1"/>
+      <node ref="J110" pin="1"/>
+      <node ref="H103" pin="1"/>
+      <node ref="J109" pin="1"/>
+      <node ref="J112" pin="1"/>
+      <node ref="J106" pin="1"/>
+      <node ref="J105" pin="1"/>
+      <node ref="J108" pin="1"/>
+      <node ref="J103" pin="1"/>
       <node ref="H104" pin="1"/>
       <node ref="H101" pin="1"/>
       <node ref="H102" pin="1"/>
-      <node ref="J101" pin="21"/>
-      <node ref="J101" pin="11"/>
-      <node ref="J101" pin="12"/>
-      <node ref="J122" pin="2"/>
-      <node ref="R116" pin="1"/>
-      <node ref="J106" pin="1"/>
-      <node ref="J101" pin="13"/>
+      <node ref="J104" pin="1"/>
       <node ref="J101" pin="36"/>
-      <node ref="J101" pin="35"/>
-      <node ref="J117" pin="1"/>
-      <node ref="R118" pin="1"/>
-      <node ref="J114" pin="1"/>
-      <node ref="J115" pin="1"/>
-      <node ref="J116" pin="1"/>
-      <node ref="J113" pin="1"/>
+      <node ref="J101" pin="22"/>
+      <node ref="J101" pin="21"/>
+      <node ref="J101" pin="20"/>
+      <node ref="J101" pin="19"/>
+      <node ref="J101" pin="14"/>
+      <node ref="J101" pin="13"/>
+      <node ref="J101" pin="12"/>
+      <node ref="J101" pin="11"/>
+      <node ref="J101" pin="40"/>
       <node ref="J118" pin="1"/>
-      <node ref="J119" pin="1"/>
-      <node ref="J110" pin="1"/>
-      <node ref="Q110" pin="2"/>
-      <node ref="J120" pin="1"/>
-      <node ref="J107" pin="1"/>
-      <node ref="R129" pin="1"/>
+      <node ref="J101" pin="35"/>
+      <node ref="J101" pin="34"/>
+      <node ref="J101" pin="33"/>
+      <node ref="J101" pin="39"/>
+      <node ref="R118" pin="1"/>
       <node ref="R126" pin="1"/>
-      <node ref="Q119" pin="2"/>
-      <node ref="H103" pin="1"/>
       <node ref="Q116" pin="2"/>
-      <node ref="Q108" pin="2"/>
-      <node ref="J109" pin="1"/>
-      <node ref="Q120" pin="2"/>
-      <node ref="Q107" pin="2"/>
+      <node ref="Q109" pin="2"/>
+      <node ref="R119" pin="1"/>
+      <node ref="Q118" pin="2"/>
+      <node ref="R128" pin="1"/>
+      <node ref="J125" pin="3"/>
+      <node ref="J126" pin="3"/>
+      <node ref="R127" pin="1"/>
       <node ref="Q117" pin="2"/>
-      <node ref="Q106" pin="2"/>
-      <node ref="J111" pin="1"/>
-      <node ref="J121" pin="1"/>
-      <node ref="R130" pin="1"/>
+      <node ref="Q110" pin="2"/>
+      <node ref="J124" pin="3"/>
+      <node ref="Q108" pin="2"/>
+      <node ref="R120" pin="1"/>
     </net>
-    <net code="4" name="Net-(Q104-Pad4)">
-      <node ref="Q109" pin="3"/>
-      <node ref="Q104" pin="4"/>
-      <node ref="R114" pin="1"/>
+    <net code="2" name="Net-(J118-Pad2)">
+      <node ref="J118" pin="2"/>
+      <node ref="Q112" pin="8"/>
+      <node ref="Q112" pin="7"/>
+      <node ref="Q112" pin="5"/>
+      <node ref="Q112" pin="6"/>
     </net>
-    <net code="5" name="Net-(J117-Pad2)">
-      <node ref="Q111" pin="5"/>
-      <node ref="Q111" pin="6"/>
-      <node ref="Q111" pin="7"/>
-      <node ref="J117" pin="2"/>
-      <node ref="Q111" pin="8"/>
+    <net code="3" name="+24V">
+      <node ref="R111" pin="2"/>
+      <node ref="Q113" pin="3"/>
+      <node ref="Q113" pin="2"/>
+      <node ref="Q113" pin="1"/>
+      <node ref="Q114" pin="2"/>
+      <node ref="R121" pin="2"/>
+      <node ref="R124" pin="2"/>
+      <node ref="Q104" pin="2"/>
+      <node ref="Q114" pin="3"/>
+      <node ref="Q111" pin="1"/>
+      <node ref="Q104" pin="3"/>
+      <node ref="Q104" pin="1"/>
+      <node ref="R114" pin="2"/>
+      <node ref="Q101" pin="3"/>
+      <node ref="R123" pin="2"/>
+      <node ref="Q111" pin="2"/>
+      <node ref="Q111" pin="3"/>
+      <node ref="Q101" pin="1"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="Q102" pin="2"/>
+      <node ref="Q105" pin="2"/>
+      <node ref="Q105" pin="3"/>
+      <node ref="Q103" pin="1"/>
+      <node ref="Q103" pin="2"/>
+      <node ref="Q103" pin="3"/>
+      <node ref="R113" pin="2"/>
+      <node ref="Q102" pin="3"/>
+      <node ref="R112" pin="2"/>
+      <node ref="R115" pin="2"/>
+      <node ref="Q112" pin="3"/>
+      <node ref="R122" pin="2"/>
+      <node ref="Q105" pin="1"/>
+      <node ref="Q114" pin="1"/>
+      <node ref="R125" pin="2"/>
+      <node ref="Q115" pin="3"/>
+      <node ref="Q115" pin="2"/>
+      <node ref="Q115" pin="1"/>
+      <node ref="Q102" pin="1"/>
+      <node ref="Q112" pin="2"/>
+      <node ref="J122" pin="1"/>
+      <node ref="Q112" pin="1"/>
     </net>
-    <net code="6" name="Net-(Q111-Pad4)">
+    <net code="4" name="Net-(Q112-Pad4)">
+      <node ref="Q112" pin="4"/>
+      <node ref="R122" pin="1"/>
+      <node ref="Q117" pin="3"/>
+    </net>
+    <net code="5" name="Net-(Q111-Pad4)">
       <node ref="Q111" pin="4"/>
       <node ref="R121" pin="1"/>
       <node ref="Q116" pin="3"/>
     </net>
-    <net code="7" name="Net-(Q105-Pad4)">
-      <node ref="Q105" pin="4"/>
-      <node ref="R115" pin="1"/>
-      <node ref="Q110" pin="3"/>
+    <net code="6" name="Net-(Q113-Pad4)">
+      <node ref="Q118" pin="3"/>
+      <node ref="R123" pin="1"/>
+      <node ref="Q113" pin="4"/>
     </net>
-    <net code="8" name="Net-(J115-Pad2)">
-      <node ref="Q104" pin="7"/>
+    <net code="7" name="Net-(J120-Pad2)">
+      <node ref="J120" pin="2"/>
+      <node ref="Q114" pin="7"/>
+      <node ref="Q114" pin="8"/>
+      <node ref="Q114" pin="5"/>
+      <node ref="Q114" pin="6"/>
+    </net>
+    <net code="8" name="Net-(J119-Pad2)">
+      <node ref="Q113" pin="5"/>
+      <node ref="Q113" pin="6"/>
+      <node ref="Q113" pin="7"/>
+      <node ref="Q113" pin="8"/>
+      <node ref="J119" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J115-Pad2)">
       <node ref="J115" pin="2"/>
       <node ref="Q104" pin="6"/>
+      <node ref="Q104" pin="7"/>
       <node ref="Q104" pin="8"/>
       <node ref="Q104" pin="5"/>
     </net>
-    <net code="9" name="Net-(Q102-Pad4)">
-      <node ref="Q102" pin="4"/>
-      <node ref="Q107" pin="3"/>
-      <node ref="R112" pin="1"/>
-    </net>
-    <net code="10" name="Net-(J113-Pad2)">
-      <node ref="J113" pin="2"/>
-      <node ref="Q102" pin="8"/>
-      <node ref="Q102" pin="7"/>
-      <node ref="Q102" pin="5"/>
-      <node ref="Q102" pin="6"/>
+    <net code="10" name="Net-(Q104-Pad4)">
+      <node ref="Q109" pin="3"/>
+      <node ref="R114" pin="1"/>
+      <node ref="Q104" pin="4"/>
     </net>
     <net code="11" name="Net-(Q103-Pad4)">
+      <node ref="Q108" pin="3"/>
       <node ref="R113" pin="1"/>
       <node ref="Q103" pin="4"/>
-      <node ref="Q108" pin="3"/>
     </net>
-    <net code="12" name="Net-(J114-Pad2)">
-      <node ref="Q103" pin="5"/>
-      <node ref="Q103" pin="6"/>
-      <node ref="Q103" pin="7"/>
-      <node ref="Q103" pin="8"/>
-      <node ref="J114" pin="2"/>
+    <net code="12" name="Net-(Q105-Pad4)">
+      <node ref="R115" pin="1"/>
+      <node ref="Q105" pin="4"/>
+      <node ref="Q110" pin="3"/>
     </net>
-    <net code="13" name="/OUTPUT_RES5">
-      <node ref="J101" pin="30"/>
-      <node ref="Q119" pin="1"/>
-      <node ref="R129" pin="2"/>
+    <net code="13" name="Net-(J117-Pad2)">
+      <node ref="Q111" pin="7"/>
+      <node ref="Q111" pin="8"/>
+      <node ref="Q111" pin="6"/>
+      <node ref="Q111" pin="5"/>
+      <node ref="J117" pin="2"/>
     </net>
-    <net code="14" name="Net-(Q115-Pad4)">
+    <net code="14" name="Net-(J116-Pad2)">
+      <node ref="J116" pin="2"/>
+      <node ref="Q105" pin="7"/>
+      <node ref="Q105" pin="8"/>
+      <node ref="Q105" pin="6"/>
+      <node ref="Q105" pin="5"/>
+    </net>
+    <net code="15" name="/ADC_RES2">
+      <node ref="J124" pin="2"/>
+      <node ref="J101" pin="16"/>
+      <node ref="D107" pin="1"/>
+    </net>
+    <net code="16" name="/ADC_RES4">
+      <node ref="D106" pin="1"/>
+      <node ref="J101" pin="18"/>
+      <node ref="J126" pin="2"/>
+    </net>
+    <net code="17" name="/ADC_RES3">
+      <node ref="D106" pin="2"/>
+      <node ref="J101" pin="17"/>
+      <node ref="J125" pin="2"/>
+    </net>
+    <net code="18" name="/ADC_RES1">
+      <node ref="D107" pin="2"/>
+      <node ref="J123" pin="2"/>
+      <node ref="J101" pin="15"/>
+    </net>
+    <net code="19" name="+3V3">
+      <node ref="J101" pin="38"/>
+      <node ref="R107" pin="2"/>
+      <node ref="J101" pin="37"/>
+      <node ref="J124" pin="1"/>
+      <node ref="J125" pin="1"/>
+      <node ref="R105" pin="2"/>
+      <node ref="R102" pin="2"/>
+      <node ref="J123" pin="1"/>
+      <node ref="R104" pin="2"/>
+      <node ref="R106" pin="2"/>
+      <node ref="R108" pin="2"/>
+      <node ref="R101" pin="2"/>
+      <node ref="J126" pin="1"/>
+      <node ref="R110" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J121-Pad2)">
+      <node ref="Q115" pin="6"/>
+      <node ref="Q115" pin="8"/>
+      <node ref="Q115" pin="5"/>
+      <node ref="J121" pin="2"/>
+      <node ref="Q115" pin="7"/>
+    </net>
+    <net code="21" name="Net-(Q115-Pad4)">
       <node ref="Q120" pin="3"/>
       <node ref="R125" pin="1"/>
       <node ref="Q115" pin="4"/>
     </net>
-    <net code="15" name="Net-(J121-Pad2)">
-      <node ref="Q115" pin="5"/>
-      <node ref="Q115" pin="6"/>
-      <node ref="Q115" pin="7"/>
-      <node ref="J121" pin="2"/>
-      <node ref="Q115" pin="8"/>
-    </net>
-    <net code="16" name="Net-(J120-Pad2)">
-      <node ref="Q114" pin="6"/>
-      <node ref="Q114" pin="7"/>
-      <node ref="Q114" pin="5"/>
-      <node ref="Q114" pin="8"/>
-      <node ref="J120" pin="2"/>
-    </net>
-    <net code="17" name="Net-(Q114-Pad4)">
-      <node ref="Q114" pin="4"/>
+    <net code="22" name="Net-(Q114-Pad4)">
       <node ref="Q119" pin="3"/>
       <node ref="R124" pin="1"/>
+      <node ref="Q114" pin="4"/>
     </net>
-    <net code="18" name="Net-(J118-Pad2)">
-      <node ref="Q112" pin="8"/>
-      <node ref="Q112" pin="5"/>
-      <node ref="J118" pin="2"/>
-      <node ref="Q112" pin="6"/>
-      <node ref="Q112" pin="7"/>
+    <net code="23" name="/ENDSTOP_Y1">
+      <node ref="J101" pin="3"/>
+      <node ref="R102" pin="1"/>
+      <node ref="J103" pin="2"/>
+      <node ref="D104" pin="2"/>
     </net>
-    <net code="19" name="Net-(J119-Pad2)">
-      <node ref="J119" pin="2"/>
-      <node ref="Q113" pin="8"/>
-      <node ref="Q113" pin="6"/>
-      <node ref="Q113" pin="7"/>
-      <node ref="Q113" pin="5"/>
+    <net code="24" name="/ENDSTOP_X2">
+      <node ref="J107" pin="2"/>
+      <node ref="R106" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="J101" pin="2"/>
     </net>
-    <net code="20" name="Net-(Q112-Pad4)">
-      <node ref="R122" pin="1"/>
-      <node ref="Q117" pin="3"/>
-      <node ref="Q112" pin="4"/>
+    <net code="25" name="/ENDSTOP_X1">
+      <node ref="D101" pin="2"/>
+      <node ref="R101" pin="1"/>
+      <node ref="J101" pin="1"/>
+      <node ref="J102" pin="2"/>
     </net>
-    <net code="21" name="Net-(Q113-Pad4)">
-      <node ref="Q113" pin="4"/>
-      <node ref="Q118" pin="3"/>
-      <node ref="R123" pin="1"/>
-    </net>
-    <net code="22" name="+3V3">
-      <node ref="R106" pin="2"/>
-      <node ref="R110" pin="2"/>
-      <node ref="R103" pin="2"/>
-      <node ref="R109" pin="2"/>
-      <node ref="R104" pin="2"/>
-      <node ref="J101" pin="38"/>
-      <node ref="R107" pin="2"/>
-      <node ref="R101" pin="2"/>
-      <node ref="J101" pin="37"/>
-      <node ref="R105" pin="2"/>
-      <node ref="R108" pin="2"/>
-      <node ref="R102" pin="2"/>
-    </net>
-    <net code="23" name="/INPUT_RES1">
-      <node ref="J106" pin="2"/>
-      <node ref="R105" pin="1"/>
-      <node ref="J101" pin="9"/>
-    </net>
-    <net code="24" name="/ENDSTOP_Y2">
-      <node ref="R107" pin="1"/>
+    <net code="26" name="/ENDSTOP_Y2">
       <node ref="J108" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="D104" pin="1"/>
       <node ref="J101" pin="4"/>
     </net>
-    <net code="25" name="/ENDSTEP_Z1">
-      <node ref="J101" pin="5"/>
-      <node ref="R103" pin="1"/>
-      <node ref="J104" pin="2"/>
-    </net>
-    <net code="26" name="/ENDSTOP_Z2">
+    <net code="27" name="/ENDSTOP_Z2">
+      <node ref="D102" pin="1"/>
+      <node ref="J101" pin="6"/>
       <node ref="R108" pin="1"/>
       <node ref="J109" pin="2"/>
-      <node ref="J101" pin="6"/>
     </net>
-    <net code="27" name="/ENDSTOP_ROT1">
-      <node ref="J101" pin="7"/>
+    <net code="28" name="/ENDSTEP_Z1">
+      <node ref="D102" pin="2"/>
+      <node ref="J101" pin="5"/>
+      <node ref="J104" pin="2"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="29" name="/ENDSTOP_ROT2">
+      <node ref="J101" pin="8"/>
+      <node ref="D105" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="J110" pin="2"/>
+    </net>
+    <net code="30" name="/ENDSTOP_ROT1">
       <node ref="R104" pin="1"/>
       <node ref="J105" pin="2"/>
+      <node ref="D105" pin="2"/>
+      <node ref="J101" pin="7"/>
     </net>
-    <net code="28" name="/ENDSTOP_ROT2">
-      <node ref="J110" pin="2"/>
-      <node ref="R109" pin="1"/>
-      <node ref="J101" pin="8"/>
+    <net code="31" name="/INPUT_RES2">
+      <node ref="D103" pin="1"/>
+      <node ref="R110" pin="1"/>
+      <node ref="J111" pin="2"/>
+      <node ref="J101" pin="10"/>
     </net>
-    <net code="29" name="Net-(J112-Pad2)">
+    <net code="32" name="/INPUT_RES1">
+      <node ref="J101" pin="9"/>
+      <node ref="J106" pin="2"/>
+      <node ref="R105" pin="1"/>
+      <node ref="D103" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J113-Pad2)">
+      <node ref="Q102" pin="5"/>
+      <node ref="Q102" pin="6"/>
+      <node ref="Q102" pin="7"/>
+      <node ref="Q102" pin="8"/>
+      <node ref="J113" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J114-Pad2)">
+      <node ref="J114" pin="2"/>
+      <node ref="Q103" pin="7"/>
+      <node ref="Q103" pin="8"/>
+      <node ref="Q103" pin="5"/>
+      <node ref="Q103" pin="6"/>
+    </net>
+    <net code="35" name="Net-(J112-Pad2)">
       <node ref="Q101" pin="8"/>
       <node ref="Q101" pin="6"/>
       <node ref="J112" pin="2"/>
       <node ref="Q101" pin="5"/>
       <node ref="Q101" pin="7"/>
     </net>
-    <net code="30" name="/OUTPUT_RES4">
-      <node ref="Q109" pin="1"/>
+    <net code="36" name="Net-(Q101-Pad4)">
+      <node ref="Q101" pin="4"/>
+      <node ref="R111" pin="1"/>
+      <node ref="Q106" pin="3"/>
+    </net>
+    <net code="37" name="/OUTPUT_RES5">
+      <node ref="R129" pin="2"/>
+      <node ref="Q119" pin="1"/>
+      <node ref="J101" pin="30"/>
+    </net>
+    <net code="38" name="/OUTPUT_RES6">
+      <node ref="J101" pin="31"/>
+      <node ref="Q110" pin="1"/>
+      <node ref="R120" pin="2"/>
+    </net>
+    <net code="39" name="/OUTPUT_RES7">
+      <node ref="Q120" pin="1"/>
+      <node ref="R130" pin="2"/>
+      <node ref="J101" pin="32"/>
+    </net>
+    <net code="40" name="/OUTPUT_RES4">
       <node ref="J101" pin="29"/>
       <node ref="R119" pin="2"/>
+      <node ref="Q109" pin="1"/>
     </net>
-    <net code="31" name="/VENTIL1">
-      <node ref="R116" pin="2"/>
+    <net code="41" name="/VENTIL1">
       <node ref="J101" pin="23"/>
       <node ref="Q106" pin="1"/>
+      <node ref="R116" pin="2"/>
     </net>
-    <net code="32" name="/VENTIL2">
+    <net code="42" name="/VENTIL2">
       <node ref="R126" pin="2"/>
       <node ref="Q116" pin="1"/>
       <node ref="J101" pin="24"/>
     </net>
-    <net code="33" name="/VACUUM_MOTOR">
+    <net code="43" name="/VACUUM_MOTOR">
       <node ref="R117" pin="2"/>
       <node ref="Q107" pin="1"/>
       <node ref="J101" pin="25"/>
     </net>
-    <net code="34" name="/OUTPUT_RES1">
+    <net code="44" name="/OUTPUT_RES1">
       <node ref="J101" pin="26"/>
       <node ref="Q117" pin="1"/>
       <node ref="R127" pin="2"/>
     </net>
-    <net code="35" name="/OUTPUT_RES2">
-      <node ref="Q108" pin="1"/>
+    <net code="45" name="/OUTPUT_RES2">
       <node ref="R118" pin="2"/>
+      <node ref="Q108" pin="1"/>
       <node ref="J101" pin="27"/>
     </net>
-    <net code="36" name="/OUTPUT_RES3">
+    <net code="46" name="/OUTPUT_RES3">
       <node ref="J101" pin="28"/>
-      <node ref="R128" pin="2"/>
       <node ref="Q118" pin="1"/>
+      <node ref="R128" pin="2"/>
     </net>
-    <net code="37" name="/ENDSTOP_Y1">
-      <node ref="J101" pin="3"/>
-      <node ref="R102" pin="1"/>
-      <node ref="J103" pin="2"/>
-    </net>
-    <net code="38" name="/OUTPUT_RES6">
-      <node ref="Q110" pin="1"/>
-      <node ref="R120" pin="2"/>
-      <node ref="J101" pin="31"/>
-    </net>
-    <net code="39" name="/OUTPUT_RES7">
-      <node ref="R130" pin="2"/>
-      <node ref="Q120" pin="1"/>
-      <node ref="J101" pin="32"/>
-    </net>
-    <net code="40" name="/ENDSTOP_X1">
-      <node ref="J102" pin="2"/>
-      <node ref="R101" pin="1"/>
-      <node ref="J101" pin="1"/>
-    </net>
-    <net code="41" name="/INPUT_RES2">
-      <node ref="J111" pin="2"/>
-      <node ref="J101" pin="10"/>
-      <node ref="R110" pin="1"/>
-    </net>
-    <net code="42" name="/ADC_RES1">
-      <node ref="J101" pin="15"/>
-    </net>
-    <net code="43" name="/ADC_RES2">
-      <node ref="J101" pin="16"/>
-    </net>
-    <net code="44" name="/ADC_RES3">
-      <node ref="J101" pin="17"/>
-    </net>
-    <net code="45" name="/ADC_RES4">
-      <node ref="J101" pin="18"/>
-    </net>
-    <net code="46" name="/ENDSTOP_X2">
-      <node ref="R106" pin="1"/>
-      <node ref="J107" pin="2"/>
-      <node ref="J101" pin="2"/>
-    </net>
-    <net code="47" name="Net-(Q101-Pad4)">
-      <node ref="Q101" pin="4"/>
-      <node ref="R111" pin="1"/>
-      <node ref="Q106" pin="3"/>
+    <net code="47" name="Net-(Q102-Pad4)">
+      <node ref="R112" pin="1"/>
+      <node ref="Q107" pin="3"/>
+      <node ref="Q102" pin="4"/>
     </net>
   </nets>
 </export>

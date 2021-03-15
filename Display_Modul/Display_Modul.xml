@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/nk/Dokumente/Pick_n_Place/02_Electric/Display_Modul/Display_Modul.sch</source>
+    <date>Mo 15 Mär 2021 11:24:56 CET</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Display_Modul.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW101">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1322538</field>
+      </fields>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB2A</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14676</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB41</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14676</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB51</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C99198</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB61</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C99198</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB68</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83060</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB6F</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83060</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB76</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14676</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CEB91</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x08_Male</value>
+      <footprint>ProjectFootprints:ST7789_Waveshare</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D01F5</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_02x08_Counter_Clockwise</value>
+      <footprint>ProjectFootprints:DisplayConnector</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C3406</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise" description="Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6021F587</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60187794</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60188555</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018869A</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018893C</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>IPC 16P</value>
+      <footprint>ProjectFootprints:Empty</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8372</field>
+      </fields>
+      <libsource lib="PorjectLibrary" part="Empty" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D8426</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise">
+      <description>Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PorjectLibrary" part="Empty">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Empty</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="PorjectLibrary">
+      <uri>/home/nk/Dokumente/Pick_n_Place/02_Electric/Display_Modul/KiCAD_Library/PorjectLibrary.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J102" pin="2"/>
+      <node ref="J102" pin="13"/>
+      <node ref="J102" pin="12"/>
+      <node ref="J101" pin="2"/>
+      <node ref="J102" pin="11"/>
+      <node ref="J102" pin="10"/>
+      <node ref="H103" pin="1"/>
+      <node ref="H101" pin="1"/>
+      <node ref="H102" pin="1"/>
+      <node ref="H104" pin="1"/>
+      <node ref="J102" pin="9"/>
+      <node ref="SW101" pin="S2"/>
+      <node ref="SW101" pin="C"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="2" name="/DISP_RST">
+      <node ref="J102" pin="7"/>
+      <node ref="J101" pin="7"/>
+    </net>
+    <net code="3" name="/DISP_BL">
+      <node ref="J102" pin="8"/>
+      <node ref="J101" pin="8"/>
+    </net>
+    <net code="4" name="+3V3">
+      <node ref="R104" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="J102" pin="1"/>
+      <node ref="J101" pin="1"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="5" name="/DISP_DC">
+      <node ref="J102" pin="6"/>
+      <node ref="J101" pin="6"/>
+    </net>
+    <net code="6" name="/TIM8_ENC_CH1">
+      <node ref="J102" pin="15"/>
+      <node ref="C102" pin="1"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="7" name="/TIM8_ENC_CH2">
+      <node ref="C101" pin="2"/>
+      <node ref="R101" pin="2"/>
+      <node ref="J102" pin="16"/>
+    </net>
+    <net code="8" name="/DISP_DIN">
+      <node ref="J102" pin="3"/>
+      <node ref="J101" pin="3"/>
+    </net>
+    <net code="9" name="/DISP_CLK">
+      <node ref="J102" pin="4"/>
+      <node ref="J101" pin="4"/>
+    </net>
+    <net code="10" name="/DISP_CS">
+      <node ref="J102" pin="5"/>
+      <node ref="J101" pin="5"/>
+    </net>
+    <net code="11" name="Net-(R102-Pad1)">
+      <node ref="R104" pin="2"/>
+      <node ref="R102" pin="1"/>
+      <node ref="SW101" pin="B"/>
+    </net>
+    <net code="12" name="Net-(R101-Pad1)">
+      <node ref="SW101" pin="A"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="13" name="/ENC_BTN">
+      <node ref="R105" pin="2"/>
+      <node ref="J102" pin="14"/>
+      <node ref="SW101" pin="S1"/>
+    </net>
+  </nets>
+</export>
