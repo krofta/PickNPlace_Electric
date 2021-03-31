@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/nk/Dokumente/Pick_n_Place/02_Electric/Feeder_Modul/Feeder_Modul/Feeder_Modul.sch</source>
-    <date>Mo 15 Mär 2021 11:34:06 CET</date>
+    <source>/home/nk/ExpectoPatronum/Pick_n_Place/02_Electric/Feeder_Modul/Feeder_Modul/Feeder_Modul.sch</source>
+    <date>Mo 29 Mär 2021 16:00:58 CEST</date>
     <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1658,7 +1658,7 @@
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
     <library logical="Feeder_Modul-rescue">
-      <uri>/home/nk/Dokumente/Pick_n_Place/02_Electric/Feeder_Modul/Feeder_Modul/Feeder_Modul-rescue.lib</uri>
+      <uri>/home/nk/ExpectoPatronum/Pick_n_Place/02_Electric/Feeder_Modul/Feeder_Modul/Feeder_Modul-rescue.lib</uri>
     </library>
     <library logical="Interface_CAN_LIN">
       <uri>/usr/share/kicad/library/Interface_CAN_LIN.lib</uri>
@@ -1673,7 +1673,7 @@
       <uri>/usr/share/kicad/library/Memory_EEPROM.lib</uri>
     </library>
     <library logical="PorjectLibrary">
-      <uri>/home/nk/Dokumente/Pick_n_Place/02_Electric/Feeder_Modul/Feeder_Modul/KiCAD_Library/PorjectLibrary.lib</uri>
+      <uri>/home/nk/ExpectoPatronum/Pick_n_Place/02_Electric/Feeder_Modul/Feeder_Modul/KiCAD_Library/PorjectLibrary.lib</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
