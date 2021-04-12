@@ -12,6 +12,12 @@ K ARM Cortex-M7 STM32H7 STM32H7x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00387108.pdf
 $ENDCMP
 #
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 $CMP Si4431CDY
 D P-MOSFET transistor, drain/gate/source
 K transistor PMOS P-MOS P-MOSFET

@@ -4551,4 +4551,6 @@ F 3 "" H 15050 2400 50  0001 C CNN
 	1    15050 2400
 	1    0    0    -1  
 $EndComp
+Text Notes 11350 2200 0    50   ~ 0
+Pin Compatibel :\nhttps://datasheet.lcsc.com/szlcsc/2003172138_SIT-SIT65HVD232DR_C496621.pdf
 $EndSCHEMATC

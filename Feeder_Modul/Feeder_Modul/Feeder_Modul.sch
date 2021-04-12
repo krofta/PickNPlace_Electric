@@ -84,12 +84,8 @@ $EndComp
 Text Label 11800 2500 0    50   ~ 0
 MODE
 Text Label 10850 2700 0    50   ~ 0
-DIR_A
-Text Label 10850 2800 0    50   ~ 0
 PWM_A
-Text Label 10850 3000 0    50   ~ 0
-DIR_B
-Text Label 10850 3100 0    50   ~ 0
+Text Label 10850 2800 0    50   ~ 0
 PWM_B
 Wire Wire Line
 	10400 2700 10850 2700
@@ -257,7 +253,7 @@ F 3 "" H 7800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW102
+L PorjectLibrary:SW_Push SW102
 U 1 1 6010EF5E
 P 14050 1950
 F 0 "SW102" H 14050 2235 50  0000 C CNN
@@ -266,7 +262,7 @@ F 2 "ProjectFootprints:TactileSwitchLCSC" H 14050 2150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1911212105_XUNPU-TS-1002N-09026_C455137.pdf" H 14050 2150 50  0001 C CNN
 F 4 "C455137" H 14050 1950 50  0001 C CNN "LCSC"
 	1    14050 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R117
@@ -304,7 +300,7 @@ F 4 "C99198" H 13750 2450 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW103
+L PorjectLibrary:SW_Push SW103
 U 1 1 6010F6AA
 P 14050 2450
 F 0 "SW103" H 14050 2735 50  0000 C CNN
@@ -313,7 +309,7 @@ F 2 "ProjectFootprints:TactileSwitchLCSC" H 14050 2650 50  0001 C CNN
 F 3 "" H 14050 2650 50  0001 C CNN
 F 4 "C455137" H 0   0   50  0001 C CNN "LCSC"
 	1    14050 2450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R119
@@ -328,7 +324,7 @@ F 4 "C99198" H 13750 2900 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW104
+L PorjectLibrary:SW_Push SW104
 U 1 1 6010F718
 P 14050 2900
 F 0 "SW104" H 14050 3185 50  0000 C CNN
@@ -337,7 +333,7 @@ F 2 "ProjectFootprints:TactileSwitchLCSC" H 14050 3100 50  0001 C CNN
 F 3 "" H 14050 3100 50  0001 C CNN
 F 4 "C455137" H 0   0   50  0001 C CNN "LCSC"
 	1    14050 2900
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13650 1950 13200 1950
@@ -460,7 +456,7 @@ F 4 "C99198" H 13750 3400 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW105
+L PorjectLibrary:SW_Push SW105
 U 1 1 60119529
 P 14050 3400
 F 0 "SW105" H 14050 3685 50  0000 C CNN
@@ -469,7 +465,7 @@ F 2 "ProjectFootprints:TactileSwitchLCSC" H 14050 3600 50  0001 C CNN
 F 3 "" H 14050 3600 50  0001 C CNN
 F 4 "C455137" H 0   0   50  0001 C CNN "LCSC"
 	1    14050 3400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13650 3400 13200 3400
@@ -1616,12 +1612,8 @@ Text Label 14050 6200 2    50   ~ 0
 USB_OTG-
 Wire Wire Line
 	14200 6200 14050 6200
-Text Label 12900 5900 2    50   ~ 0
-USB_V_BUS
 Wire Wire Line
 	14200 5900 13450 5900
-Text Label 6150 6750 2    50   ~ 0
-USB_V_BUS
 Text Label 6150 7050 2    50   ~ 0
 USB_OTG+
 Text Label 6150 6950 2    50   ~ 0
@@ -1630,10 +1622,6 @@ Wire Wire Line
 	6150 6950 5250 6950
 Wire Wire Line
 	5250 7050 6150 7050
-Wire Wire Line
-	6150 6750 5250 6750
-Text Label 5250 6750 0    50   ~ 0
-PA9
 Text Label 5250 6850 0    50   ~ 0
 PA10
 Text Label 6150 8450 2    50   ~ 0
@@ -1847,7 +1835,7 @@ CAN1_H
 Text Label 13050 9150 0    50   ~ 0
 CAN1_L
 $Comp
-L Switch:SW_Push SW101
+L PorjectLibrary:SW_Push SW101
 U 1 1 60519E5E
 P 2900 5850
 F 0 "SW101" H 2900 6135 50  0000 C CNN
@@ -2339,8 +2327,6 @@ F 3 "" H 13450 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13450 6650 13450 6300
-Wire Wire Line
-	12900 5900 13450 5900
 Text Label 5250 6650 0    50   ~ 0
 PA8
 $Comp
@@ -2511,21 +2497,17 @@ Wire Wire Line
 	5650 8850 5250 8850
 Wire Wire Line
 	5250 8750 5650 8750
-Text Label 5250 6350 0    50   ~ 0
-PA5
-Text Label 6050 6350 0    50   ~ 0
-DIR_A
 Text Label 5250 6450 0    50   ~ 0
 PA6
 Text Label 5550 6450 0    50   ~ 0
 TIM3_CH1
-Text Label 6050 6450 0    50   ~ 0
+Text Label 6650 6450 0    50   ~ 0
 PWM_A
 Text Label 5250 6550 0    50   ~ 0
 PA7
 Text Label 5550 6550 0    50   ~ 0
 TIM3_CH2
-Text Label 6050 6550 0    50   ~ 0
+Text Label 6650 6550 0    50   ~ 0
 PWM_B
 Text Label 3850 7950 2    50   ~ 0
 PC4
@@ -2533,12 +2515,6 @@ Text Label 3450 7950 2    50   ~ 0
 DIR_B
 Wire Wire Line
 	3850 7950 3450 7950
-Wire Wire Line
-	6050 6350 5250 6350
-Wire Wire Line
-	5250 6450 6050 6450
-Wire Wire Line
-	6050 6550 5250 6550
 $Comp
 L Device:R_Small R129
 U 1 1 60AB4EB8
@@ -2733,8 +2709,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 10000 9200 10050
 Connection ~ 9200 10050
-NoConn ~ 5250 7550
-NoConn ~ 5250 7650
 NoConn ~ 5250 7750
 NoConn ~ 5250 8050
 NoConn ~ 5250 8550
@@ -3208,36 +3182,34 @@ Wire Wire Line
 $Comp
 L Power_Protection:SRV05-4 U110
 U 1 1 60371E49
-P 11350 6250
-F 0 "U110" H 10550 6450 50  0000 C CNN
-F 1 "SRV05-4" H 10550 6350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12050 5800 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 11350 6250 50  0001 C CNN
-F 4 "C316033" H 10600 6250 50  0000 C CNN "LCSC"
-	1    11350 6250
+P 12350 6600
+F 0 "U110" H 11550 6800 50  0000 C CNN
+F 1 "SRV05-4" H 11550 6700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 13050 6150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 12350 6600 50  0001 C CNN
+F 4 "C316033" H 11600 6600 50  0000 C CNN "LCSC"
+	1    12350 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60371E4F
-P 11350 6750
+P 12350 7100
 AR Path="/5FDD0F66/60371E4F" Ref="#PWR?"  Part="1" 
 AR Path="/60371E4F" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 11350 6500 50  0001 C CNN
-F 1 "GND" H 11500 6700 50  0000 C CNN
-F 2 "" H 11350 6750 50  0001 C CNN
-F 3 "" H 11350 6750 50  0001 C CNN
-	1    11350 6750
+F 0 "#PWR0135" H 12350 6850 50  0001 C CNN
+F 1 "GND" H 12500 7050 50  0000 C CNN
+F 2 "" H 12350 7100 50  0001 C CNN
+F 3 "" H 12350 7100 50  0001 C CNN
+	1    12350 7100
 	1    0    0    -1  
 $EndComp
-Text Label 11350 5750 2    50   ~ 0
-USB_V_BUS
-Text Label 11850 6150 0    50   ~ 0
+Text Label 12850 6500 0    50   ~ 0
 USB_OTG+
-Text Label 11850 6350 0    50   ~ 0
+Text Label 12850 6700 0    50   ~ 0
 USB_OTG-
-NoConn ~ 10850 6150
-NoConn ~ 10850 6350
+NoConn ~ 11850 6500
+NoConn ~ 11850 6700
 $Comp
 L Mechanical:Fiducial FID101
 U 1 1 6025399D
@@ -3313,6 +3285,103 @@ F 3 "" H 13800 8800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13800 8800 13700 8800
-Text Notes 6700 7300 0    129  ~ 0
+Text Notes 7600 8650 0    129  ~ 0
 TODO: \nUSB VBUS nicht an controller verdrahten!\nTaster velegung verkehrt\nDRV Pins alle PWM Fähig machen!
+NoConn ~ 5250 6750
+Wire Wire Line
+	2700 5950 2700 5850
+Connection ~ 2700 5850
+Wire Wire Line
+	14250 2050 14250 1950
+Connection ~ 14250 1950
+Wire Wire Line
+	14250 2550 14250 2450
+Connection ~ 14250 2450
+Wire Wire Line
+	14250 3000 14250 2900
+Connection ~ 14250 2900
+Wire Wire Line
+	14250 3500 14250 3400
+Connection ~ 14250 3400
+Text Label 5550 7550 0    50   ~ 0
+TIM3_CH3
+Text Label 5550 7650 0    50   ~ 0
+TIM3_CH4
+Text Label 6650 7550 0    50   ~ 0
+PWM_C
+Text Label 6650 7650 0    50   ~ 0
+PWM_D
+Text Label 10850 3000 0    50   ~ 0
+PWM_C
+Text Label 10850 3100 0    50   ~ 0
+PWM_D
+$Comp
+L Device:R_Small R138
+U 1 1 60937A80
+P 6350 6550
+F 0 "R138" V 6154 6550 50  0000 C CNN
+F 1 "1k" V 6245 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 6550 50  0001 C CNN
+F 3 "~" H 6350 6550 50  0001 C CNN
+F 4 "C21190" H 6350 6550 50  0001 C CNN "LCSC"
+	1    6350 6550
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5250 6350
+$Comp
+L Device:R_Small R116
+U 1 1 6095D218
+P 6350 6450
+F 0 "R116" V 6154 6450 50  0000 C CNN
+F 1 "1k" V 6245 6450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 6450 50  0001 C CNN
+F 3 "~" H 6350 6450 50  0001 C CNN
+F 4 "C21190" H 6350 6450 50  0001 C CNN "LCSC"
+	1    6350 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 6450 6450 6450
+Wire Wire Line
+	6450 6550 6650 6550
+Wire Wire Line
+	5250 6450 6250 6450
+Wire Wire Line
+	5250 6550 6250 6550
+$Comp
+L Device:R_Small R140
+U 1 1 60A0F3C9
+P 6350 7650
+F 0 "R140" V 6154 7650 50  0000 C CNN
+F 1 "1k" V 6245 7650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 7650 50  0001 C CNN
+F 3 "~" H 6350 7650 50  0001 C CNN
+F 4 "C21190" H 6350 7650 50  0001 C CNN "LCSC"
+	1    6350 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R139
+U 1 1 60A0F9AC
+P 6350 7550
+F 0 "R139" V 6154 7550 50  0000 C CNN
+F 1 "1k" V 6245 7550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 7550 50  0001 C CNN
+F 3 "~" H 6350 7550 50  0001 C CNN
+F 4 "C21190" H 6350 7550 50  0001 C CNN "LCSC"
+	1    6350 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 7550 6450 7550
+Wire Wire Line
+	5250 7550 6250 7550
+Wire Wire Line
+	5250 7650 6250 7650
+Wire Wire Line
+	6450 7650 6650 7650
+Wire Wire Line
+	12350 5900 12350 6100
+Wire Wire Line
+	12350 5900 13450 5900
 $EndSCHEMATC
